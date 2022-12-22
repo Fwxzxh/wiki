@@ -2,25 +2,39 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-20T08:08:30.419Z
+date: 2022-12-22T08:08:51.004Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
 ---
 
-# Fwxzxh's Wiki
+# Brain.dump()
 
+Este es mi pequeño Personal Knowledge Management System en el cuál guardo todo lo que a mi cerebro 
+le da pereza recordar, además de una que otra cosa más.
 
-This is a test!!
+> “Personal knowledge management (PKM) is a collection of processes that a person uses to gather, classify, store, search, retrieve and share knowledge in their daily activities (Grundspenkis 2007) and the way in which these processes support work activities (Wright 2005). It is a response to the idea that knowledge workers need to be responsible for their own growth and learning (Smedley 2009). It is a bottom-up approach to knowledge management (KM) (Pollard 2008).” [Wikipedia](https://www.wiki.fwxzxh.com/Publ/#:~:text=KM)
 
-It works!!
+Una versión anterior de este sitio generada con Org-Mode puede ser encontrada [aqui](https://www.wiki.fwxzxh.com/Publ/).
 
-yay
+----
+## Sobre mi
+<p>
+Soy Fwxzxh, un ingeniero de software de méxico, apasionado por nunca dejar de aprender y amante de la cultura de internet.
+Generalmente paso mi tiempo en blogs y foros de todo tipo peleando con gente sobre cosas que no tienen importancia y otras que si.
+</p>
 
-Testing git...
+<p>
+Estoy interesado actualmente en la programación funcional, compiladores, lenguajes y sistemas operativos aunque generalmente
+intento empaparme de lo que sea que se me ponga enfrente.
+</p>
 
-## TODO:
-* [ ] hacer funcionar el dns.
-* [ ] migrar datos a la nueva wiki.
+Mi [Github](https://github.com/Fwxzxh)
 
+<p>
+Este sitio lo uso para subir apuntes de cosas que aprendo por allí y por allá, si te es util la información de aqui
+eres libre de usarla libremente, si encuentras algún problema en lo que esta escrito aqui no dudes en contactarme mediante
+el [repo](https://github.com/Fwxzxh/wiki) de esta wiki.
+</p>
 
+> Happy hacking!
