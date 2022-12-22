@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-22T08:08:51.004Z
+date: 2022-12-22T08:11:48.331Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -31,10 +31,8 @@ intento empaparme de lo que sea que se me ponga enfrente.
 
 Mi [Github](https://github.com/Fwxzxh)
 
-<p>
 Este sitio lo uso para subir apuntes de cosas que aprendo por allí y por allá, si te es util la información de aqui
 eres libre de usarla libremente, si encuentras algún problema en lo que esta escrito aqui no dudes en contactarme mediante
-el [repo](https://github.com/Fwxzxh/wiki) de esta wiki.
-</p>
+el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 > Happy hacking!
