@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-23T17:23:21.334Z
+date: 2022-12-23T17:24:44.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
