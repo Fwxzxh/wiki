@@ -2,7 +2,7 @@
 title: Estructuras de datos en python
 description: Explicación de algunas estructuras de datos en python
 published: true
-date: 2022-12-24T19:20:30.407Z
+date: 2022-12-24T19:23:13.519Z
 tags: python, data structures, estructuras de datos
 editor: markdown
 dateCreated: 2022-12-24T19:20:30.407Z
@@ -85,7 +85,7 @@ return evens
 
 # Dictionaries, Tuples, Sets
 
-Diccionarios  
+## Diccionarios  
 Nos permiten mapear valores arbitrarios como llaves o valores y pueden
 ser indexados de la misma manera que listas.
 
@@ -105,7 +105,7 @@ ser indexados de la misma manera que listas.
   función `values()`.
   - `for value in diccionario.values():`
 
-Tuplas  
+## Tuplas  
 Son parecidas a las listas, pero son inmutables (no cambian).
 
 - Son creadas como las listas, pero en vez de corchetes se usan
@@ -116,7 +116,7 @@ Son parecidas a las listas, pero son inmutables (no cambian).
 - Pueden ser creadas sin los paréntesis solo separando los elementos con
   comas. `dic = "one", "dos", "tre"`
 
-Tuple Unpacking  
+### Tuple Unpacking  
 Nos permite asignar cada elemento de una colección a una variable.
 
 > Ejemplos:
@@ -149,7 +149,8 @@ return a, b, c, d
   > la variable con el \* toma todos los valores de la colección que
   > quedan.
 
-- Sets :: Son conjuntos de elementos que son únicos.
+## Sets 
+Son conjuntos de elementos que son únicos.
 
   - `num_set = {1, 2, 3, 4, 5}`
   - Es más rápido ver si hay un elemento dentro de un *set* que de una
@@ -190,7 +191,7 @@ Algunas pautas para usar Estructuras de datos en Python:
 
 Algunas aplicaciones requieren Estructuras de datos más complejas.
 
-Stack (pila)  
+## Stack (pila)  
 Es una estructura de datos que agrega y elimina elementos de un orden
 particular.
 
@@ -229,7 +230,7 @@ particular.
           print(self.items)
   ```
 
-Queue (cola)  
+## Queue (cola)  
 Es similar a una pila, pero tiene una manera diferente de agregar o
 remover datos.
 
@@ -271,7 +272,7 @@ remover datos.
           print(self.items)
   ```
 
-Linked List (listas enlazadas)  
+## Linked List (listas enlazadas)  
 Son una secuencia de nodos en los cuales cada nodo guarda su información
 y un enlace al siguiente nodo formando una cadena.
 
@@ -346,7 +347,7 @@ y un enlace al siguiente nodo formando una cadena.
   8
   ```
 
-Graph (grafos)  
+## Graph (grafos)  
 Son un conjunto de nodos conectados donde cada nodo es llamado vértice
 (vertex) y las conexiones entre dos son llamados bordes (edge).
 
