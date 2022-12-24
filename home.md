@@ -2,8 +2,8 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T01:25:30.201Z
-tags: index, about-me,
+date: 2022-12-24T01:26:11.482Z
+tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
 ---
