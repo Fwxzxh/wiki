@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T18:11:53.205Z
+date: 2022-12-24T18:30:02.820Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -58,10 +58,6 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 ### Redes
 * Cisco Wireless Essentials (TODO)
 * Practical Ethical Hacking
-  
-### Python
-* Python Data Structures
-* Intermediate Python
 
 ### Android
 * Bases técnicas de Android
@@ -101,6 +97,9 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 ## Lenguajes
 > Mi propio rincón con enfoque tipo **Learn X in Y minutes**
 
+* Python
+    * Python Data Structures
+    * Intermediate Python
 * SQL (heavy)
 * HTML
 * C#
