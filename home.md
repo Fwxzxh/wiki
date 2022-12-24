@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T01:26:11.482Z
+date: 2022-12-24T01:53:30.167Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -31,8 +31,100 @@ intento empaparme de lo que sea que se me ponga enfrente.
 
 Mi [Github](https://github.com/Fwxzxh)
 
-Este sitio lo uso para subir apuntes de cosas que aprendo por allí y por allá, si te es util la información de aqui
-eres libre de usarla libremente, si encuentras algún problema en lo que esta escrito aqui no dudes en contactarme mediante
+Este sitio lo uso para subir apuntes de cosas que aprendo por allí y por allá, si te es util la información de aquí
+eres libre de usarla libremente, si encuentras algún problema en lo que esta escrito aquí no dudes en contactarme mediante
 el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 > Happy hacking!
+
+# Indice
+## Libros
+> Notas sobre libros que he leído últimamente.
+
+* Sistemas Operativos (S. Tanenbaum)
+* Atomic Habits (James Clear)
+* Head First C (David Griffith & Dawn Griffiths)
+
+## Cursos
+> Apuntes sobre distintos cursos que he tomado.
+
+### Otros
+* Buenas practicas para escritura de código
+* Technical Writing
+* Fundamentos Ing. de Software
+* Bash Scripting
+* MVVM WPF XAML
+
+### Redes
+* Cisco Wireless Essentials (TODO)
+* Practical Ethical Hacking
+  
+### Python
+* Python Data Structures
+* Intermediate Python
+
+### Android
+* Bases técnicas de Android
+* Curso básico de diseño de interfaces en Android
+* Arquitectura de android
+* Android con Jetpack Compose
+
+### Frontend
+* a
+
+### Diseño
+* a
+
+### Backend
+* Introducción al desarrollo Backend
+
+### Data Science
+* Introducción a Data Science e Inteligencia artificial
+* Análisis de negocios para ciencia de datos
+* Fundamentos de Matemáticas
+* Curso de Business Intelligence: Utilidad y Áreas de Oportunidad
+* Curso de principios de visualización de datos para Business Intelligence
+* ML-For-Beginers (by microsoft)
+
+### Flutter
+* Flutter
+
+### Finanzas
+* Curso de introducción financiera
+* Curso de Finanzas Personales
+
+## Notas generales
+> Notas sobre algunas cosas interesantes (para mi)
+
+* Notas varias
+
+## Lenguajes
+> Mi propio rincón con enfoque tipo **Learn X in Y minutes**
+
+* SQL (heavy)
+* HTML
+* C#
+* Go
+* F#
+* Kotlin
+* OCaml
+* C++
+
+## Teoría
+> Teoría pura y dura
+
+* Estructuras de datos
+
+## Anime-Manga
+> Porque soy un weeb de cultura
+
+## Personal
+> Notas literarias
+
+## Otras cosas
+> Categorizar todo da mucha pereza.
+
+## Knowledge
+> Saber cosas es interesante
+
+* Linux
