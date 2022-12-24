@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T19:29:24.647Z
+date: 2022-12-24T19:32:56.667Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -60,7 +60,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * Practical Ethical Hacking
 
 ### Android
-* Bases técnicas de Android
+* [Curso de bases tecnicas de Android](/Cursos/Android/BasesTecnicasAndroid)
 * [Curso básico de diseño de interfaces en Android](/Cursos/Android/DisenoInterfacesAndroid)
 * Arquitectura de android
 * Android con Jetpack Compose
