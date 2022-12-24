@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T03:22:44.117Z
+date: 2022-12-24T17:00:37.396Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -50,7 +50,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 ### Otros
 * Buenas practicas para escritura de código
-* Technical Writing
+* Technical Writing[TecnicalWriting](/Cursos/TecnicalWriting)
 * Fundamentos Ing. de Software
 * Bash Scripting
 * MVVM WPF XAML
