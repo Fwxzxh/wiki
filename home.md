@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T02:37:36.950Z
+date: 2022-12-24T03:22:44.117Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -43,7 +43,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 * Sistemas Operativos (S. Tanenbaum)
 * [Atomic Habits (James Clear)](/Libros/AtomicHabits)
-* Head First C (David Griffith & Dawn Griffiths)
+* [Head First C (David Griffith & Dawn Griffiths)](/Libros/HeadFirstC)
 
 ## Cursos
 > Apuntes sobre distintos cursos que he tomado.
