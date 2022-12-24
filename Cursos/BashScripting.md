@@ -2,7 +2,7 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-24T17:24:43.512Z
+date: 2022-12-24T17:30:16.810Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z
@@ -12,11 +12,9 @@ dateCreated: 2022-12-24T17:24:43.512Z
 
 Nuestro primer programa…
 
-<div class="captioned-content">
 
-<div class="caption">
 
-Hola mundo en bash, archivo hola.sh
+Hola mundo en bash, archivo `hola.sh`
 
 </div>
 
@@ -145,11 +143,8 @@ Contador de argumentos.
 `$*`  
 Todos los argumentos.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Teniendo el script argumentos.sh
+Teniendo el script `argumentos.sh`
 
 </div>
 
@@ -184,11 +179,8 @@ Se puede hacer con:
 - `'`
 - `$(comando)`
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script comandos.sh
+Script `comandos.sh`
 
 </div>
 
@@ -265,11 +257,8 @@ permite leer como máximo n caracteres.
 `read -r`  
 *Raw*, toma el botón de retroceso como un carácter y no borra nada.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script test.sh
+Script `test.sh`
 
 </div>
 
@@ -316,11 +305,8 @@ Hay dos maneras:
 - Envio complementario.
 - Leer los valores.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Con el script opciones.sh
+Con el script `opciones.sh`
 
 </div>
 
@@ -393,11 +379,8 @@ fi
 
 > Ejemplo:
 
-<div class="captioned-content">
 
-<div class="caption">
-
-if.sh
+`if.sh`
 
 </div>
 
@@ -507,11 +490,8 @@ esac
   `unset nombreAregglo[pos]`.
 - Índice 0.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script arreglos.sh
+Script `arreglos.sh`
 
 </div>
 
@@ -556,11 +536,8 @@ Arreglo números: 2 3 4 5 20
 
 ## Sentencia `for`
 
-<div class="captioned-content">
 
-<div class="caption">
-
-archivo for.sh
+archivo `for.sh`
 
 </div>
 
@@ -661,11 +638,8 @@ Imprimiendo el 9
 
 ## `loops` anidados
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script forAnidado.sh
+Script `forAnidado.sh`
 
 </div>
 
@@ -735,11 +709,8 @@ Nombre archivo: test.sh _ 4
 - Se usa la sentencia `continue` para continuar con la siguiente
   iteración.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script breakContinue.sh.
+Script `breakContinue.sh`
 
 </div>
 
@@ -853,11 +824,8 @@ do
 - Directorios `mkdir nombreDirectorio`.
 - Archivos `touch nombreArchivo`.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script archivosDir.sh
+Script `archivosDir.sh`
 
 </div>
 
@@ -902,11 +870,8 @@ pi@rasp-server:~/bashCourse $
 
 Podemos utilizar el comando `echo` así como el comando `cat`.
 
-<div class="captioned-content">
 
-<div class="caption">
-
-Script writeFile.sh
+Script `writeFile.sh`
 
 </div>
 
@@ -934,11 +899,7 @@ algooooo
 
 ## Leer de un archivo
 
-<div class="captioned-content">
-
-<div class="caption">
-
-Script readFile.sh
+Script `readFile.sh`
 
 </div>
 
