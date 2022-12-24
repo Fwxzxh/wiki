@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T17:02:33.626Z
+date: 2022-12-24T17:12:10.073Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -49,7 +49,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 > Apuntes sobre distintos cursos que he tomado.
 
 ### Otros
-* Buenas practicas para escritura de código
+* [Buenas Practicas Para la escritura de código](/Cursos/BuenasPracticas)
 * [Technical Writing](/Cursos/TechnicalWriting)
 * Fundamentos Ing. de Software
 * Bash Scripting
