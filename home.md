@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T18:40:58.447Z
+date: 2022-12-24T19:24:00.798Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -98,7 +98,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 > Mi propio rincón con enfoque tipo **Learn X in Y minutes**
 
 * Python
-    * Python Data Structures
+    * [Python Data Structures](/Lenguajes/Python/PythonDataStructures)
     * [Python Intermedio](/Lenguajes/Python/IntermPython)
 * SQL (heavy)
 * HTML
