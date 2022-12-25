@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T00:48:48.388Z
+date: 2022-12-25T00:53:03.405Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -75,7 +75,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * [Introducción al desarrollo Backend](/Backend/IntroBackend)
 
 ### Data Science
-* Introducción a Data Science e Inteligencia artificial
+* [Introducción a Data Science e Inteligencia artificial](/DataScience/IntroDataSci)
 * Análisis de negocios para ciencia de datos
 * Fundamentos de Matemáticas
 * Curso de Business Intelligence: Utilidad y Áreas de Oportunidad
