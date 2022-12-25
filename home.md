@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T06:52:04.583Z
+date: 2022-12-25T06:57:55.725Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -79,7 +79,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * [Análisis de negocios para ciencia de datos](/DataScience/AnaNegociosDS)
 * [Fundamentos de Matemáticas para DS](/DataScience/FundamentosMathDs)
 * Curso de Business Intelligence: Utilidad y Áreas de Oportunidad
-* Curso de principios de visualización de datos para Business Intelligence
+* [Curso de principios de visualización de datos para Business Intelligence](/DataScience/VisualizacionParaBS)
 * [ML-For-Beginers (by microsoft)](/DataScience/MlForBeginers)
 
 ### Flutter
