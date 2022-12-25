@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T00:29:19.071Z
+date: 2022-12-25T00:48:48.388Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -72,7 +72,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * a
 
 ### Backend
-* Introducción al desarrollo Backend
+* [Introducción al desarrollo Backend](/Backend/IntroBackend)
 
 ### Data Science
 * Introducción a Data Science e Inteligencia artificial
