@@ -2,7 +2,7 @@
 title: Fundamentos matemáticos para data science
 description: 
 published: true
-date: 2022-12-25T06:36:51.734Z
+date: 2022-12-25T06:44:28.079Z
 tags: data science, mátematicas
 editor: markdown
 dateCreated: 2022-12-25T06:36:51.734Z
@@ -28,9 +28,9 @@ dateCreated: 2022-12-25T06:36:51.734Z
 
 ## Potenciación y sus propiedades
 
-> *m*<sup>*n*</sup>
+> $m^n$
 
-- *m* es la base y *n* es el exponente.
+- $m$ es la base y $n$ es el exponente.
 - Es una multiplicación repetida.
 - Propiedades:
   - En la multiplicación de dos potencias con la misma base los
@@ -43,13 +43,13 @@ dateCreated: 2022-12-25T06:36:51.734Z
 
 ## Radicación y sus propiedades
 
-4<sup>2</sup> = 16
+$4^2 = 16$
 
-$$\sqrt\[2\]{16} = 4$$
+$\sqrt[2]{16} = 4$
 
 - Es la operación inversa a la potencia.
 - Encuentra la base de la potencia, es decir de donde vino el número.
-- También podríamos pensar en por ejemplo $\sqrt\[2\]{16} = 2$ como:
+- También podríamos pensar en por ejemplo $\sqrt[2]{16} = 2$ como:
   - Qué número debemos de multiplicar 4 veces para obtener 16?
 - A esta operación se le llama raíz.
 
@@ -85,7 +85,7 @@ $$\sqrt\[2\]{16} = 4$$
 
 ## Principios del álgebra
 
-- la *x* simboliza una variable.
+- la $x$ simboliza una variable.
   - Es desconocida, puede cambiar y es variable.
 - Una ecuación es una igualdad entre dos expresiones y con una o más
   variables.
@@ -128,11 +128,11 @@ $$\sqrt\[2\]{16} = 4$$
 
 - La operación inversa de los exponentes son las raíces.
 - Podemos expresar raíces como exponentes fraccionarios.
-  - $$\sqrt\[3\]{x} = x^{1/3}$$ 
-  - $$\sqrt{x} = x^{^}{1/2}$$
-  - $\sqrt\[5\]{x} = x^{^}{1/5}$
-- Pero por ejemplo también la raíz es la operación inversa de
-  *x*<sup>2</sup> y $\sqrt\[3\]{x}$ es la inversa de *x*<sup>3</sup>.
+  - $$\sqrt[3]{x} = x^{1/3}$$ 
+  - $$\sqrt{x} = x^{}{1/2}$$
+  - $$\sqrt[5]{x} = x^{}{1/5}$$
+- Pero por ejemplo también la raíz es la operación inversa de 
+  $x^2$ y $\sqrt[3]{x}$ es la inversa de $x^3$.
   - Por lo tanto se eliminan los exponentes o las raíces directamente
     sin hacer operaciones con fracciones.
 
