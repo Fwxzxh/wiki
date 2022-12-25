@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T07:09:21.968Z
+date: 2022-12-25T07:18:08.624Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -87,7 +87,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 ### Finanzas
 * Curso de introducción financiera
-* Curso de Finanzas Personales
+* [Curso de Finanzas Personales](/Cursos/Finanzas/CurFinanzasPersonales)
 
 ## Notas generales
 > Notas sobre algunas cosas interesantes (para mi)
