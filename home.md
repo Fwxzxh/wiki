@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-24T20:28:42.330Z
+date: 2022-12-25T00:29:19.071Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -62,8 +62,8 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 ### Android
 * [Curso de bases tecnicas de Android](/Cursos/Android/BasesTecnicasAndroid)
 * [Curso básico de diseño de interfaces en Android](/Cursos/Android/DisenoInterfacesAndroid)
-* Arquitectura de android
-*  [Android con Jetpack Compose](/Cursos/Android/AndroidJetpackCompose)
+* [Arquitectura de android](/Cursos/Android/ArquitecturaAndroid)
+* [Android con Jetpack Compose](/Cursos/Android/AndroidJetpackCompose)
 
 ### Frontend
 * a
