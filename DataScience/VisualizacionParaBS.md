@@ -1,8 +1,8 @@
 ---
-title: Visualización de datos para Data Science
+title: Curso de principios de visualización de datos para Business Intelligence
 description: 
 published: true
-date: 2022-12-25T06:56:13.447Z
+date: 2022-12-25T06:58:33.279Z
 tags: cursos, data science, visualización
 editor: markdown
 dateCreated: 2022-12-25T06:56:13.447Z
