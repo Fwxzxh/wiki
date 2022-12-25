@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T08:07:49.401Z
+date: 2022-12-25T08:28:01.692Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -19,6 +19,7 @@ Una versión anterior de este sitio generada con Org-Mode puede ser encontrada [
 
 ----
 ## Sobre mi
+
 <p>
 Soy Fwxzxh, un ingeniero de software de méxico, apasionado por nunca dejar de aprender y amante de la cultura de internet.
 Generalmente paso mi tiempo en blogs y foros de todo tipo peleando con gente sobre cosas que no tienen importancia y otras que si.
@@ -36,6 +37,8 @@ eres libre de usarla libremente, si encuentras algún problema en lo que esta es
 el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 > Happy hacking!
+
+![banner.png](/banner.png)
 
 # Indice
 ## Libros
