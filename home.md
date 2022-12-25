@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T07:18:08.624Z
+date: 2022-12-25T08:07:49.401Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -86,7 +86,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * Flutter
 
 ### Finanzas
-* Curso de introducción financiera
+* [Curso de introducción financiera](/Cursos/Finanzas/IntroEduFinanciera)
 * [Curso de Finanzas Personales](/Cursos/Finanzas/CurFinanzasPersonales)
 
 ## Notas generales
