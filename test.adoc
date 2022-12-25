@@ -261,6 +261,28 @@ The document header is useful, but not required.
 
 > this is working as intended for some reason
 
+= keyboard, button and menu macros
+|===
+|Shortcut |Purpose
+
+|kbd:[F11]
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+|Open a new tab
+|===
+
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
+
+Press the btn:[OK] button when you are finished.
+
+Select a file in the file navigator and click btn:[Open].
+
+> not working
+
 = Quotes
 
 [quote,Abraham Lincoln,Address delivered at the dedication of the Cemetery at Gettysburg]
@@ -588,3 +610,43 @@ WARNING: not working
 ***
 
 * * *
+
+= Other things
+== stem formulae
+:stem: latexmath
+
+stem:[sqrt(4) = 2]
+
+Water (stem:[H_2O]) is a critical component.
+
+A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
+
+
+latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
+
+= My Diabolical Mathmatical Opus
+Jamie Moriarty
+:stem: latexmath
+
+.An e-xciting limit with LaTeX!
+[stem]
+++++
+\lim_{n \to \infty}\frac{n}{\sqrt[n]{n!}} = {\large e}
+++++
+
+.A basic square root with AsciiMath
+[asciimath]
+++++
+sqrt(4) = 2
+++++
+
+> not working
+
+$$\lim_{n \to \infty}\frac{n}{\sqrt[n]{n!}} = {\large e}$$
+
+
+$sqrt(4) = 2$
+
+```latex
+sqrt(4) = 2
+```
