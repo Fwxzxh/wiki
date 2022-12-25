@@ -2,7 +2,7 @@
 title: Fundamentos de Ingeniería de software
 description: Apuntes sobre el curso, fundamentos de ingeniería de software
 published: true
-date: 2022-12-24T17:17:46.118Z
+date: 2022-12-24T17:17:51.334Z
 tags: software, fundamentos, ingeniería, email, bits, bytes, circuitos, cpu, redes, ip, sistemas operativos, metadatos
 editor: markdown
 dateCreated: 2022-12-24T17:17:46.118Z

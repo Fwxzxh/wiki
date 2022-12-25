@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-25T08:28:01.692Z
+date: 2022-12-25T18:18:55.108Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -86,7 +86,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * [ML-For-Beginers (by microsoft)](/DataScience/MlForBeginers)
 
 ### Flutter
-* Flutter
+* [Flutter](/Cursos/Flutter/Flutter)
 
 ### Finanzas
 * [Curso de introducción financiera](/Cursos/Finanzas/IntroEduFinanciera)
@@ -110,7 +110,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * F#
 * Kotlin
 * OCaml
-* C++
+* [C++](/Lenguajes/cpp/cpp)
 
 ## Teoría
 > Teoría pura y dura

@@ -2,7 +2,7 @@
 title: Android Jetpack Compose
 description: Breve curso sobre Jetpack Compose con Kotlin
 published: true
-date: 2022-12-24T20:27:19.441Z
+date: 2022-12-24T20:27:24.439Z
 tags: android, ui, kotlin, jetpack compose
 editor: markdown
 dateCreated: 2022-12-24T20:27:19.441Z

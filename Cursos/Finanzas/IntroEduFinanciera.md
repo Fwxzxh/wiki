@@ -2,7 +2,7 @@
 title: Introducción a la educación financiera
 description: 
 published: true
-date: 2022-12-25T08:07:14.795Z
+date: 2022-12-25T08:07:19.945Z
 tags: cursos, finanzas personales, finanzas
 editor: markdown
 dateCreated: 2022-12-25T08:07:14.794Z

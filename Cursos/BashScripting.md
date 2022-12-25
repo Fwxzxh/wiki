@@ -2,7 +2,7 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-24T17:30:16.810Z
+date: 2022-12-24T17:30:23.686Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z

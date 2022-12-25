@@ -2,7 +2,7 @@
 title: Fundamentos matemáticos para data science
 description: 
 published: true
-date: 2022-12-25T06:44:28.079Z
+date: 2022-12-25T06:44:34.244Z
 tags: data science, mátematicas
 editor: markdown
 dateCreated: 2022-12-25T06:36:51.734Z

@@ -2,7 +2,7 @@
 title: MVVM WPF XAML
 description: Notas del curso de WPF usando el patrón MVVM y XAML
 published: true
-date: 2022-12-24T18:10:23.800Z
+date: 2022-12-24T18:10:29.260Z
 tags: cursos, mvvm, c#, wpf, xaml
 editor: markdown
 dateCreated: 2022-12-24T18:10:23.800Z

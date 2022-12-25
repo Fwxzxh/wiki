@@ -2,7 +2,7 @@
 title: Head First C
 description: Notas sobre Head First C de David Griffith & Dawn Griffiths.
 published: true
-date: 2022-12-24T03:21:06.301Z
+date: 2022-12-24T03:21:13.839Z
 tags: libros, c, head first
 editor: markdown
 dateCreated: 2022-12-24T03:21:06.301Z

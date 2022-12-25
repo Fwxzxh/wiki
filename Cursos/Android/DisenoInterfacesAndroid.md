@@ -2,7 +2,7 @@
 title: Curso de diseño de interfaces en android
 description: 
 published: true
-date: 2022-12-24T19:28:39.906Z
+date: 2022-12-24T19:28:46.662Z
 tags: android, xml, ui
 editor: markdown
 dateCreated: 2022-12-24T19:28:39.906Z

@@ -2,7 +2,7 @@
 title: Buenas Practicas en el código
 description: Breve introducción sobre las buenas prácticas en el código
 published: true
-date: 2022-12-24T17:11:08.232Z
+date: 2022-12-24T17:11:12.731Z
 tags: cursos, buenas practicas, solid, programacion
 editor: markdown
 dateCreated: 2022-12-24T17:11:08.232Z

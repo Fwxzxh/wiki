@@ -2,7 +2,7 @@
 title: Introducción al desarrollo backend
 description: Apuntes sobre el desarrollo backend
 published: true
-date: 2022-12-25T00:47:53.748Z
+date: 2022-12-25T00:47:58.746Z
 tags: cursos, backend
 editor: markdown
 dateCreated: 2022-12-25T00:47:53.748Z

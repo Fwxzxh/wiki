@@ -2,7 +2,7 @@
 title: Análisis de negocios para Data science
 description: 
 published: true
-date: 2022-12-25T00:56:39.665Z
+date: 2022-12-25T00:56:44.396Z
 tags: data science, negocios, analísis
 editor: markdown
 dateCreated: 2022-12-25T00:56:39.665Z

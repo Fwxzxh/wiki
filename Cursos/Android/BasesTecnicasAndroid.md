@@ -2,7 +2,7 @@
 title: Curso de Bases técnicas de android
 description: 
 published: true
-date: 2022-12-24T19:31:50.749Z
+date: 2022-12-24T19:31:55.809Z
 tags: cursos, android
 editor: markdown
 dateCreated: 2022-12-24T19:31:50.749Z

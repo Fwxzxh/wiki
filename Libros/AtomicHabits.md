@@ -2,7 +2,7 @@
 title: Atomic Habits
 description: Notas sobre Atomic Habits de James Clear.
 published: true
-date: 2022-12-24T02:33:16.021Z
+date: 2022-12-24T02:37:04.639Z
 tags: libros, habitos, resumenes
 editor: markdown
 dateCreated: 2022-12-24T02:33:16.021Z

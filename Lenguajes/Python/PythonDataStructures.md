@@ -2,7 +2,7 @@
 title: Estructuras de datos en python
 description: Explicación de algunas estructuras de datos en python
 published: true
-date: 2022-12-24T19:23:13.519Z
+date: 2022-12-24T19:23:18.666Z
 tags: python, data structures, estructuras de datos
 editor: markdown
 dateCreated: 2022-12-24T19:20:30.407Z

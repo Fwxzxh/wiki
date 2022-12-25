@@ -2,7 +2,7 @@
 title: Technical Writing
 description: Breve introducción al Technical Writing
 published: true
-date: 2022-12-24T16:59:29.546Z
+date: 2022-12-24T17:01:44.628Z
 tags: cursos, tecnical writing, escritura, writing
 editor: markdown
 dateCreated: 2022-12-24T16:59:29.546Z

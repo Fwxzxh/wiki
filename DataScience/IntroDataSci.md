@@ -2,7 +2,7 @@
 title: Introducción a la Ciencia de datos e Inteligencia artificial
 description: 
 published: true
-date: 2022-12-25T00:52:11.986Z
+date: 2022-12-25T00:52:17.561Z
 tags: data science, ia
 editor: markdown
 dateCreated: 2022-12-25T00:52:11.986Z

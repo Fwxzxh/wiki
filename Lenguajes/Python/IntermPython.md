@@ -2,7 +2,7 @@
 title: Python Intermedio
 description: Apuntes sobre el curso de Python Intermedio
 published: true
-date: 2022-12-24T18:40:04.618Z
+date: 2022-12-24T18:40:11.215Z
 tags: cursos, python
 editor: markdown
 dateCreated: 2022-12-24T18:40:04.618Z

@@ -2,7 +2,7 @@
 title: Arquitectura de Software en Android
 description: Repaso sobre algunos patrones de arquitectura en android
 published: true
-date: 2022-12-25T00:28:17.365Z
+date: 2022-12-25T00:28:22.833Z
 tags: mvvm, android, mvc, arquitectura
 editor: markdown
 dateCreated: 2022-12-25T00:28:17.365Z

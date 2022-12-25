@@ -2,7 +2,7 @@
 title: Curso de Business Intelligence: Utilidad y Áreas de Oportunidad
 description: 
 published: true
-date: 2022-12-25T07:08:16.376Z
+date: 2022-12-25T07:08:21.606Z
 tags: business inteligence
 editor: markdown
 dateCreated: 2022-12-25T07:08:16.376Z
