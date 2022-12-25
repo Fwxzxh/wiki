@@ -2,7 +2,7 @@
 title: Curso de principios de visualización de datos para Business Intelligence
 description: 
 published: true
-date: 2022-12-25T06:58:33.279Z
+date: 2022-12-25T06:59:49.931Z
 tags: cursos, data science, visualización
 editor: markdown
 dateCreated: 2022-12-25T06:56:13.447Z
@@ -23,7 +23,7 @@ Visualization](https://datavizcatalogue.com/ES/index.html)
   - Para reconocer fácilmente patrones.
   - Al usar más de un sentido podemos facilitar el entendimiento de los
     datos.
-- Estamos en la era de información, así­ que hay más datos que nunca.
+- Estamos en la era de información, así que hay más datos que nunca.
 
 ## Importancia de la visualización de datos
 
