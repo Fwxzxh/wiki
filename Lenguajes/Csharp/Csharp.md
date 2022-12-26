@@ -2,7 +2,7 @@
 title: Guia Csharp
 description: 
 published: true
-date: 2022-12-26T00:21:13.149Z
+date: 2022-12-26T00:24:16.774Z
 tags: c#, oop
 editor: markdown
 dateCreated: 2022-12-26T00:14:27.129Z
@@ -769,7 +769,7 @@ class MiPrimeraClase
     *heap* mientras que la dirección de memoria de la heap es guardada
     en el *stack*.
 
-[ss-01.png](/lenguajes/csharp/ss-01.png)
+![ss-01.png](/lenguajes/csharp/ss-01.png)
 
 `Stack`  
 Es usado para asignación de memoria estática, eso incluye a todas tus
