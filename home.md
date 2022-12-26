@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-26T00:15:37.750Z
+date: 2022-12-26T00:49:44.613Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -106,7 +106,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * SQL (heavy)
 * HTML
 * [C#](/Lenguajes/Csharp/Csharp)
-* Go
+* [go](/Lenguajes/go)
 * F#
 * Kotlin
 * OCaml
