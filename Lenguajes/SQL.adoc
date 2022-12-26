@@ -1,0 +1,1725 @@
+link:~/org/Files/index.org[Índice]
+
+[[ddl-creando-y-manipulando-objetos-de-la-base-de-datos]]
+== [.todo .TODO]#TODO# DDL: Creando y Manipulando Objetos de la Base de Datos
+
+== DML: Manipulando La Información de Las Tablas
+
+Una *Transacción* es un conjunto de instrucciones DML que trabajan como
+una únidad lógica.
+
+=== Insertando Información
+
+* Con esta instrucción podemos insertar una fila a la vez.
+* Opcionalmente, se listan las columas a las cuales se van a insertar
+los valores.
+* Usa comillas simples para encerrar los valores de tipo *carácter* y
+las *fechas*.
+
+==== Sin especificar columnas
+
+Si no especificas columnas y no tienes valores para todas, debes llenar
+los campos con `NULL`.
+
+[source,sql]
+----
+INSERT INTO
+       clientes
+VALUES
+    ('Eugenio','Av. Técnologico',14,'4422274400');
+----
+
+==== Especificando columnas
+
+[source,sql]
+----
+INSERT INTO
+       clientes (nombre_cliente, calle_cliente, ciudad_cliente, telefono)
+VALUES
+    ('Guillermo','Escobedo',14,'4422274605')
+----
+
+==== Omitiendo columnas
+
+Al omitir columas, las columnas a las cuales no se les asigna valor se
+les da valor nulo (`NULL`), asi que solo las columnas que no tienen la
+restricción de `NOT NULL` pueden omitirse.
+
+[source,sql]
+----
+INSERT INTO
+       clientes (nombre_cliente, ciudad_cliente)
+VALUES
+    ('Guillermo',14)
+----
+
+==== Intsertando valores especiales (oracle)
+
+. Hora y fecha
++
+la variable `SYSDATE` contiene la hora y fecha actual.
++
+[source,sql]
+----
+INSERT INTO
+       depositos (nombre_cliente, nombre_sucursal, monto, fecha)
+VALUES
+    ('Eugenio','Alamos', 100, SYSDATE)
+----
++
+Si se desea insertar una fecha determinada.
++
+[source,sql]
+----
+INSERT INTO
+       (id_alumno, nombre_alumno, sexo, pais_nacimiento, fecha_nacimiento, carrera)
+VALUES
+    (15,'Eugenio','M','México',TO_DATE('FEB 3, 97','MON DD, YY'),1000)
+----
+
+=== Cambiando Información
+
+El estatuto `UPDATE` Actualiza la información de las filas existentes en
+una tabla.
+
+* Se pueden cambiar varias filas a la vez.
+* Las filas actualizadas pueden ser filtradas con el estatuto `WHERE`.
+* Si se omite el `WHERE`, todas las filas serán modificadas.
+
+==== Ejemplo
+
+Cambiando el nombre de la sucursal.
+
+[source,sql]
+----
+UPDATE
+    sucursales
+SET
+    nombre_sucursal='Álamos'
+WHERE
+    nombre_sucursal='Alamos'
+----
+
+Cambiando el pais de nacimiento de todos los alumnos.
+
+[source,sql]
+----
+UPDATE
+    alumnos
+SET
+    pais_nacimiento='México';
+----
+
+=== Eliminando Infomrmación
+
+Puedes eliminar filas existentes de una tabla usando el estatuto
+`DELETE`.
+
+* Las filas que cumplan con la condición `WHERE` serán eliminadas.
+* Si se omite la cláusula `WHERE` todas las filas serán eliminadas.
+
+==== Ejemplo
+
+[source,sql]
+----
+DELETE [FROM] nombre_tabla
+[WHERE condición]
+----
+
+== DML: Iniciando en Consultas SQL
+
+=== SELECT
+
+==== Capacidades:
+
+* Selección: Selecciona las filas
+* Proyección: Selecciona las columnas
+* Reunión: Une dos columnas
+
+==== Estructura
+
+* SELECT: Lista que columnas van a tener los resultados
+* FROM: De que tablas se va a obtener
+* WHERE: Las condiciónes de reunión
+
+. Ejemplo
++
+[source,sql]
+----
+SELECT
+    id_cliente, nombre_cliente, calle_cliente
+FROM
+    clientes
+----
+
+==== Mostrando todas las columnas
+
+Se puede mostrar todas las columnas de la tabla con un `*`
+
+[source,sql]
+----
+SELECT *
+FROM
+    clientes
+----
+
+[source,sql]
+----
+SELECT *
+FROM
+    employees, departments
+----
+
+[source,sql]
+----
+SELECT
+    employees*
+FROM
+    employees
+----
+
+==== DISTINCT
+
+Para mostrar solo los valores diferentes de las columnas usamos la
+palabra reservada DISTINCT
+
+[source,sql]
+----
+--Muestra solo los valores diferentes(unicos)
+SELECT
+    DISTINCT department_id
+FROM
+    employees
+----
+
+==== Alias
+
+Podemos poner un alias a las columnas del resultado.
+
+[source,sql]
+----
+SELECT
+    salary AS "Salario Anual"
+FROM
+    employees
+----
+
+==== Expreciones
+
+El `SELECT` puede contener expreciones con los operadores `+, -, * o /`.
+
+[source,sql]
+----
+-- Podemos usar párentesís para cambiar la procedencia de los operadores
+SELECT
+    (salary+300)*12
+FROM
+    employees
+----
+
+==== Evaluación de valores nulos
+
+En *Oracle*, la función `NVL` permite convertir un valor nulo a uno
+válido
+
+[source,sql]
+----
+-- NVL(columna,valor a dar a los nulos)
+SELECT
+    last_name,
+    salary*12,
+    NVL(commision_pct,0),
+    NVL(hire_date,'2013-05-12'),
+    NVL(phone_number, 'Sin telefono')
+FROM
+    employees
+----
+
+==== Concatenación de cadenas
+
+Se pueden concatenar cadenas o columnas con el operador `|| o +`
+(depende de el manejador)
+
+[source,sql]
+----
+-- Nombre apellido
+SELECT
+    last_name||' '||first_name
+FROM
+    employees
+----
+
+=== WHERE
+
+==== Capacidades
+
+La cláusula `WHERE` permite filtar los resultados de vienen de la
+cláusula `SELECT`, Esta es colocada despues de la cláusula `FROM`.
+
+==== Estructura
+
+[source,sql]
+----
+SELECT
+    columas
+FROM
+    tablas
+WHERE
+    condiciones
+----
+
+. Ejemplo
++
+[source,sql]
+----
+SELECT *
+FROM
+    employees
+WHERE
+    department_id = 60;
+----
+
+==== Cadenas de caracteres y fechas
+
+* Los caracteres de tipo string y fechas son delimitados con comillas
+simples.
+* Son sensibles a Mayusculas.
+* Las fechas son sensibles a un formato, para conocer este formato
+podemos hacer.
++
+[source,sql]
+----
+SELECT sysdate
+FROM dual;
+----
+* Las fechas pueden requerir la función `TO_DATE` para ser utilizadas en
+el `WHERE`.
+
+==== Operadores de comparación
+
+Se pueden usar los operadores de comparación \=, >,>\= y !=
+
+[source,sql]
+----
+SELECT
+    last_name, salary, commision_pct
+FROM
+    employees
+WHERE
+    commision_pct <= .2;
+----
+
+==== Operador BETWEEN
+
+Este opreador se puede usar con cualquer tipo de dato y filtra entre dos
+valores dados (inclusivo)
+
+[source,sql]
+----
+SELECT
+    last_name, salary
+FROM
+    employees
+WHERE
+    salary BETWEEN 1500 AND 25000;
+----
+
+==== Operador IN
+
+Concuerda con cualquer valor contenido en la lista.
+`IN(lista de valores)`
+
+[source,sql]
+----
+SELECT
+    last_name, salary, manager_id
+FROM
+    employees
+WHERE
+    manager_id IN (120, 123);
+----
+
+==== Operador LIKE
+
+Sirve para hacer búsquedas con comodines de cadenas de caracteres.
+
+* El símbolo `%` representa cero o varios caracteres.
+* El símbolo `_` representa un cáracter.
+
+[source,sql]
+----
+SELECT last_name
+FROM employees
+WHERE last_name LIKE 'S%';
+----
+
+Podemos combinar ambos patrones para concordar con una busqueda más
+compleja.
+
+==== Operador IS NULL
+
+Se usa para buscar valores nulos.
+
+[source,sql]
+----
+SELECT
+    last_name, manager_id
+FROM
+    employees
+WHERE
+    manager_id IS NULL;
+----
+
+==== Operadores lógicos
+
+Estos operadores pueden ser usados con los () para hacer busquedas más
+específicas.
+
+. Operador AND
++
+[source,sql]
+----
+SELECT
+    employee_id, last_name, job_id, salary
+FROM
+    employees
+WHERE
+    salary >= 1100
+    AND job_id='SA_MAN'
+----
+. Operador OR
++
+[source,sql]
+----
+SELECT
+    employee_id, last_name, job_id, salary
+FROM
+    employees
+WHERE
+    salary >= 11000
+    OR job_id='SA_MAN';
+----
+. Operador NOT
++
+[source,sql]
+----
+SELECT
+    employee_id, last_name, job_id, salary
+FROM
+    employees
+WHERE
+    job_id NOT IN ('HR_REP','MK_REP'
+                  'SA_REP','PU_MAN');
+----
+
+=== ORDER BY
+
+Esta cláusula nos permite ordenar las tablas de salida, puede ser
+
+* `ASC` : de manera acendente.
+* `DESC` : de manera decendente.
+
+Esta clausula siempre debe estar al final, en la últma instrucción.
+
+==== Decendente y Acentendente
+
+Por defecto se ordena de manera acendente.
+
+[source,sql]
+----
+SELECT
+    last_name, salary*12, department_id, hire_date AS "Fecha de Contrato"
+FROM
+    employees
+ORDER BY
+      hire_date DESC;
+----
+
+En `ORDER BY` podemos ordenar llamando al alias de hire~date~
+`ORDER BY "Fecha de Contrato" DESC;`.
+
+==== Podemos ordenar múltiples columas en un orden
+
+[source,sql]
+----
+SELECT
+    last_name, salary*12, department_id depto, hire_date AS "Fecha de Contrato"
+FROM
+    employees
+ORDER BY
+      depto, hire_date;
+----
+
+==== Ordenando con columnas no proyectadas
+
+[source,sql]
+----
+SELECT
+    last_name, salary, department_id
+FROM
+    employees
+ORDER BY
+      job_id;
+----
+
+Podemos ordenar en base a columnas no proyectadas con el `SELECT`.
+
+==== Ordenando con expresiones
+
+[source,sql]
+----
+SELECT
+    last_name, salary, department_id
+FROM
+    employees
+ORDER BY
+      salary*12;
+----
+
+Podemos usar expreciones para ordenar nuestras columnas.
+
+== DML: Funciones Sobre Filas Individuales
+
+* Manipulan unidades de dato.
+* Varios argumentos, un valor de salida.
+* Actuan sobre cada una de las filas regresadas.
+* Regresan un resultado por fila.
+* Pueden modificar tipos de dato.
+* Pueden ser anidadas.
+** `nombre_funcion (columna | expreción , [arg1,arg2,...])`
+
+=== Funciones caracter
+
+==== Case Conversion Function
+
+Cambian las mayúsculas y minúsculas de cadenas de caracteres.
+
+[cols=",",options="header",]
+|===
+|Función |Resultado
+|`LOWER('SQL Course')` |sql course
+|`UPPER('SQL Course')` |SQL COURSE
+|`INITCAP('SQL Course')` |Sql Course
+|===
+
+[[ejemplo-4]]
+==== Ejemplo
+
+Si desconocemos cómo esta la información en la base de datos, nos
+conviene convertir a minúsculas lo que obtenemos de la base de datos y
+hacer la comparación.
+
+[source,sql]
+----
+SELECT
+    employee_id, last_name, department_id
+FROM
+    employee
+WHERE
+    LOWER(last_name) = 'king';
+----
+
+=== Funciones de manpulación de caracteres
+
+Manipulan caracteres.
+
+[cols=",",options="header",]
+|===
+|Función |Resultado
+|`CONCAT('Good','String')` |GoodSrting
+|`SUBSTR('String',1,3)` |Str
+|`LENGTH('String')` |6
+|`INSTR('String',r)` |3
+|`LPAD(SALARY,10,'*')` |******500
+|===
+
+[[ejemplo-5]]
+==== Ejemplo
+
+[source,sql]
+----
+SELECT
+    last_name, CONCAT(last_name,first_name), LENGTH(last_name), INSTR(last_name,'s')
+FROM
+    employees
+WHERE
+    SUBSTR(last_name, 2, 2) = 'ar';
+----
+
+Dando como resultado la tabla:
+
+[cols=",,,",options="header",]
+|===
+|last~name~ |CONCAT(last~name~,first~name~) |LENGTH(last~name~)
+|INSTR(last~name~,'s')
+|Marke |MarkeSteven |6 |0
+
+|Hartstein |HartsteinMichael |9 |5
+
+|Vargas |VargasPeter |6 |6
+|===
+
+=== Funciones Númericas
+
+[cols=",",options="header",]
+|===
+|Función |Resultado
+|`ROUND(45.926,2)` |45,93
+|`TRUNC(45.926,2)` |45.92
+|`MOD(1600, 300)` |100
+|===
+
+=== Trabajando con Fechas
+
+* Oracle almacena las fechas internamente en un formato númerico: siglo,
+año, mes, día, horas, minutos, segundos.
+* El formato por defecto en México es `DD/MM/YY`.
+* `SYSDATE` es una función que retorna la fecha y hora de sistema.
+* `DUAL` es una tabla comodín que se usa para ver `SYSDATE`.
+
+==== Usando Funciones de Fecha
+
+[cols=",",options="header",]
+|===
+|Función |Resultado
+|`MONTHS_BETWEEN('01/09/95', '11/01/94')` |19.6774194
+|`ADD_MONTHS('11/01/94',6)` |'11-JUL-94'
+|`NEXT_DAY('01/09/95','Viernes')` |'08-SEP-95'
+|`LAST_DAY('01/09/95')` |'30-SEP-95'
+|`ROUND(TO_DATE('25/07/95'),'MONTH')` |'01/08/95'
+|`ROUND(TO_DATE('25/07/95'),'YEAR')` |'01/01/96'
+|`TRUNC(TO_DATE('25/07/95'),'MONTH')` |'01/07/96'
+|`TRUNC(TO_DATE('25/07/95'),'YEAR')` |'01/01/95'
+|===
+
+*Nota*: Se debe de escribir en inglés el segundo argumento.
+
+=== Conversión Implicita de Tipos de Datos
+
+En asignaciones, Oracle puede convertir automáticamente.
+
+[cols=",",options="header",]
+|===
+|De |A
+|VARCHAR2 o CHAR |NUMERO
+|VARCHAR2 o CHAR |FECHA
+|NUMERO |VARCHAR2
+|FECHA |VARCHAR2
+|===
+
+En evaluación de expresiones, Oracle puede convertir automáticamente.
+
+[cols=",",options="header",]
+|===
+|De |A
+|VARCHAR2 o CHAR |NUMERO
+|VARCHAR2 o CHAR |FECHA
+|===
+
+=== Función TO~CHAR~ con Fechas
+
+`TO_CHAR(fecha, 'formato')`
+
+* El modelo de formato debe ser encerrado entre comillas simples y es
+sensible a Mayúsculas.
+* Puede Incluir cualquier elemento de formato válido de fecha.
+* Puede utilizarse un *Fm* para remover blancos o ceros a la izquerda.
+
+==== Modelos de formato para fechas
+
+[cols=",",options="header",]
+|===
+|Modelo de formato |Significado
+|YYYY |Año completo con números
+|YEAR |Año completo en palabras
+|MM |Mes en número
+|MONTH |Nombre completo del mes
+|D |Día númerico
+|DY |Abreviación de 3 letras del nombre del día
+|DAY |Nombre completo del día de la semana
+|===
+
+==== Ejemplos de formato
+
+[cols=",",options="header",]
+|===
+|Modelo |resultado
+|`HH24:MI:SS AM` |15:45:32 AM
+|`DD "de" MONTH` |12 de Octubre
+|`ddspth` |fourteenth
+|===
+
+==== Ejemplo de uso
+
+[source,sql]
+----
+SELECT
+    last_name,
+    TO_CHAR(hire_date, 'DD Month YYYY') AS "Fecha de contratación"
+FROM
+    employees;
+----
+
+daria resultado a:
+
+[cols=",",options="header",]
+|===
+|last~name~ |Fecha de contratación
+|Grant |13 Enero 2000
+|Whalen |17 Septiembre 1987
+|===
+
+=== Función TO~CHAR~ con Números
+
+`TO_CHAR(número, 'formato')`
+
+Se usan las siguientes tablas de formato:
+
+[cols=",",]
+|===
+|`9` |Representa un número
+|`0` |Fuerza un cero
+|`$` |Muestra un signo de dólar
+|`.` |Imprime un punto
+|`,` |Imprime un indicador de miles
+|===
+
+[[ejemplo-6]]
+==== Ejemplo
+
+[source,sql]
+----
+SELECT
+    first_name,
+    TO_CHAR(salary, '$99,999') fmt_salary
+FROM
+    employees
+WHERE
+    UPPER(last_name) = 'KING';
+----
+
+[cols=",,",options="header",]
+|===
+|first~name~ |salary |fmt~salary~
+|Steven |24000 |$24,000
+|Janette |10000 |$10,000
+|===
+
+==== Funciones `TO_NUMBER` y `TO_DATE`
+
+* Se usa la función `TO_NUMBER` para convertir cadenas de caracteres a
+números con formato.
+** `TO_NUMBER(caracter)`
+* Se usa la función `TO_DATE` para convertir cadenas de caracteres a
+fecha con formato.
+** `TO_DATE(caracter[, 'modelo de fomato'])`
+
+=== Función NVL
+
+Convierte de un valor nulo a uno válido.
+
+* Se puede usar con fecha, carácter y número.
+* Los tipos de dato deben coincidir.
+
+[[ejemplo-7]]
+==== Ejemplo
+
+[source,sql]
+----
+SELECT
+    last_name,
+    salary,
+    commision_pct,
+    (salary*12) + NVL(commision_pct*salary,0) AS "NVL",
+    (salary*12) + (commision_pct*salary) "NULL"
+From
+    employees;
+----
+
+Que daria como resultado:
+
+.Si no nos encargamos de los valores nulos, nuestra operación da valor
+nulo.
+[cols=",,,,",options="header",]
+|===
+|last~name~ |salary |commision~pct~ |NVL |NULL
+|Grant |7000 |.15 |85050 |85050
+|Jhonson |6200 |.1 |75020 |75020
+|Taylor |3200 | |38400 |
+|Fleaur |3100 | |37200 |
+|===
+
+=== Función DECODE
+
+Facilita condiciones haciendo el trabajo de un `IF-THEN-ELSE`.
+
+[source,sql]
+----
+DECODE (columna/expresión, condición 1, resultado 1
+                           [condición 2, resultado 2, ...
+                           , default])
+----
+
+[[ejemplo-8]]
+==== Ejemplo
+
+Con la consulta:
+
+[source,sql]
+----
+SELECT
+    job_id,
+    salary,
+    DECODE (SUBSTR(job_id, 4, 3),   'MAN', salary*1.20,
+                                    'CLE', salary*1.15,
+                                    'REP', salary*1.10,
+                                           salary) AS "Salario Ajustado"
+FROM
+    employees;
+----
+
+Obtenemos la tabla:
+
+[cols=",,",options="header",]
+|===
+|job~id~ |salary |Salario Ajustado
+|SH~CLERK~ |2600 |2990
+|AD~ASST~ |4400 |4400
+|MK~MAN~ |13000 |15600
+|HR~REP~ |6000 |6600
+|AC~MGR~ |12000 |12000
+|===
+
+=== Anidando Funciones
+
+* Las funciones sobre filas individuales pueden ser anidadas a cualquier
+nivel.
+* Las funciones anidadas son evaluadas del nivel más interno al más
+externo.
+** `F3(F2(F1(col,arg1),arg2),arg3)`
+
+== DML: Obteniendo Información de Múltiples Tablas
+
+=== ¿Qué es una reunión? (JOIN)
+
+* Se usa para consultar información de múltiples tablas.
+* La condición de reunión se escribe en la clausula `WHERE`.
+* El número de condiciones depende de dos cosas:
+** El número de tablas listadas en la clausula `FROM`
+** De los atributos en común que tengan las tablas.
+* Si las tablas solo tienen un solo atributo en común las condiciones
+dependen del número de tablas.
+** Sea latexmath:[$n$] el numero de de tablas en la clausula `FROM`.
+** El número de condiciones de reunión serán latexmath:[$n-1$].
+
+Ejemplo:
+
+[source,sql]
+----
+SELECT
+    tabla1.columna1,
+    tabla2.columna1
+FROM
+    tabla1, tabla2
+WHERE
+    tabla1.columna_comun = tabla2.columna_comun;
+----
+
+==== Producto cartesiano
+
+Se forma cuando:
+
+* Se omite la condición de reunión.
+* La condición de reunión es inválida.
+* Todas las filas de la primer tabla se reúnen con todas las filas de la
+segunda tabla.
+
+Para evitar un producto cartesiano, siempre se debe incluir una
+condición de reunión valida en el `WHERE`.
+
+. Ejemplo
++
+Si generamos un producto cartesiano de las tablas employees.last~name~
+(107 Filas) y departmens.department~name~ (27 Filas) Obtenemos una tabla
+resultante con 2849 filas ya que latexmath:[$107 \cdot 27 = 2849$],
+dando una consulta seguramente incorrecta.
+
+=== Tipos de reuniones
+
+==== Equi join
+
+Unimos dos tablas con un operador de igualdad, retornando solo las filas
+que coinciden en ambas tablas.
+
+[source,sql]
+----
+SELECT
+    E.employee_id,
+    E.last_name,
+    E.department_id,
+    D.department_name,
+    D.location
+FROM
+    employees E, departments D
+WHERE
+    E.department_id = D.department_id;
+----
+
+. Uniendo más de dos tablas
++
+[source,sql]
+----
+SELECT
+    E.employee_id,
+    E.last_name,
+    E.department_id,
+    D.department_name,
+    D.location_id,
+    L.city
+FROM
+    employees E, departmens D, locations L
+WHERE
+    E.department_id = D.department_id
+    AND D.location_id = L.location_id;
+----
+
+==== Non-equi join
+
+Usan operadores de comparación en lugar de los operadores de igualdad,
+además de condiciones.
+
+[source,sql]
+----
+SELECT
+    E.last_name,
+    E.salary,
+    S.grade
+FROM
+    employees E, salary_grades S
+WHERE
+    E.salary BETWEEN S.low AND S.high;
+----
+
+==== Outer join
+
+Se usan para ver las filas que usualmente no se muestran con las
+condiciones de reunión (Como valores nulos).
+
+* El simbolo del Outher join en oracle es (+), En otros manejadores
+puede ser *.
+
+[source,sql]
+----
+SELECT
+    table1.column,
+    table1.column
+FROM
+    table1, table2
+WHERE
+    table1.column(+) = table2.column;
+----
+
+==== Self join
+
+Se usan para unir una tabla con ella misma, usando alias diferentes.
+
+[source,sql]
+----
+SELECT
+    E.last_name||' tabaja para '||J.last_name
+FROM
+    employees E, employees J
+WHERE
+    E.manager_id = J.manager_id;
+----
+
+== DML: Funciones de Agregación
+
+=== Funciones de grupo
+
+Operan en un conjunto de filas para dar resultados por grupo.
+
+* Las funciones `MIN` y `MAX` pueden usarse con cualquer tipo de dato.
+* Las funciones de grupo ignoran los valores nulos, por lo que es
+necesario el uso de la función `NVL`.
+
+Funciones de grupo:
+
+* `COUNT` : Cuenta los elementos.
+* `MAX` : El máximo elemento.
+* `MIN` : El mínimo elemento.
+* `AVG` : Promedio.
+* `VARIANCE` : Varianza.
+* `STDDEV` : Desviación estándar.
+
+=== Funciones con Argumentos Númericos
+
+Las funciones `AVR`, `SUM`, `MAX`, y `MIN` se pueden usar para datos
+númericos.
+
+[source,sql]
+----
+SELECT
+    AVR(salary),
+    SUM(salary),
+    MAX(salary),
+    MIN(salary)
+FROM
+    employees;
+----
+
+=== Función COUNT
+
+`COUNT(*)` Retorna el número de filas de una columna.
+
+[source,sql]
+----
+SELECT
+    COUNT(*)
+FROM
+    employees;
+----
+
+Podemos contar los valores únicos.
+
+[source,sql]
+----
+SELECT
+    COUNT(DISTINCT last_name)
+FROM
+    employees;
+----
+
+=== Creando grupos de datos
+
+Podemos dividir las filas de una columna en grupos más pequeños con la
+cláusula `GROUP BY`.
+
+* Si incluyes una función de grupo en la cláusula `SELECT`, *no* puedes
+seleccionar los resultados individuales, a menos que la columna
+individual aparezca en la cláusula `GROUP BY`, de lo contrario obtendras
+un error.
+* Usa la cláusula `WHERE` para pre-excluir las filas que no necesites,
+antes de crear los grupos.
+* No se pueden usar los alias de las columnas en la cláusula `GROUP BY`.
+* Se pueden ordenar las columnas con la cáusula `ORDER BY`, que siempre
+debe de ser la última cáusula.
+
+[[ejemplo-10]]
+==== Ejemplo
+
+[source,sql]
+----
+SELECT
+    departments_id,
+    AVG(salary)
+FROM
+    employees
+GROUP BY
+    department_id;
+----
+
+También es posible agrupar usando multiples columnas.
+
+==== Consultas Ilegales
+
+* Cualquier columna o expreción en la lista del `SELECT`, que no se
+encuentre en una función de grupo, debe de ir en la lista `GROUP BY`
+* No puedes usar la cláusula `WHERE` para filtrar grupos, en ese caso
+debes de usar la cláusula `HAVING`.
+
+==== Cláusula HAVING
+
+Los grupos que coincidan con la condición `HAVING` serán mostrados.
+
+[source,sql]
+----
+-- Estructura --
+SELECT
+    column, función_de_grupo(column)
+FROM
+    table
+[WHERE
+    condition]
+[GROUP BY
+    agrupar_por_expresión]
+[HAVING
+    condición]
+[ORDER BY
+    column]
+----
+
+. Ejemplo
++
+[source,sql]
+----
+SELECT
+    department_name AS "Departamento",
+    sum(salary) AS "Nomina Total"
+FROM
+    employees E, departments D
+WHERE
+    E.department_id = D.department_id
+GROUP BY
+    department_name
+HAVING
+    sum(salary) < 1500
+ORDER BY
+    "Nomina Total";
+----
+
+== DML: Subconsultas
+
+Permiten ejecutar una consulta más pequeña dentro de una consulta.
+
+Guia para el uso de las subconsultas:
+
+* Siempre deben de ir encerradas entre parentesís.
+* Se deben de ubicar el lado *derecho* del operador de comparación.
+* No agregar la cláusula `ORDER BY` dentro de una subconsulta.
+* Usar operadores sobre filas individuales con subconsultas que regresen
+filas individuales.
+* Usar operadores sobre múltiples filas con subconsultas que regresen
+múltiples filas.
+
+=== Subconsultas de Una Sola Fila
+
+* Regresan una sola fila.
+* Usan operadores de comparación sobre filas individuales.
+
+[[ejemplo-12]]
+==== Ejemplo
+
+[source,sql]
+----
+SELECT
+    last_name||' '||first_name AS "Empleado",
+    job_id,
+    salary
+FROM
+    employees
+WHERE
+    job_id =    (SELECT
+                    job_id,
+                FROM
+                    employees
+                WHERE
+                    employee_id = 103)
+    AND salary >    (SELECT
+                        salary
+                    FROM
+                        employees
+                    WHERE
+                        employee_id = 203);
+----
+
+=== Subconsultas de Múltiples filas
+
+* Regresan más de una sola fila.
+* Usan comparaciones de comparación sobre múltiples filas.
+
+Operadores de comparación en Múltiples columas:
+
+[cols=",",options="header",]
+|===
+|Operador |Descripción
+|`IN` |Igual a cualquer elemento de la lista
+
+|`ANY` |Compara el valor con cada uno de los valores que retorna la
+consulta
+
+|`ALL` |Compara el valor con todos los valores dados por la subconsulta
+|===
+
+[[ejemplo-13]]
+==== Ejemplo
+
+[source,sql]
+----
+SELECT
+    employee_id,
+    last_name,
+    job_id,
+    salary
+FROM
+    employees
+WHERE
+    salary < ANY (
+                SELECT
+                    salary
+                FROM
+                    employees
+                WHERE
+                    job_id LIKE '%_REP')
+    AND job_id NOT LIKE '%_REP'
+ORDER BY
+    salary;
+----
+
+=== Subconsultas de múltiples columnas
+
+La consulta principal compara con los valores de una subconsulta que
+devuelve múltiples filas y columas.
+
+[[ejemplo-14]]
+==== Ejemplo
+
+Muestra el apellido, la fecha de contratación, el salario y el número de
+departamento de cualquier empleado que coincida en fecha de contratación
+y salario con cualquier subordinado del empleado 100.
+
+[source,sql]
+----
+SELECT
+    last_name,
+    hire_date,
+    salary,
+    department_id
+FROM
+    employees
+WHERE
+    (hire_date, salary) IN (SELECT
+                                hire_date,
+                                salary
+                            FROM
+                                employees
+                            WHERE
+                                manager_id=100)
+ORDER BY
+    last_name;
+----
+
+==== Subconsultas en la cáusula FROM
+
+Se pueden hacer subconsultas en la cláusula `FROM`, esto lleva a la
+creación de una tabla temporal en el buffer.
+
+[source,sql]
+----
+SELECT
+    a.last_name,
+    a.salary
+    a.department_id,
+    b.salavg
+FROM
+    employees a,    (SELECT
+                        department_id,
+                        AVG(salary) salavg
+                    FROM
+                        employees
+                    GROUP BY
+                        department_id) b
+WHERE
+    a.department_id = b.department_id
+    AND a.salary > b.salavg;
+----
+
+== DML: Creando y Manipulando Objetos de la Base de Datos
+
+=== Creando una tabla usando consultas
+
+Si el manejador tiene la opción de copiado masivo de datos (_Bulk
+Copy_), es posible crear tablas (temporales o permanentes) al momento de
+realizar una consulta.
+
+==== Ejemplo: Creando tablas permanentes
+
+[source,sql]
+----
+SELECT
+    * INTO depto100
+FROM
+    employees
+WHERE
+   department_id = 100;
+----
+
+==== Ejemplo: Creando tablas temporales
+
+[source,sql]
+----
+SELECT
+    * INTO #depto100
+FROM
+    employees
+WHERE
+    department_id = 100;
+----
+
+=== Creando una tabla usando Subconsultas
+
+Una tabla puede ser llenada combinando la cláusula `CREATE TABLE` y una
+subconsulta.
+
+* Si especificas columas, debes de hacer coincidir el número de columas
+definidas con las columas regresadas por la subconsulta.
+* Se definen nombres de consultas y valores
+
+[[ejemplo-15]]
+==== Ejemplo
+
+[source,sql]
+----
+CREATE TABLE depto30 AS
+    (SELECT
+        employee_id empno,
+        last_name,
+        first_name
+        salary*12 salanual,
+        hire_date hiredate
+    FROM
+        employees
+    WHERE
+        department_id = 30);
+----
+
+=== Vistas
+
+Es un objeto de la Base de Datos que es una representación lógica de
+subconjuntos de datos de una o más tablas.
+
+==== ¿Por qué vistas?
+
+* Para restringir el acceso a ciertos objetos de la base de datos.
+* Para simplificar consultas complejas.
+* Para permitir independencia de datos.
+* Para personalizar la forma en que se muestran los mismos datos según
+la necesidad de cada tipo de usuario.
+
+==== Estructura de las vistas
+
+* Se incluye una subconsulta en el esta `CREATE VIEW`
+* La subconsulta puede contener sintaxis compleja, incluyendo _joins_,
+subconsultas y grupos.
+* La subconsulta *no* debe contener la cláusula `ORDER BY`.
+
+[source,sql]
+----
+CREATE [OR REPLACE] [FORCE|NONFORCE] VIEW view
+       [(alias[,alias]...)]
+AS subconsulta
+[WITH CHECK OPTION [CONSTRAINT restricción]]
+[WITH READ ONLY]
+----
+
+==== Creando vistas
+
+Crea una vista, `EMPVU10`, que contenga los detalles de los empleados
+del departamento 90.
+
+[source,sql]
+----
+CREATE VIEW vw_emp90
+AS
+    SELECT
+        employee_id,
+        last_name,
+        job_id
+    FROM
+        employees
+    WHERE
+        department_id = 90;
+----
+
+Puedes describir la estructura de la vista usando el comando `DESCRIBE`.
+
+[source,sql]
+----
+DESCRIBE vw_emp90
+----
+
+==== Tipos de vistas
+
+[cols=",,",options="header",]
+|===
+|caracteristicas |vistas simples |vistas complejas
+|Número de tablas |Una |Una o más
+|Contiene funciones |No |Si
+|Contiene Grupos de datos |No |Si
+|DML a través de la vista |Si |No siempre
+|===
+
+==== Modificando una Vista
+
+== DML: Producir impresiones legibles con SQL*Plus
+
+=== Posibilidades de edición
+
+* SQL*Plus almacena un buffer con la última sentencia SQL introducida.
+* Esta sentencia puede ser recuperada para ejecutarla de nuevo con los
+comandos
+** `RUN` Visualiza la sentencia antes de ejecutarla.
+** `/` Ejecuta la sentencia sin visualizarla.
+* También podemos editar la sentencia SQL mediante un editor en línea.
+** `APPEND texto` Añade texto al final de la linea.
+** `CHANGE/fuente/destino` Cambia 'fuente' por 'destino'.
+*** `CHANGE/texto` Quita 'texto' de una linea.
+** `CLEAR BUFFER` borra el buffer.
+** `INPUT` inserta una o más lineas.
+* Podemos acceder desde el editor del sistema operativo al buffer.
+** Necesitamos definir la variable `define_editor` Ej.
+`define_editor=vim`
+** Accedemos al buffer con el comando `edit`.
+
+=== Archivos SPOOL y SQL
+
+* SQL*Plus considera dos tipos de archivos, SPOOL y de comandos.
+** Un archivo SPOOL almacena los comandos y resultados de una o varias
+consultas.
+*** `SPOOL archivo` Iniciamos SPOOL indicando el nombre del archivo de
+salida.
+*** `SPOOL OUT` Manda el archivo SPOOL a la impresora.
+*** `SPOOL OOF` Cierra el archivo SPOOL.
+*** `EXIT` Al salir de la sección se cierran los archivos SPOOL.
+** Los archivos de comando almacenan instrucciones SQL y tiene de
+exención `.sql`.
+*** Para editarlo se usa el comando `EDIT`.
+*** Para ejecutarlo se usa el comando `START archivo` o `@archivo`.
+
+=== Variables de sustitución
+
+* SQL*PLUS puede utilizar el `&` para guardar valores temporalmente.
+** Pueden ser predefinidas con los comandos:
+*** `ACEPT` Lee la linea de entrada y la almacena en una variable.
+*** `DEFINE` Crea y asigna el valor en una variable.
+** Estas variables pueden ser usadas de manera interactivamente en el
+`WHERE`.
+*** Alterar títulos.
+*** Obtener valores de entrada.
+*** Valores de paso, Tomar valores de una secuencia SQL a otra.
+*** Ejemplo:
++
+[source,sql]
+----
+SQL> SELECT empno, ename, sal, depto
+FROM emp
+WHERE empno = &employee_num;
+
+Enter value for employee_num: 7369
+
+EMPNO ENAME SAL  DEPTNO
+----- ----- --- --------
+7369  SMITH 800       20
+
+SQL> define oficio=Analista
+SQL> define tabla=emp
+SQL> select nombre,job from &tabla where job='&oficio';
+old   1: select nombre, oficio from &tabla where oficio='&oficio'
+new   1: select nombre, oficio from emp where oficio='Analista'
+----
+
+=== Comando `SET VERIFY`
+
+* Se usa para confirmar los cambios de las sentencias SQL.
+** Obliga a SQL*PLUS a desplegar el valor de las variables antes y
+despues de reemplazar.
++
+[source,sql]
+----
+SQL> SET VERIFY ON
+SQL> SELECT empno, ename, sal, deptno
+   2 FROM emp
+   3 WHERE empno= &employee_num;
+
+Enter value for employee_num: 7369
+
+Old  3: WHERE empno=&employee_num
+New  3: WHERE empno=7369
+----
+
+=== Doble && para la sustitución de variables
+
+* Se puede utilizar para la sustitución de variables
+** Solo es una sustitución de un solo uso, después volverá a ser el
+anterior
+
+[source,example]
+----
+SQL> SELECT empno, ename, job, &&column_name
+FROM emp
+ORDER BY &colum_name
+
+Enter value for colum_name: deptno
+
+EMPNO ENAME  JOB      DEPTNO
+----- ------ -------------- ------
+ 7839 KING  PRESIDENT         10
+ 7782 CLARK  MANAGER    10
+ 7934 MILLER CLERK    10
+----
+
+=== Definiendo variables de usuario
+
+* Se pueden predefinir variables de usuario antes de ejecutar una
+sentencia.
+** `DEFINE variable=value` Crea una variable tipo CHAR y le asigna un
+valor.
+** `DEFINE variable` Despliega una variable, su valor y su tipo de dato.
+** `DEFINE` Despliega todas las variables de usuario y su información
+** `ACCEPT` Lee a una linea de entrada del usuario y almacena la
+variable.
+
+==== Comando `ACCEPT`
+
+* Explícitamente define una variable de tipo NUMBER o DATE.
+* Oculta la entrada del usuario por razones de seguridad.
+* `ACCEPT varibale [datatype] [FORMAT format] [PROMPT text] [HIDE]`
+** Variable: el nombre de la variable que almacena el valor.
+** DATATYPE: Puede ser NUMBER, CHAR o DATE.
+** FORMAT: Especifica el formato, por ejemplo A10, 9,999.
+** PROMPT: text, es el texto que se despliega antes de que el usuario
+introduzca el valor.
+** HIDE: Oculta el valor que introduce el usuario.
++
+[source,example]
+----
+ACCEPT p_dept PROMPT ‘Provide the department name:’
+SELECT *
+FROM dept
+WHERE dname = UPPER(‘&p_dept’)
+
+Provide the department name: Sales
+
+DEPTNO DNAME LOC
+------ ---------- -------
+    30 SALES CHICAGO
+----
+
+==== Comandos `DEFINE` y `UNDEFINE`
+
+* Las variables son definidas hasta que:
+** Se use el comando `UNDEFINE`.
+** Salga de SQL*PLUS.
+** Se modifica el archivo *login.sql* para que cada variable sea creada
+al iniciar.
+** Ejemplo:
+*** Se crea una variable para almacenar el nombre del departamento.
++
+[source,example]
+----
+SQL> DEFINE deptname=sales
+SQL> DEFINE deptname
+DEFINE deptname   = “sales”(CHAR)
+----
+*** Se crea la variable deptname, y la sentencia despliega.
++
+[source,example]
+----
+SQL> SELECT *
+FROM dept
+WHERE dname = UPPER(‘&deptname’);
+
+DEPTNO DNAME  LOC
+------ ------ -------
+    30 SALES  CHICAGO
+----
+*** Para borrar la variable definida, se usa `UNDEFINE`.
++
+[source,example]
+----
+SQL> UNDEFINE deptname
+SQL> DEFINE deptname
+Symbol deptname is UNDEFINE.
+----
+
+=== Personalizando el ambiente de SQL*PLUS
+
+* Se usan los comandos `SET` para controlar la sesión actual.
+** `SET system_variable value`
+* Se pueden verificar los contenidos de las variables con `SHOW`.
++
+[source,example]
+----
+SQL> SET ECHO ON
+SQL> SHOW ECHO
+echo ON
+----
+* Para poder mostrar todos los valores del comando `SET` se usa
+`SHOW ALL`.
+* El archivo *login.sql* contiene todos los comandos SQL y `SET` con
+valores standard.
+
+=== Comandos para dar formato SQL*Plus
+
+* `COL[UMN] {clumn option}` controla el formato de las columnas.
+* `TITI[tle] {text OFF/ON}` Especifica un titulo para cada página del
+reporte.
+* `BTI[TLE] {text OFF/ON}` Especifica un pie de página para el reporte.
+* `BRE[AK] {ON report_element}` Suprime valores duplicados y selecciona
+filas de datos con avances de linea.
++
+____
+Todos los comandos de formato siguen teniendo efecto hasta al final de
+la sesión
+____
+
+==== El comando `COLUMN`
+
+Opciones:
+
+* `CLE[AR]` Borra el formato de cualquer columna.
+* `FOR[MAT] format`
+* `HEA[DING] text` Fija el titulo en la columna.
+* `JUS[TIFY] {align}` Justifica el titulo de la columna ya sea
+izquierda, centro o derecha.
+* `NOPRI[INT]` Oculta la columna.
+* `NUL[L] text` Especifica el texto que se desplegará para los valores
+`NULL`.
+* `PRI[NT]` Muestra la columna.
+* `TRU[NCATED]` Trunca la secuencia en el extremo de la primera linea
+del informe.
+* `WRA[PED]` Cambia el final de la palabra a la siguiente linea.
+
+Para realizar ajustes actuales para las columnas, se usan:
+
+* `COL[UMN] column` Despliega el valor de la columna especificada.
+* `COL[UMN]` Despliega el valor de todas las columnas.
+* `COL[UMN] column CLEAR` Quita ajustes para la columna especifica.
+* `CLE[AR] COL[UMN]` Quita ajustes para todas las columnas.
+
+. Ejemplo
+.. Crear títulos para las columnas
++
+[source,sql]
+----
+COLUMN ename HEADING ‘Employee|Name’ FORMAT A15
+COLUMN sal JUSTIFY LEFT FORMAT $99,990.00
+COLUMN mgr FORMAT 999999999 NULL ‘No manager’
+
+Select ename,sal,mgr from emp;
+
+----
+.. Despliega el valor actual para el nombre.
++
+[source,sql]
+----
+COLUMN ename
+----
+
+==== Comandos `TITLE` y `BTITLE`
+
+* Formato para títulos y Pie de página.
+** `TI[TLE] [text|OFF|ON]`.
+* Especificar el título del reporte.
+** `SQL> TTITLE ‘Salary|Report’`.
+* Especificar el pie de página.
+** `SQL> BTITLE ‘Confidential’`.
+* Se usa la `|` (barra vertical) para separar el titulo en varias
+lineas.
+
+==== Comando `BREAK`
+
+* Elimina las filas duplicadas.
+* Para suprimir los duplicados.
+** `SQL> BREAK ON ename ON job`.
+* Para seleccionar un grupo de filas.
+** `SQL> BREAK ON ename SKIP 4 ON job SKIP 2`
+* se puede usar el comando para seleccionar un grupo de filas y eliminar
+valores duplicados.
+* Sintaxis:
+** `BREAK on column [|alias|row] [skip n|dup|page] on … [on report]`
+** Donde:
+*** `page` - Cambia a una pagina nueva cuando el valor de `BREAK`
+cambia.
+*** `skip n` - Salta n número de llenas cuando el valor de `BREAK`
+cambia y puede ser activado con:
+**** `Column`.
+**** `Row`.
+**** `Page`.
+**** `Report`.
+*** `Duplicate` - Despliega los valores duplicados.
+* Para limpiar todos los valores de `BREAK` se utiliza el comando
+`CLEAR`.
+
+==== Crear un fichero FLAT (plano)
+
+* Para mover datos entre diverso software a veces es necesario utilizar
+un archivo FLAT.
+** FLAT = Un archivo sin caracteres de escape, títulos o caracteres
+adicionales.
+* Para lograr un archivo FLAT se utilizan los siguientes `SET`.
++
+[source,sql]
+----
+SET NEWPAGE 0
+SET SPACE 0
+SET LINESIZE 80
+SET PAGESIZE 0
+SET ECHO OFF
+SET FEEDBACK OFF
+SET HEADING OFF
+----
+
+==== Lineas de comandos SQL*PLUS
+
+== Crear y administrar tablas que incluyan _constraints_
+
+=== Integridad de los datos
+
+* El objetivo en cuanto integridad es proteger la base de datos contra
+operaciones que puedan traer inconsistencias en los datos.
+* Integridad de datos:
+** Es el grado en el cual los datos son correctos.
+** Cuando una base de datos contiene errores pierde integridad.
+** Garantiza que los datos en una base de datos se adhieran a un sistema
+de reglas predefinidas.
+* Reglas de integridad
+** Integridad de la entidad:
+*** Mantiene los datos dentro de una entidad.
+** Integridad referencial:
+*** Mantiene los datos entre tablas.
+** integridad de la columna:
+*** Valores que contienen constantes el formato de datos definidos.
+** Integridad definida por el usuario:
+*** Los datos almacenados en la base de datos deben de seguir las reglas
+de negocios.
+
+=== Tipos de integridad
+
+Las siguientes reglas se aplican a tablas y permiten hacer cumplir
+diversos tipos de integridad de datos.
+
+* `NULLs`
+** Es una regla definida en una columna que permite que un dato contenga
+un `NULL`.
+* `UNIQUE COLUMN VALUES`
+** Es una regla definida en una columna que permite que haya una valor
+único por columna.
+* `PRIMARY KEY VALUES`
+** Es una regla definida en una columna para identificar únicamente a
+una fila en una tabla.
+* `REFERENCIAL INTEGRITY`
+** Es una regla definida en una columna que permite que el `insert` o el
+`update` de registros para que solamente si el valor de la columna o
+sistema de columnas empareja un valor en una columna de una tabla
+relacionada.
+** Hay otras reglas que se relacionan con la integridad referencial:
+*** `RESTRICT`
+**** Regla que rechaza la actualización o eliminación de datos
+referidos.
+*** `SET TO NULL`
+**** Cuando los datos referidos son actualizados o borrados, todos se
+fijan a un valor default.
+*** `CASCADE`
+**** Cuando los datos referidos son actualizados, todos los datos
+dependientes asociados son correspondientemente actualizados.
+*** `COMPLEX INTEGRITY CHEKING`
+**** Una regla definida por el usuario para una columna que permite
+`inserts`, `update`, `delete` de registros basados en el valor que
+contiene para la columna.
+
+=== Tipos de constraints
+
+Oracle soporta los siguientes constraints de integridad:
+
+* `NOT NULL`
+** Especifica que una columna no puede contener valores nulos.
+* `UNIQUE`
+** Asegura que los valores de una columna no pueden ser iguales.
+* `PRIMARY KEY`
+** Asegura que cada registro de la tabla debe contener una entrada que
+distinga únicamente a la fila de cualquier otra fila.
+* `FOREGIN KEY`
+** Se asegura que cada fila en una tabla pueda tener una relación a los
+datos en otra tabla.
+** pag 4
