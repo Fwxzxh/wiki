@@ -2,7 +2,7 @@
 title: Guia Csharp
 description: 
 published: true
-date: 2022-12-26T00:24:16.774Z
+date: 2022-12-26T00:42:00.755Z
 tags: c#, oop
 editor: markdown
 dateCreated: 2022-12-26T00:14:27.129Z
@@ -56,23 +56,18 @@ int myAge = 18;
 ## Tipos de datos
 
 - Hay algunos tipos de datos por defecto en C#.
-  `int`  
-  Entero.
-
-  `float`  
-  Números de coma flotante (Con decimales pues.).
-
-  `double`  
-  Una versión con más precisión (más dígitos) de float.
-
-  `char`  
-  Un carácter.
-
-  `bool`  
-  `true` o `false`.
-
-  `string`  
-  Cadenas de caracteres.
+    - `int`  
+        - Entero.
+    - `float`  
+        - Números de coma flotante (Con decimales pues.).
+    - `double`  
+        - Una versión con más precisión (más dígitos) de float.
+    - `char`  
+        - Un carácter.
+    - `bool`  
+        - `true` o `false`.
+    - `string`  
+        - Cadenas de caracteres.
 
 > valores `char` son definidos con comillas simples y `string` con
 > comillas dobles.
@@ -2463,50 +2458,37 @@ List<int> li = new List<int>();
   ser agregados y removidos de manera dinámica.
 - Requiere que todos los elementos sean del mismo tipo.
 - Incluye los siguientes métodos:
-  `Count`  
-  Obtiene el número de elementos que contiene la lista.
-
-  `Add`  
-  Añade un elemento al final de la lista.
-
-  `RemoveAt(int index)`  
-  Remueve un elemento en el índice dado.
-
-  `Sort()`  
-  Ordena los elementos de la lista.
-
-  `Capacity`  
-  Obtiene el número de elementos que la lista puede tener antes de
-  cambiar de tamaño.
-
-  `Clear()`  
-  Remueve los elementos de la lista.
-
-  `TrimExess()`  
-  Pone la capacidad de la lista a el número actual de elementos, útil
-  para reducir memoria.
-
-  `AddRange(IEnumerable coll)`  
-  Añade los elementos de una colección con los elementos del mismo tipo
-  de la lista al final de esta.
-
-  `Insert(int i, T t)`  
-  Inserta el elemento t en el índice i.
-
-  `Remove(T t)`  
-  Remueve la primera ocurrencia de el elemento t en la lista.
-
-  RemoveRange(int i, int count)  
-  Remueve un rango de elementos de la lista.
-
-  `Contains(T t)`  
-  Retorna `true` si el elemento especificado existe en la lista.
-
-  `Reverse()`  
-  Invierte el orden de los elementos en la lista.
-
-  `ToArray()`  
-  Copia los elementos de la lista en un nuevo arreglo.
+    - `Count`  
+        - Obtiene el número de elementos que contiene la lista.
+    - `Add`  
+        - Añade un elemento al final de la lista.
+    - `RemoveAt(int index)`  
+        - Remueve un elemento en el índice dado.
+    - `Sort()`  
+        - Ordena los elementos de la lista.
+    - `Capacity`  
+        - Obtiene el número de elementos que la lista puede tener antes de
+        cambiar de tamaño.
+    - `Clear()`  
+        - Remueve los elementos de la lista.
+    - `TrimExess()`  
+        - Pone la capacidad de la lista a el número actual de elementos, útil
+        para reducir memoria.
+    - `AddRange(IEnumerable coll)`  
+        - Añade los elementos de una colección con los elementos del mismo tipo
+        de la lista al final de esta.
+    - `Insert(int i, T t)`  
+        - Inserta el elemento t en el índice i.
+    - `Remove(T t)`  
+        - Remueve la primera ocurrencia de el elemento t en la lista.
+        RemoveRange(int i, int count)  
+        Remueve un rango de elementos de la lista.
+    - `Contains(T t)`  
+        - Retorna `true` si el elemento especificado existe en la lista.
+    - `Reverse()`  
+        - Invierte el orden de los elementos en la lista.
+    - `ToArray()`  
+        - Copia los elementos de la lista en un nuevo arreglo.
 
 ### `SortedList`
 
@@ -2524,22 +2506,17 @@ List<int> li = new List<int>();
 - Normalmente son usados para representar un grupo de banderas
   booleanas.
 - Contiene las siguientes propiedades y métodos:
-  `Count`  
-  Obtiene el número de bits en el arreglo.
-
-  `IsReadOnly`  
-  Obtiene un valor indicando si el `BitArray` es de solo lectura.
-
-  `SetAll(bool value)`  
-  Pone todos los valores del arreglo en un valor especifico.
-
-  `And(BitArray ba)`  
-  Aplica un `and` al `BitArray` dado con el valor `ba`.
-
-  - También puedes hacer `Or, Xor`.
-
-  `Not()`  
-  Invierte los valores del `BitArray`.
+    - `Count`  
+        - Obtiene el número de bits en el arreglo.
+    - `IsReadOnly`  
+        - Obtiene un valor indicando si el `BitArray` es de solo lectura.
+    - `SetAll(bool value)`  
+        - Pone todos los valores del arreglo en un valor especifico.
+    - `And(BitArray ba)`  
+        - Aplica un `and` al `BitArray` dado con el valor `ba`.
+        - También puedes hacer `Or, Xor`.
+    - `Not()`  
+        - Invierte los valores del `BitArray`.
 - Los `BitArray` pueden usarse para el procesamiento de imágenes.
 
 ## `Stack` y `Queue`
