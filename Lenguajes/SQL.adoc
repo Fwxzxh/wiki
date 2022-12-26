@@ -1,4 +1,4 @@
-link:~/org/Files/index.org[Índice]
+
 
 [[ddl-creando-y-manipulando-objetos-de-la-base-de-datos]]
 == [.todo .TODO]#TODO# DDL: Creando y Manipulando Objetos de la Base de Datos
