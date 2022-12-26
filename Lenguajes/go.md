@@ -2,7 +2,7 @@
 title: Go
 description: 
 published: true
-date: 2022-12-26T00:49:04.719Z
+date: 2022-12-26T08:53:36.242Z
 tags: go
 editor: markdown
 dateCreated: 2022-12-26T00:49:04.719Z
