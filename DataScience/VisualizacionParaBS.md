@@ -2,7 +2,7 @@
 title: Curso de principios de visualización de datos para Business Intelligence
 description: 
 published: true
-date: 2022-12-25T06:59:54.975Z
+date: 2022-12-26T08:42:48.231Z
 tags: cursos, data science, visualización
 editor: markdown
 dateCreated: 2022-12-25T06:56:13.447Z
@@ -46,8 +46,7 @@ Visualization](https://datavizcatalogue.com/ES/index.html)
   - Todo para evitar confundir los números.
 - Simplificar pero no recortar.
 - Disminuir el sesgo (bias), no `cherry-picking`.
-- Principios
-  [Gestalt](file:///mnt/e/KnowledgeBase/Brain.dump/Files/Cursos/Diseno/IntroduccionDiseno.org).
+- Principios [Gestalt](/Cursos/Diseno/IntroduccionDiseno)
 
 ## Conflictos de ética en la ciencia de datos y `Big data`
 
