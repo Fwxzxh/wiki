@@ -2,7 +2,7 @@
 title: Guia Csharp
 description: 
 published: true
-date: 2022-12-26T00:19:33.880Z
+date: 2022-12-26T00:21:13.149Z
 tags: c#, oop
 editor: markdown
 dateCreated: 2022-12-26T00:14:27.129Z
