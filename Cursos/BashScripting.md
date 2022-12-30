@@ -2,7 +2,7 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-24T17:30:23.686Z
+date: 2022-12-30T16:55:41.031Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z
@@ -251,7 +251,7 @@ Permite ingresar una frase o prompt a la hora de leer un dato.
 `read -s`  
 No muestra ningún carácter en la terminal (bueno para contraseñas)
 
-=read -n\[num\]  
+`read -n [num]`
 permite leer como máximo n caracteres.
 
 `read -r`  
