@@ -2,13 +2,13 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-30T20:49:02.533Z
+date: 2022-12-30T21:57:49.639Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z
 ---
 
-[Cheatsheet](https://devhints.io/bash)
+[CheatSheet](https://devhints.io/bash)
 
 # Programación de shell básica
 
@@ -91,16 +91,16 @@ Tenemos dos tipos de variables:
 ``` bash
 #!/usr/bin/bash
 # Programa para verificar la declaración de variables.
-# definicon de variables a nivel de programa
-opcion=0
+# definición de variables a nivel de programa
+option=0
 nombre=David
 
-echo "Opcion: $opcion y nombre: $nombre"
+echo "Opción: $option y nombre: $nombre"
 
 ```
 
 ``` example
-Opcion: 0 y nombre: David
+Opción: 0 y nombre: David
 ```
 
 - Estas variables solo son accesibles en el proceso en el que fueron
@@ -154,8 +154,8 @@ El nombre de la shell o del script de shell
 numA=5 # todo junto <---
 numB=10
 
-echo "A + B =" $((numA + numB)) # los operadores aritmeticos y relacionales son los mismos que siempre
-# operadores de asignación tambien son los nomrales +=, -=, etc
+echo "A + B =" $((numA + numB)) # los operadores aritméticos y relacionales son los mismos que siempre
+# operadores de asignación también son los normales +=, -=, etc
 
 ```
 
@@ -191,8 +191,8 @@ nombreCurso=$1
 horarioCurso=$2
 
 echo "El nombre el curso es $nombreCurso y el horario es $horarioCurso"
-echo "El numero de parametros dados es $#"
-echo "los parametros enviados son $*"
+echo "El numero de parámetros dados es $#"
+echo "los parámetros enviados son $*"
 
 ```
 
@@ -201,8 +201,8 @@ echo "los parametros enviados son $*"
 ``` example
 pi@rasp-server:~/bashCourse $ ./argumentos.sh bashCourse "10 a 11 am"
 El nombre el curso es bashCourse y el horario es 10 a 11 am
-El numero de parametros dados es 2
-los parametros enviados son bashCourse 10 a 11 am
+El numero de parámetros dados es 2
+los parámetros enviados son bashCourse 10 a 11 am
 pi@rasp-server:~/bashCourse $
 ```
 
@@ -227,7 +227,7 @@ ubicacionActual='pwd'
 infoKernel=$(uname -a)
 
 echo "ruta actual $ubicacionActual"
-echo "información del kenrel $infoKernel"
+echo "información del Kernel $infoKernel"
 ```
 
 </div>
@@ -235,7 +235,7 @@ echo "información del kenrel $infoKernel"
 ``` example
 pi@rasp-server:~/bashCourse $ ./comandos.sh
 ruta actual /home/pi/bashCourse
-información del kenrel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
+información del kernel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
 ```
 
 ## Debug un script
@@ -270,8 +270,8 @@ pi@rasp-server:~/bashCourse $ bash -x comandos.sh
 + infoKernel='Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux'
 + echo 'ruta actual /home/pi/bashCourse'
 ruta actual /home/pi/bashCourse
-+ echo 'información del kenrel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux'
-información del kenrel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
++ echo 'información del kernel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux'
+información del Kernel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
 
 ```
 
@@ -336,9 +336,9 @@ Hay dos maneras:
 
 ## Paso de parametros y opciones
 
-- Opciones vs Paramétros.
-- Envio independiente.
-- Envio complementario.
+- Opciones vs Parámetros.
+- Envió independiente.
+- Envió complementario.
 - Leer los valores.
 
 
@@ -373,7 +373,7 @@ done
 ``` example
 
 pi@rasp-server:~/bashCourse $ ./opciones.sh -a -b holaaaa
-Progama opciones
+Programa opciones
 Opcion 1 enviada -a
 Opcion 2 enviada -b
 Opcion 3 enviada holaaaa
@@ -381,8 +381,8 @@ opciones enviadas -a -b holaaaa
 
 
 Recuperando valores
-Opcion -a utilzada
-Opcion -b utilzada
+Opcion -a utilizada
+Opcion -b utilizada
 
 ```
 
@@ -404,7 +404,7 @@ wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.
 ## `If else`
 
 ``` bash
-if [ contidion ]; then # siembre debe de haber espeacios entre las llaves
+if [ contidion ]; then # siembre debe de haber espacios entre las llaves
     statement1
 elif [ condition ]; then
     statement2
@@ -429,9 +429,9 @@ edad=0
 read -n1 -p "Indique cual es su nota: " notaClase
 echo -e "\n"
 if (( $notaClase >= 7 )); then # (()) y [] son lo mismo.
-        echo "El alumno aprobo"
+        echo "El alumno aprobó"
 else
-        echo "El alumno reprobo"
+        echo "El alumno reprobó"
 fi
 
 read -p "Indique su edad: " edad
@@ -449,7 +449,7 @@ fi
 pi@rasp-server:~/bashCourse $ ./if.sh
 Indique cual es su nota: 8
 
-El alumno aprobo
+El alumno aprobó
 Indique su edad: 19
 la persona puede sufragar
 
@@ -505,12 +505,12 @@ Así, las diferencias entre uno y otro son las siguientes:
 
 #!/bin/bash
 
-opcion=""
+option=""
 echo "Ejemplo sentencia case"
-read -p "Ingrese la opción de la A - Z: " opcion
+read -p "Ingrese la opción de la A - Z: " option
 echo -n "\n"
 
-case $opcion in
+case $option in
         "A") echo "Operación guardar archivo";;
         "B") echo "Operación Eliminar archivo";;
         [C-E]) echo "No esta implementada la operación";; # <- en el rango de C a E.
@@ -536,7 +536,7 @@ Script `arreglos.sh`
 
 arregloNumeros=(1 2 3 4 5 6)
 arregloCadenas=(Marco, Antonio, Pedro, Susana)
-arregloRangos=({A..Z} {10..20})  # list comprehencion
+arregloRangos=({A..Z} {10..20})  # list comprehension
 
 
 echo "Arreglo números: ${arregloNumeros[*]}" # imprime todos los elementos
@@ -582,7 +582,7 @@ archivo `for.sh`
 
 arregloNumeros=(1 2 3 4 5 6 7)
 
-echo "iterar en una lista de numeros"
+echo "iterar en una lista de números"
 for num in ${arregloNumeros[*]}
 do
     echo "Numero: $num"
