@@ -2,7 +2,7 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-30T19:44:02.218Z
+date: 2022-12-30T20:49:02.533Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z
@@ -163,7 +163,7 @@ echo "A + B =" $((numA + numB)) # los operadores aritmeticos y relacionales son 
 A + B = 15
 ```
 
-Para aplicar formato al echo podemos usar `echo -e "\ntexto aqui"`
+Para aplicar formato al echo podemos usar `echo -e "\ntexto aquí"`
 
 ## Script con argumentos
 
