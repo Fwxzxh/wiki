@@ -2,11 +2,13 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-30T16:55:41.031Z
+date: 2022-12-30T19:44:02.218Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z
 ---
+
+[Cheatsheet](https://devhints.io/bash)
 
 # Programación de shell básica
 
@@ -110,6 +112,40 @@ Opcion: 0 y nombre: David
     #!/usr/bin/bash
     nombre=Daniel
     export nombre
+
+### Variables especiales
+
+`$1, $2, $3, $...`
+Parámetros de posición que hacen referencial al primer, segundo, etc. parámetro pasado al script
+
+`$_`
+El ultimo argumento pasado al ultimo comando ejecutado (Justo después de arrancar la shell)
+este valor guarda la ruta absoluta del comando que inicio la shell.
+
+`$*`
+La lista completa de argumentos pasados al script. 
+Este valor es una cadena de texto.
+
+`$@`
+la lista completa de argumentos pasados al script, este valor es un array
+
+`$-`
+La lista de opciones de la shell actual
+
+`$$`
+El PID de la shell actual
+
+`$IPS`
+El separador utilizado para delimitar los campos.
+
+`$?`
+El código de salida del pipe más reciente.
+
+`$!`
+El PID del último comando ejecutado en segundo plano.
+
+`$0`
+El nombre de la shell o del script de shell
 
 ## Tipos de operadores
 
@@ -487,7 +523,7 @@ esac
 ## Arreglos
 
 - Para remover elementos de un arreglo se ocupa el comando
-  `unset nombreAregglo[pos]`.
+  `unset nombreArreglo[pos]`.
 - Índice 0.
 
 
@@ -504,14 +540,14 @@ arregloRangos=({A..Z} {10..20})  # list comprehencion
 
 
 echo "Arreglo números: ${arregloNumeros[*]}" # imprime todos los elementos
-echo "Arreglo de cadenas: ${arregloCadenaas[*]}"
+echo "Arreglo de cadenas: ${arregloCadenas[*]}"
 echo "Arreglo de rangos: ${arregloRangos[*]}"
 
 
 echo "Arreglo números: ${#arregloNumeros[*]}" # imprime la longitud del arreglo
 
 
-echo "Arreglo de cadenas: ${arregloCadenaas[3]}" # elemento en posisción 3
+echo "Arreglo de cadenas: ${arregloCadenas[3]}" # elemento en posición 3
 
 
 arregloNumeros[5]=20 # Cambiamos el elemento 5
@@ -957,6 +993,13 @@ mv backupScripts $HOME
 echo -e "\nEliminar los archivos .txt"
 rm *.txt
 ```
+## Empaquetamiento
+
+**tar**
+Empaqueta múltiples archivos>
+
+**gzip**
+Comprime un archivo.
 
 ## Empaquetamiento de archivos usando `tar`
 
@@ -980,11 +1023,32 @@ tar -cvf shellCourse.tar *.sh
 echo "Empaquetar todos los scripts de la carpeta shellCourse"
 tar -cvf shellCourse.tar *.sh
 
-# cuando se empaqueta con gzip el empquetamiento anterior se elimina.
+# cuando se empaqueta con gzip el empaquetamiento anterior se elimina.
 gzip shellCourse.tar
 
 echo "Empaquetar un solo archivo, con un ratio de 9"
 gzip -9 9_options.sh
+```
+
+## Empaquetamiento con clave
+```bash
+echo "Empaquetar todos los scripts de la carpeta con zip y asignarle la clave de seguridad"
+zip -e shellCourse.zip *.sh
+```
+
+## Transferir información red
+```bash
+host = ""
+usuario = ""
+
+echo "mandando archivos por la red"
+read -p "Ingresar el host:" host
+read -p "Ingresar el usuario:" usuario
+echo -e "\n En este momento se procederá a empaquetar la carpeta y transferirla según los datos dados\n"
+
+rsync -avz $(pwd) $usuario@$hostA:/home/$usuario
+# podemos hacer la operación inversa (traernos los archivos de un host remoto con)
+# $rsync -avz user@host/directory 
 ```
 
 # Funciones
@@ -999,13 +1063,13 @@ gzip -9 9_options.sh
 
 opcion=0
 
-# funcion para instalar sql
+# función para instalar sql
 instalarSQL() {
-    ehco "instalando SQL"
+    echo "instalando SQL"
 }
 
 desinstalarSQL() {
-    ehco "desinstalando SQL"
+    echo "desinstalando SQL"
 }
 
 # ...
@@ -1060,6 +1124,8 @@ case $option in
 # ...
 ```
 
-## Ejecutar funcion en segundo plano
+## Ejecutar función en segundo plano
 
 - Para ejecutar una función o comando se utiliza el operador `&`.
+
+-
