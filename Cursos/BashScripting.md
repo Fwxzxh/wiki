@@ -2,7 +2,7 @@
 title: Bash Scripting
 description: Introducción corta al scripting en bash
 published: true
-date: 2022-12-30T21:57:49.639Z
+date: 2022-12-31T01:55:49.248Z
 tags: cursos, bash, scripting, linux
 editor: markdown
 dateCreated: 2022-12-24T17:24:43.512Z
@@ -107,11 +107,12 @@ Opción: 0 y nombre: David
   creadas.
 - Podemos usar la palabra `export` para utilizarlas afuera.
 
-<!-- -->
 
-    #!/usr/bin/bash
-    nombre=Daniel
-    export nombre
+``` bash
+#!/usr/bin/bash
+nombre=Daniel
+export nombre
+```
 
 ### Variables especiales
 
@@ -240,15 +241,15 @@ información del kernel Linux rasp-server 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:3
 
 ## Debug un script
 
-- Para debugear un script de bash tenemos los siguientes argumentos del
-  comando `bash`.
-  `-v`  
-  Utilizado para ver el resultado detallado de nuestro script, evaluado
-  línea por línea.
+- Para debugear un script de bash tenemos los siguientes argumentos del comando `bash`.
 
-  `-x`  
-  Se utiliza para desplegar la información de los comandos que son
-  utilizados, capturando el comando y su salida.
+`-v`  
+Utilizado para ver el resultado detallado de nuestro script, evaluado
+línea por línea.
+
+`-x`  
+Se utiliza para desplegar la información de los comandos que son
+utilizados, capturando el comando y su salida.
 
 ``` example
 
