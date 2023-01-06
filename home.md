@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2022-12-26T04:40:57.761Z
+date: 2023-01-06T16:24:17.776Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -10,8 +10,7 @@ dateCreated: 2022-12-14T06:01:09.312Z
 
 # Brain.dump()
 
-Este es mi pequeño Personal Knowledge Management System en el cuál guardo todo lo que a mi cerebro 
-le da pereza recordar, además de una que otra cosa más.
+Este es mi pequeño Personal Knowledge Management System en el cuál guardo todo lo que a mi cerebro le da pereza recordar, además de una que otra cosa más.
 
 > “Personal knowledge management (PKM) is a collection of processes that a person uses to gather, classify, store, search, retrieve and share knowledge in their daily activities (Grundspenkis 2007) and the way in which these processes support work activities (Wright 2005). It is a response to the idea that knowledge workers need to be responsible for their own growth and learning (Smedley 2009). It is a bottom-up approach to knowledge management (KM) (Pollard 2008).” [Wikipedia](https://www.wiki.fwxzxh.com/Publ/#:~:text=KM)
 
