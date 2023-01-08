@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-08T04:03:59.245Z
+date: 2023-01-08T17:32:43.756Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -190,4 +190,3 @@ dateCreated: 2022-12-25T07:16:44.158Z
       - Las cosas de valor (activos).
       - Deudas (pasivos).
       - Lo que le queda a los socios después de descontar las deudas (patrimonio).
-  - 
