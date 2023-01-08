@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2022-12-25T07:16:49.396Z
+date: 2023-01-08T04:03:59.245Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -130,5 +130,64 @@ dateCreated: 2022-12-25T07:16:44.158Z
     - Como y con quien me comparo.
 
 ## Como evaluar subjetivamente nuestra situación financiera
+- Qué evaluar?
+    - Nuestros ingresos y gastos (flujo de caja)
+      - Cuánto dinero me ingresa?
+      - Cuándo me ingresa? 
+      - En qué gasto?
+      - Cuánto gasto?
+    - Deudas (Pasivos)
+      - Cuánto pago mensualmente?
+      - Qué tan grandes son?
+      - Qué costo asumo?
+      - Para qué me endeude?
+    - Bienes y Derechos (Activos)
+      - Nivel de ahorro
+      - Liquidez (con cuanto dinero disponible contamos)
+      - Productividad
 
-- 
+## Como evaluar relativamente nuestra situación financiera
+- Evaluación en comparación con...
+- Es muy difícil compararnos.
+- La riqueza es relativa de tu contexto y el lugar donde vives
+- Nos comparamos con buenos referentes o sólo estamos agregando estrés a nuestras vidas?  
+- Las finanzas personales son más personales que financiera
+
+# Cómo crear nuestro propio plan financiero
+## Por qué, para qué y cuándo planear?
+**Por qué planear?**
+> - Minino de Cheshire, ¿podrías decirme, por favor, qué
+> camino debo seguir para salir de aquí?
+> - Esto depende en gran parte del sitio al que quieras llegar
+> -dijo el Gato.
+> - No me importa mucho el sitio... -dijo Alicia.
+> - Entonces tampoco importa mucho el camino que tomes
+> -dijo el Gato.
+> - ... siempre que llegue a alguna parte -
+> añadió Alicia como explicación.
+> - ¡Oh, siempre llegarás a alguna parte - aseguró el Gato-,
+> ¡si caminas lo suficiente!
+
+**Siempre es necesario saber a donde vamos**
+---
+
+- El tiempo es **mucho** más valioso que el mismo dinero.
+  - Aprox durante 4 meses en el año la pasamos durmiendo.
+  - Si contamos el transporte y cuando comemos podemos restar 1 mes aprox.
+  - Aproximadamente solo tenemos 6 meses para hacer cosas realmente, lo demás se nos va en otras cosas.
+- Por lo tanto es importante empezar a planear a donde queremos ir ya que el tiempo es finito.
+
+## Analizar nuestro ahorro y estrategias de inversión
+- Nuestro estado actual.
+- En las empresas se hacen 3 tipos de informes:
+  - Estado de resultados.
+    - Nos muestra como la empresa: Vende, Gasta y Genera utilidades.
+  - Flujo de caja.
+    - Como se mueve el efectivo dentro de la compañía.
+  - En nuestro caso el estado de resultado el flujo de caja y el estado de resultados se juntan
+  - Situación financiera.
+    - Muestra:
+      - Las cosas de valor (activos).
+      - Deudas (pasivos).
+      - Lo que le queda a los socios después de descontar las deudas (patrimonio).
+  - 
