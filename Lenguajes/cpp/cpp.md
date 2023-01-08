@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2022-12-25T20:32:14.368Z
+date: 2023-01-08T02:54:05.872Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
@@ -257,7 +257,31 @@ x++; // equivalente a x = x + 1
 x--; // equivalente a x = x - 1
 ```
 
-Hay dos formas de este operador, prefix y posfix
+Hay dos formas de este operador, prefix y postfix
+
+```cpp
+++x; // prefix
+x++; // postfix
+```
+
+* **Prefix** Incrementa el valor y después procede con la expresión.
+* **Postfix** Evalúa la expresión y después hace el incremento.
+
+**Prefix**
+```cpp
+x = 5;
+y = ++x;
+// x es 6, y es 6
+```
+> Incrementamos el valor de x y después lo asignamos a y
+
+**Postfix**
+```cpp
+x = 5;
+y = x++;
+// x es 6, y es 5
+```
+> Asignamos el valor de x a y y después incrementamos.
 
 
 
