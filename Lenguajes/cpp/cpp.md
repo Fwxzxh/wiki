@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2023-01-08T02:54:05.872Z
+date: 2023-01-10T04:50:51.831Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
@@ -283,6 +283,50 @@ y = x++;
 ```
 > Asignamos el valor de x a y y después incrementamos.
 
+# Condicionales
 
+## `if`
+Es usado para ejecutar un bloque de código si la condición es verdadera,
+si no, el bloque de código es ignorado.
+
+```cpp
+if (condition) {
+    // statements
+}
+```
+
+```cpp
+if (7 > 4) {
+    cout << "Yes";
+}
+```
+
+```cpp
+if (7 != 10) {
+    cout << "Yes";
+}
+```
+
+## `else`
+Un `if` puede proseguir con un bloque `else` opcional, el cual se ejecuta si la condición es falsa.
+
+```cpp
+if (condition) {
+  //statements
+}
+else {
+ //statements
+}
+```
+
+## ciclos
+Un ciclo repite un bloque de código hasta que una condición es satisfecha.
+
+un ciclo `while` ejecuta un bloque de código mientras una condición se cumpla.
+```cpp
+while (condition) {
+    // statements..
+}
+```
 
 ![cirno_kirisame_marisa_learning_programming_cpp.png](/lenguajes/cpp/cirno_kirisame_marisa_learning_programming_cpp.png){.align-center}
