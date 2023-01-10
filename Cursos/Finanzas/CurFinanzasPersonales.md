@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-08T17:32:43.756Z
+date: 2023-01-10T05:26:31.621Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -184,9 +184,27 @@ dateCreated: 2022-12-25T07:16:44.158Z
     - Nos muestra como la empresa: Vende, Gasta y Genera utilidades.
   - Flujo de caja.
     - Como se mueve el efectivo dentro de la compañía.
-  - En nuestro caso el estado de resultado el flujo de caja y el estado de resultados se juntan
+  - En nuestro caso (personal) el estado de resultado el flujo de caja y el estado de resultados se juntan
+
+imagen
+
+> Es importante que un pedazo de ese ahorro lo invirtamos y buscar nuevos ingresos con eso.
+
+  - Es importante siempre
   - Situación financiera.
     - Muestra:
       - Las cosas de valor (activos).
       - Deudas (pasivos).
       - Lo que le queda a los socios después de descontar las deudas (patrimonio).
+  
+**Taza de ahorro actual**
+$$\frac{total \space ahorro \space actual}{ingreso \space neto} * 100$$
+
+> cuantos n pesos se van al ahorro.
+
+**Solvencia**
+$$\frac{total \space activos}{total \space deudas}$$
+
+> Cuantas veces tus activos pueden cubrir tus deudas (ideal más de 1)
+
+## Analizar nuestros activos
