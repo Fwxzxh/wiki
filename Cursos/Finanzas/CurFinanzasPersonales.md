@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-10T05:26:31.621Z
+date: 2023-01-15T01:37:27.378Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -169,6 +169,7 @@ dateCreated: 2022-12-25T07:16:44.158Z
 > ¡si caminas lo suficiente!
 
 **Siempre es necesario saber a donde vamos**
+
 ---
 
 - El tiempo es **mucho** más valioso que el mismo dinero.
@@ -185,8 +186,6 @@ dateCreated: 2022-12-25T07:16:44.158Z
   - Flujo de caja.
     - Como se mueve el efectivo dentro de la compañía.
   - En nuestro caso (personal) el estado de resultado el flujo de caja y el estado de resultados se juntan
-
-imagen
 
 > Es importante que un pedazo de ese ahorro lo invirtamos y buscar nuevos ingresos con eso.
 
@@ -208,3 +207,92 @@ $$\frac{total \space activos}{total \space deudas}$$
 > Cuantas veces tus activos pueden cubrir tus deudas (ideal más de 1)
 
 ## Analizar nuestros activos
+
+**Fondo de emergencias**
+$$\frac{total \space valor \space de \space activos \space líquidos}{gastos \space mensuales} * 100$$
+
+> - Es el dinero que tenemos como colchón que me va a proteger de cualquier emergencia
+> - Es recomendable que sea mayor a 4,4 veces tus gastos al més (o 2 a 4 meses de salario).
+
+**Activos líquidos**
+$$\frac{total \space valor \space de \space activos \space líquidos}{total \space valor \space de \space tus \space activos} * 100$$
+
+> - Es dinero que podemos obtener rápido para gastar y obtener el dinero en menos de 3 meses.
+> - Trata de tener un 10% líquido para emergencias.
+
+- La idea es que debemos de ir acumulando activos con el tiempo.
+- También es necesario tener activos líquidos en caso de emergencias.
+- Lo ideal es tener al menos un 10% de capacidad de ahorro al mes (10% de tu ingreso).
+
+## Analizar nuestras obligaciones
+Análisis de nuestros pasivos
+
+**Ingreso a deuda de consumo**
+$$
+\frac{total \space pagos \space mensuales \space a \space deuda \space de \space consumo}
+{ingreso \space neto} * 100
+$$
+
+Es la cantidad de nuestros ingreso que dedicamos a la deuda de consumo.
+
+**Deuda de consumo**
+Deuda que usas para comprar cosas que ya disfrutaste (cosas a crédito básicamente) y no cuentan como ingresos.
+- No entran:
+  - Vivienda.
+  - Educación.
+  - Vehículo.
+  - Tecnología.
+    - Todo esto porque podemos venderlo y/o cuentan como activos.
+
+> - No debería de dar más de 10%
+>   - Si esto es más de 10% podrías estar viviendo más arriba de lo que puedes
+
+**Ingresos a deuda en general**
+$$
+\frac{total \space pagos \space mensuales \space a \space todas \space tus \space deudas}
+{ingreso \space neto} * 100
+$$
+
+Todo dinero que pones en un lado, es dinero que estas dejando de usar para otra cosa.
+
+> No debe de ser mayor de 35% si no estas teniendo sobre-endeudamiento.
+> Tenemos que preguntarnos cuanto dinero se nos esta yendo en intereses al final del año (costo de oportunidad)
+
+## Analizar nuestro gasto
+Que debemos priorizar? ahorrar o pagar deudas?
+
+**Ingreso a gasto**
+$$
+\frac{total \space gasto \space mensual}{ingreso \space neto} * 100
+$$
+
+> Esto tiene que ser idealmente menor al 80%
+
+Nuestro ingreso tiene 3 misiones
+1. Satisfacer nuestros gasto
+2. Cubrir las cuotas de nuestros créditos
+3. Generar ahorro para después re invertirlo
+
+> Si nuestro gasto es del tamaño de nuestro ingreso y además tenemos deudas, tenemos problemas.
+
+> El ahorro es fundamental para crecer.
+
+Tenemos que proteger esa solvencia y liquidez
+
+## Establecer objetivos financieros: más allá del objetivo SMART
+El tiempo es limitado asi que debemos priorizar y tener objetivos.
+
+Objetivos SMART:
+- Específicos: Exactamente lo que queremos lograr (Specific).
+- Medible: Debe de ser medible, para poder interpretar los resultados.
+- Alcanzable: Que el objetivo sea realizable considerando nuestras condiciones (realista).
+- Relevante: Que esté alineado con nuestros objetivos.
+- Temporal: Que tenga un tiempo determinado para ser completado.
+
+## Definir el plan que vamos a seguir
+- Pasar de la intención a la acción
+  - A cada objetivo:
+    - Divídelo en 5 pequeños objetivos/pasos.
+    - Escribe por qué crees que puedes logar ese pequeño paso.
+    - Escribe qué tienes que hacer para lograrlo y la fecha en que lo completarás.
+
