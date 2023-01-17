@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-15T01:37:27.378Z
+date: 2023-01-17T08:03:38.716Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -295,4 +295,32 @@ Objetivos SMART:
     - Divídelo en 5 pequeños objetivos/pasos.
     - Escribe por qué crees que puedes logar ese pequeño paso.
     - Escribe qué tienes que hacer para lograrlo y la fecha en que lo completarás.
+
+# Estrategias para cumplir con nuestro plan Financiero
+## Cómo llevar el registro de nuestras cuentas
+
+> Llevar el control de tu gasto
+
+**Administración Financiera** (desde la teoría)
+1. Analizar.
+2. Planear.
+3. Decidir.
+4. Controlar. (la más importante).
+
+## Mecanismos de compromiso
+- Para protegernos de nuestra propia irracionalidad necesitamos mecanismos de compromiso.
+- Necesitamos usar mecanismos para "obligarnos" a cumplir nuestros objetivos.
+- Tenemos que buscar nuestros mecanismos.
+  - Habrá alguno que nos ayude a cumplir nuestros objetivos ya sean personales o financieros.
+
+## Crear holgura
+> Si aumentan nuestros ingresos, aumentan nuestros gastos. 
+> Tener más dinero no es siempre la solución a nuestros problemas, 
+> es la falta de educación financiera.
+
+Un plan financiero debe de ser flexible y fácil para cumplirlo.
+
+**Crear holgura**
+
+
 
