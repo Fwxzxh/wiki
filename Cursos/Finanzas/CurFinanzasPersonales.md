@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-19T03:36:38.480Z
+date: 2023-01-19T04:07:04.964Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -325,4 +325,26 @@ Liberar gasto para que nuestras deudas no se coman nuestro salario y liberar anc
 
 ![consejos.png](/finanzas/finanzas_personales/consejos.png){.align-center}
 
+**Como hacerlo?**
+- Gastando lo que te queda **después de ahorrar**.
+- Presupuestando gastos moderadamente fijos.
+- Presupuestando ingresos en un escenario muy conservador.
+- Dejar espacio para imprevistos en el Flujo de caja (10% para empezar).
+- Nunca copar nuestros límites de endeudamiento.
 
+## Identificar y realizar ajustes a tiempo
+- La planeación financiera no se trata de hacer las cosas "bien" (lo importante es hacerlo de manera consiente).
+- La incertidumbre hace parte de nuestra vida, aprendamos a gestionarla.
+- El mejor plan es el que es flexible, aquel que nos permite hacer ajustes de la manera 
+  más rápida y menos "dolorosa" posible.
+- Entre más simple, mejor: cuida tu ancho de banda mental.
+
+## Resumen de estrategias:
+- El recurso más valioso no es el dinero es el **tiempo**.
+- Enfocarnos en encontrar nuestro **Bienestar Financiero**.
+- Saber siempre nuestros **Costos de oportunidad** al momento de tomar decisiones.
+- Evaluarnos constantemente de manera objeta, subjetiva y Relativa.
+- Ser realistas y **congruentes** al momento de compararnos.
+- Enfocarnos en nuestro flujo de caja.
+- Darle prioridad al **ahorro y la inversión** sobre el pago de deudas.
+- Tener objetivos y anticiparnos a las sorpresas y emergencias.
