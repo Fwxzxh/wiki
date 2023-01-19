@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-19T04:07:04.964Z
+date: 2023-01-19T04:07:23.322Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
