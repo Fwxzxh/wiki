@@ -2,7 +2,7 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-17T08:03:38.716Z
+date: 2023-01-19T03:36:38.480Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
@@ -321,6 +321,8 @@ Objetivos SMART:
 Un plan financiero debe de ser flexible y fácil para cumplirlo.
 
 **Crear holgura**
+Liberar gasto para que nuestras deudas no se coman nuestro salario y liberar ancho de banda mental.
 
+![consejos.png](/finanzas/finanzas_personales/consejos.png){.align-center}
 
 
