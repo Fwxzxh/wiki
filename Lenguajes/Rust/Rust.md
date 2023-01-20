@@ -2,20 +2,20 @@
 title: Rust
 description: 
 published: true
-date: 2023-01-20T05:15:32.529Z
+date: 2023-01-20T06:17:12.701Z
 tags: lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
 ---
 
-# The Rust Programming Language
-## Introducción
-## Conceptos comunes
-## Entendiendo Ownership
-## Usando Structs
-## Enums y Pattern Matching
-## Manejando Proyectos con Packages, Crates y Módulos
-## Colecciones comunes
+# Introducción
+# Conceptos comunes
+# Entendiendo Ownership
+# Usando Structs
+# Enums y Pattern Matching
+# Manejando Proyectos con Packages, Crates y Módulos
+# Colecciones comunes
+## Guardando listas de valores con vectores
 Rust contiene ciertas estructuras de datos llamadas colecciones.
 
 Algunas son:
@@ -97,7 +97,7 @@ println!("The first element is: {first}");
 ```rust
 // Iterando y obteniendo referencias inmutables en cada elemento.
 let v = vec![100, 32, 33];
-for i in %v {
+for i in &v {
     println!("{i}");
 }
 ```
@@ -105,7 +105,7 @@ for i in %v {
 ```rust
 // Iterando y modificando referencias mutables en cada elemento.
 let mut v = vec![100, 32, 33];
-for i in %mut v {
+for i in &mut v {
     *i += 50; // Derreferenciando i para sumarle 50.
     // Derreferenciar: tenemos una referencia mutable a v (una dirección de memoria).
     // De esa dirección obtenemos el valor al que apunta para modificarlo.
@@ -139,4 +139,69 @@ esto para saber a tiempo de compilación cuanto espacio en la heap ocupan estos 
 
 > Usar un `enum` con un `match` significa que rust podrá manejar todos los casos posibles a tiempo de compilación.
 
+### Liberando un vector
+Como cualquier `struct`, un vector es liberado de memoria cuando se sale de su scope.
+
+```rust
+{
+    let v = vec![1, 3, 4, 6];
+    // Hacemos cosas con v
+} // <- es liberado de memoria junto con todos sus contenidos.
+```
+
+## Guardando texto UTF-8 con Strings
+En rust los `strings` son diferentes por tres cosas:
+1. La propension de rust de exponer posibles errores.
+2. Los strings siendo una estructura de datos más compleja de lo que se piensa.
+3. UTF-8.
+
+> En rust los strings son tratados como colecciones.
+
+### Qué es un string?
+En rust los strings son definidos por el `slice` `str` dado por el `core`de rust el cual vemos en la forma de `&str` 
+las cuales son referencias a datos encodeados en UTF-8.
+
+El tipo `String` es un tipo (de la librería estándar) que puede crecer, mutar y tiene ownership,
+cuando nos referimos a strings podemos referirnos al tipo `String` o al slice `&str`.
+
+### Creando Strings
+Muchas de las operaciones que tiene `Vec<T>` también las tiene `String`, esto porque
+este ultimo esta implementado como un `wrapper` de `Vec`.
+
+```rust
+// Creando un nuevo string al cual podemos meterle datos.
+let mut s = String::new();
+
+let data = "initial contents";
+
+let s = data.to_string();
+
+// Los métodos de string también funcionan en string literales.
+let s = "initial contents".to_string();
+```
+
+También podemos crear un string desde una cadena para ahorrarnos unos pasos.
+
+```rust
+let s = String::from("initial contents");
+```
+
+> Como los strings son por defecto UTF-8 pueden contener muchos caracteres dentro.
+
+### Actualizando un String
+Un `String` puede crecer y decrecer como los `Vec<T>`, También podemos usar la macro
+`format!` junto con el operador `+` para concatenar.
+
+```rust
+let mut s = String::from("foo");
+s.push_str("bar"); // push_str toma un slice como parámetro (no queremos ownership del valor)
+// s == foobar
+```
+
+```rust
+let mut s1 = String::from("foo")
+let s2 = "bar"
+s1.push_str(s2);
+println!("s2 is {s2}") 
+```
 
