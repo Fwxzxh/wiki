@@ -2,13 +2,15 @@
 title: Curso de finanzas personales
 description: 
 published: true
-date: 2023-01-19T04:07:40.400Z
+date: 2023-01-20T04:04:44.433Z
 tags: cursos, finanzas personales, dinero
 editor: markdown
 dateCreated: 2022-12-25T07:16:44.158Z
 ---
 
 # Qué son las finanzas personales? y por dónde empezar?
+
+[Otro Resumen](https://platzi.com/tutoriales/1940-finanzas/8913-resumen-del-curso-28/)
 
 ## Cuándo y como tomamos decisiones financieras?
 
