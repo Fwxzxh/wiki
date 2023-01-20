@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2023-01-10T07:56:19.159Z
+date: 2023-01-20T04:06:02.195Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -110,6 +110,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * [Kotlin](/Lenguajes/Kotlin)
 * OCaml
 * [C++](/Lenguajes/cpp/cpp)
+* [Rust](/Lenguajes/Rust/Rust)
 
 ## Teoría
 > Teoría pura y dura
