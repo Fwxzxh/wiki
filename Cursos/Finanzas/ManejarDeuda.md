@@ -2,7 +2,7 @@
 title: Curso para manejar tu deuda
 description: 
 published: true
-date: 2023-01-23T04:26:30.820Z
+date: 2023-01-23T05:12:20.640Z
 tags: cursos, finanzas personales
 editor: markdown
 dateCreated: 2023-01-23T04:26:30.820Z
@@ -60,7 +60,7 @@ Crédito:
 
 Taza de usura:
 - La maxima taza por ley a la que cualquier entidad puede prestar dinero.
-  - (Taza usura mex)[https://www.banxico.org.mx/PortalTranspCompSistFin/]
+  - [Taza Usura Mex](https://www.banxico.org.mx/PortalTranspCompSistFin/)
   - En México
     - Personal y microcréditos: 46.46 %
     - Tarjetas de crédito: 35.55 %
