@@ -2,7 +2,7 @@
 title: Rust
 description: 
 published: true
-date: 2023-01-23T00:58:02.139Z
+date: 2023-01-23T01:39:33.282Z
 tags: lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
@@ -249,5 +249,35 @@ let s = format!("{s1}-{s2}-{s3}"); // No toma ownership de los valores
 ```
 
 ### Indexando Strings
+En rust no podemos indexar strings con un indice esto es debido a la representación interna dentro de rust de los strings.
+
+Si bien los strings derivan de un `Vec<u8>`, están encodeados con utf-8 por lo que:
+
+```rust
+fn main() {
+    let hello = String::from("السلام عليكم"); // big truble!
+    let hello = String::from("Dobrý den");
+    let hello = String::from("Hello");
+    let hello = String::from("שָׁלוֹם"); // wtf?
+    let hello = String::from("नमस्ते");
+    let hello = String::from("こんにちは");
+    let hello = String::from("안녕하세요");
+    let hello = String::from("你好");
+    let hello = String::from("Olá");
+    let hello = String::from("Здравствуйте"); // len 24 (no 12)
+    let hello = String::from("Hola"); // len 4 bytes long
+}
+```
+
+Las longitudes de estos diferentes strings varia ya que dependiendo de los caracteres,
+estos podrían no tener un largo exacto de 1 letra por byte.
+
+Entonces acceder con un indice en un string podría no obtener un solo carácter, si no una fracción de este.
+
+### Bytes, Valores Escalares y Clusteres de Grafemas
+
+
+
+
 
 
