@@ -1,9 +1,9 @@
 ---
-title: Rust
+title: The Rust Programming Languaje
 description: 
 published: true
-date: 2023-01-23T01:40:42.117Z
-tags: lenguajes, rust
+date: 2023-01-23T01:41:15.638Z
+tags: libros, lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
 ---
