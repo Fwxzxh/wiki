@@ -2,7 +2,7 @@
 title: Rust
 description: 
 published: true
-date: 2023-01-20T06:17:12.701Z
+date: 2023-01-23T00:58:02.139Z
 tags: lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
@@ -201,7 +201,53 @@ s.push_str("bar"); // push_str toma un slice como parámetro (no queremos owners
 ```rust
 let mut s1 = String::from("foo")
 let s2 = "bar"
-s1.push_str(s2);
-println!("s2 is {s2}") 
+s1.push_str(s2); // push_str, no toma ownership!
+println!("s2 is {s2}")  // bar
 ```
+
+```rust
+let mut s = String::from("lo");
+s.push('l');
+// s = lol
+```
+
+### Concatenando con + y `format!`
+Una manera de concatenar strings es con la macro `format!`
+
+```rust
+let s1 = String::from("hello, ");
+let s2 = String::from("world!");
+let s3 = s1 + &s2; // s1 ya no es usable ya que se ha movido aquí 
+```
+
+Tomamos ownership de s1 ya que la función + tiene como firma:
+
+```rust
+fn add(self, s:&str) -> String {
+    ...
+```
+
+Entonces tomamos ownership de `self` pero n de `s2` ya que solo necesitamos la referencia a
+un slice `str`.
+
+La función `add` también hace uso de tipos genéricos, y otras cosas para matchear los tipos de los argumentos que se le dan.
+
+> También hace cosas por debajo para usar `s2` que es en realidad `&String`, a un `&str`
+
+Lo que realmente esta pasando aquí es que rust, toma ownership de s1, sigue la referencia a s2
+y se le agrega una copia a s1, retornando ownersip en s3, invalidando s1.
+
+Para concatenar diferentes strings es mejor usar la macro `format!`
+
+```rust
+let s1 = String::from("tic");
+let s2 = String::from("tac");
+let s3 = String::from("toe");
+
+let s = format!("{s1}-{s2}-{s3}"); // No toma ownership de los valores
+// s = tic-tac-toe :D
+```
+
+### Indexando Strings
+
 
