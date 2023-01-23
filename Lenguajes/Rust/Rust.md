@@ -2,7 +2,7 @@
 title: Rust
 description: 
 published: true
-date: 2023-01-23T01:39:33.282Z
+date: 2023-01-23T01:40:42.117Z
 tags: lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
@@ -274,7 +274,7 @@ estos podrían no tener un largo exacto de 1 letra por byte.
 
 Entonces acceder con un indice en un string podría no obtener un solo carácter, si no una fracción de este.
 
-### Bytes, Valores Escalares y Clusteres de Grafemas
+### Bytes, Valores Escalares y Clusters de Grafemas
 
 
 
