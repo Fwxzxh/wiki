@@ -2,7 +2,7 @@
 title: The Rust Programming Languaje
 description: 
 published: true
-date: 2023-01-24T06:28:40.164Z
+date: 2023-01-24T07:03:15.846Z
 tags: libros, lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
@@ -275,9 +275,98 @@ estos podrían no tener un largo exacto de 1 letra por byte.
 Entonces acceder con un indice en un string podría no obtener un solo carácter, si no una fracción de este.
 
 ### Bytes, Valores Escalares y Clusters de Grafemas
+Hay tres maneras relevantes para entender los strings en rust.
 
+Si tomamos el string `नमस्ते` este esta guardado como un vector de `u8` como este:
 
+`[224, 164, 168, 224, 164, 174, 224, 164, 184, 224, 165, 141, 224, 164, 164,
+224, 165, 135]`
 
+Lo cual son equivalentes a 18 bytes, si los vemos como valores Unicode escalares tendríamos:
+
+`['न', 'म', 'स', '्', 'त', 'े']`
+
+Hay 6 valores tipo `char` aquí, pero el cuarto y el sexto no son letras, son diacriticos,
+entonces no tienen significado por si solos.
+
+Ahora podemos ver el mismo string como clusters de grafemas:
+
+`["न", "म", "स्", "ते"]`
+
+Rust provee diferentes maneras de acceder a los valores de un string de acuerdo a nuestras necesidades.
+
+Otra razón es que indexar un string tiene O(1) de complejidad en el tiempo, pero es imposible obtener esa velocidad en UTF-8 ya que tendríamos que recorrer todo el string antes para saber que cluster es el que queremos obtener.
+
+### Slices de strings
+
+Indexar es mala idea porque el resultado puede ser un byte, un carácter, o un cluster de grafema.
+
+En lugar de indexar, podemos tomar un slice de un string
+
+```rust
+let hello = "Здравствуйте";
+let s = &hello[0..4];
+```
+Esto nos dará los primeros 4 bytes del string, cada uno de estos caracteres vale 2bytes, entonces obtendríamos dos letras.
+
+> Si accediéramos un slice de `[0..1]` tendríamos un crash en tiempo de ejecución, Cuidado!
+
+### Iterando sobre strings
+Para iterar es necesario ser explicito sobre lo que queremos obtener en la iteración,
+ya sean caracteres, bytes u otra cosa.
+
+```rust
+for c in "Зд".chars() {
+    println!("{c}");
+}
+```
+
+O en bytes
+
+```rust
+for b in "Зд".bytes() {
+    println!("{b}");
+}
+```
+
+> Recuerda que Valores Unicode validos pueden ser de más de 1 byte.
+
+## Hash Maps
+El tipo `HashMap<K, V>` guarda un mapeo de llaves con valores, esto usando una función de hasheo que determina los lugar donde guarda estos valores en memoria.
+
+### Creando un Hash Map
+
+```rust
+use std::collections::HashMap
+
+let mut scores = HashMap::new();
+
+scores.insert(String::from("Blue"), 10);
+scores.insert(String::from("Yellow"), 50);
+```
+
+> Al igual que los vectores, hash maps guardan sus datos en la heap.
+
+### Accediendo a valores en un Hash Map
+
+```rust
+fn main() {
+    use std::collections::HashMap;
+
+    let mut scores = HashMap::new();
+
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Yellow"), 50);
+
+    let team_name = String::from("Blue");
+    let score = scores.get(&team_name).copied().unwrap_or(0);
+}
+```
+
+En el ejemplo anterior el método `get()` nos retorna un `Option<&V>`,
+Si no hay valores obtendremos un `None`, Manejamos el `Option` con `copied()`,
+Esto para obtener un `Option<i32>` en lugar de un `Option<&i32>`,
+con `unwrap_or()` retornamos un 0 si nuestro `Option` es None.
 
 
 
