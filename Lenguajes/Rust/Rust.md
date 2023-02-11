@@ -2,11 +2,14 @@
 title: The Rust Programming Languaje
 description: 
 published: true
-date: 2023-01-24T07:03:15.846Z
+date: 2023-02-11T19:44:06.354Z
 tags: libros, lenguajes, rust
 editor: markdown
 dateCreated: 2023-01-17T05:34:28.256Z
 ---
+
+# Links de interés
+- [Rust CheatSheet](https://cheats.rs/)
 
 # Introducción
 # Conceptos comunes
