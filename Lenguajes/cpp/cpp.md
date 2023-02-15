@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2023-02-15T06:22:19.250Z
+date: 2023-02-15T06:23:23.961Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
@@ -31,7 +31,7 @@ int main() {
 
 El punto de entrada para cualquier programa de C++ es la función `main`.
 
-### Compiladores, linkers y librerías
+## Compiladores, linkers y librerías
 Para convertir nuestro código en algo útil necesitamos un compilador.
 Este corre con cada uno de nuestros archivos y hace dos cosas importantes.
 
