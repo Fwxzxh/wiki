@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2023-01-10T04:52:07.147Z
+date: 2023-02-15T06:22:19.250Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
@@ -15,6 +15,7 @@ dateCreated: 2022-12-25T18:07:47.487Z
 - Es un popular lenguaje multiplataforma de uso general.
 - Puede ser usado para hacer aplicaciones de alto rendimiento.
 - C++ esta derivado de C.
+- Es considerado un superset de C, pero no lo es.
 
 ------------------------------------------------------------------------
 
@@ -29,6 +30,21 @@ int main() {
 ```
 
 El punto de entrada para cualquier programa de C++ es la función `main`.
+
+### Compiladores, linkers y librerías
+Para convertir nuestro código en algo útil necesitamos un compilador.
+Este corre con cada uno de nuestros archivos y hace dos cosas importantes.
+
+1. Verifica que nuestro código sea código valido de C++, si no, te dará un error.
+2. Convierte tu código de C++ en un archivo de código máquina llamado `object file`.
+   1. Generalmente tienen una forma parecida a `name.o` o `name.obj`.
+   2. Cada uno corresponde a un archivo de C++.
+
+Después de que el compilador crea los objetos, otro programa llamado `linker` entra este:
+
+1. Toma todos los objetos generados por el compilador y los combina en un solo ejecutable
+2. Linkea los archivos de librerías (Código escrito por alguien más y empaquetado para usarlo).
+3. Se encarga de que todas las dependencias entre archivos estén resueltas.
 
 ### Hola mundo
 
