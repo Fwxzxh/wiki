@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2023-02-15T06:23:23.961Z
+date: 2023-02-18T21:58:57.035Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
@@ -146,6 +146,31 @@ int main()
   comentarios multilinea.
 - Los comentarios que empiezan con dos diagonales son comentarios de una
   sola línea.
+
+## Statements 
+Un `statement` o declaración, es un tipo de instrucción que hace que el programa haga *algo*.
+
+Estos son los más comunes en un programa de c++ ya que son la unidad más pequeña de computación.
+
+Hay algunos tipos diferentes de statements:
+* Declaration Statements
+* Jump Statements
+* Expression Statements
+* Compound Statements
+* Selection Statements (Condicionales!)
+* Iteration Statements (loops!)
+* Try Blocks
+
+## Funciones y la función main
+En c++ los statements se agrupan en unidades llamadas **funciones**.
+
+Una función es una colección de statements que es ejecutada sequencialmente.
+
+> Todo programa de c++ debe tener una función main
+
+Los programas suelen terminar su ejecución con el ultimo statement de la función main.
+
+> Las funciones son escritas para que hagan un trabajo en especifico.
 
 ## Variables
 
