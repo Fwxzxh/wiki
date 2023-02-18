@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2023-02-18T21:58:57.035Z
+date: 2023-02-18T22:42:37.037Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
