@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2023-01-20T04:06:02.195Z
+date: 2023-03-12T03:34:56.509Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -90,6 +90,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 ### Finanzas
 * [Curso de introducción financiera](/Cursos/Finanzas/IntroEduFinanciera)
 * [Curso de Finanzas Personales](/Cursos/Finanzas/CurFinanzasPersonales)
+* [Curso Para Manejar Tu Deuda](/Cursos/Finanzas/ManejarDeuda)
 
 ## Notas generales
 > Notas sobre algunas cosas interesantes (para mi)
