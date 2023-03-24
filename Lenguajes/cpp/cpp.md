@@ -2,7 +2,7 @@
 title: C++
 description: Oh no!!!
 published: true
-date: 2023-02-18T22:42:37.037Z
+date: 2023-03-24T07:48:04.895Z
 tags: cpp, lenguajes
 editor: markdown
 dateCreated: 2022-12-25T18:07:47.487Z
@@ -37,7 +37,7 @@ Este corre con cada uno de nuestros archivos y hace dos cosas importantes.
 
 1. Verifica que nuestro código sea código valido de C++, si no, te dará un error.
 2. Convierte tu código de C++ en un archivo de código máquina llamado `object file`.
-   1. Generalmente tienen una forma parecida a `name.o` o `name.obj`.
+   1. Generalmente tienen una forma parecida a `name.o` (Unix) o `name.obj` (Windows).
    2. Cada uno corresponde a un archivo de C++.
 
 Después de que el compilador crea los objetos, otro programa llamado `linker` entra este:
