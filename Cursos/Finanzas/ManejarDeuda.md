@@ -2,7 +2,7 @@
 title: Curso para manejar tu deuda
 description: 
 published: true
-date: 2023-03-17T06:35:24.361Z
+date: 2023-04-07T05:54:06.891Z
 tags: cursos, finanzas personales
 editor: markdown
 dateCreated: 2023-01-23T04:26:30.820Z
@@ -209,3 +209,30 @@ Pago vs Financiación
 - Fecha de pago:
   - Día limite en el que se debe realizar el pago.
   - Si no se paga oportunamente se generan intereses moratorios y otros cargos.
+
+## Mitos y realidades
+- Fecha de corte y cierre:
+    - La idea de posponer los pagos es porque podríamos tener ese dinero y usarlo en algo más importante o tenerlo más tiempo sacando rendimientos.
+        - Esto es normalmente lo que **no** pasa.
+        - Es mejor idea tener todos los ingresos del mes acotados y pagar cada cuota de la tarjeta de crédito con el dinero de ese mes y no el del siguiente.
+- las millas y los puntos son buenos tenerlos (mejor que no tenerlos)
+  - Pero no deben ser una razón para gastar.
+- Recomendaciones:
+  - Paga más del mínimo.
+  - Antes de cancelar una tarjeta, transfiere tus puntos acumulados.
+  - Ten a la mano las condiciones de las coberturas que te ofrece tu tarjeta de crédito.
+  - Puedes negociar costos como la cuota de manejo de tu tarjeta.
+
+# Cómo lograr un endeudamiento responsable
+## Deuda sí, pero no así: cuándo utilizarla
+- Cuándo tiene sentido la deuda (y que criterios usar para tomarla)
+  - Situación financiera.
+  - El efecto que tiene en nuestro flujo de caja.
+- Asegúrate de ue la utilidad del uso que le das, sea mayor el costo de la deuda.
+  - Toda deuda nos da un beneficio.
+  - Ese **beneficio** debe superar el costo de la deuda.
+- Si la utilizamos para gasto, asegúrate de que la ventaja de conseguir antes eso que quieres, supere el costo de la financiación.
+  - Si si, mantén el plazo acorde con el tiempo del beneficio de la compra.
+
+> Optar por un crédito nos debe generar ingresos, ventajas y no restarnos,
+> es como una inversión.
