@@ -2,7 +2,7 @@
 title: Conceptos de Sistemas operativos
 description: Breves explicaciónes sobre algunos conceptos de sistemas operativos
 published: true
-date: 2023-04-22T06:38:29.299Z
+date: 2023-04-22T21:48:48.191Z
 tags: sistemas operativos
 editor: markdown
 dateCreated: 2023-04-22T06:38:29.299Z
@@ -71,8 +71,33 @@ Los procesos también tienen una prioridad.
 Cada proceso es iniciado con un solo hilo, También llamado *primary thread*.
 
 ## Hilos
-> un hilo es una entidad dentro de un proceso que puede ser agendado (scheduled) para su ejecución, todos los hilos de un proceso comparten su espacio de direcciones virtual y sus recursos del sistema.
+> Un hilo es una entidad dentro de un proceso que puede ser agendado (scheduled) para su ejecución, todos los hilos de un proceso comparten su espacio de direcciones virtual y sus recursos del sistema.
 
 ![processwthreads.png](/teoria/conceptos_so/processwthreads.png){.align-center}
 
+Un proceso puede tener multiples hilos, los cuales se encargan de diferentes tareas dentro de un proceso.
+
+Esto es llamado multithreading y es bastante común en aplicaciones modernas ya que provee:
+- Responcividad.
+- Mejor utilización de recursos.
+- Multiples tareas en paralelo.
+- etc.
+
+![procsvsthread.png](/teoria/conceptos_so/procsvsthread.png){.align-center}
+
+
+Los procesos pueden además crear hilos adicionales desde cualquiera de sus hilos.
+
+> Los hilos son unidades de ejecución.
+
+> Los hilos son Lightweight y los procesos no. toma más tiempo hacer cosas con un hilo que con un proceso.
+
+A diferencia de los procesos, los hilos son dependientes de su proceso padre y comparten recursos con el.
+
+Los hilos también tienen IDs, Handles, etc.
+
 ## Handles
+> Unidad genérica de identificación, nos permite interactuar con el sin acceder directamente a sus direcciones de memoria.
+
+Hay handles a procesos y a hilos
+
