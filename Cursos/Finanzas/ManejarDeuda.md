@@ -2,7 +2,7 @@
 title: Curso para manejar tu deuda
 description: 
 published: true
-date: 2023-04-07T05:54:06.891Z
+date: 2023-05-09T07:26:14.146Z
 tags: cursos, finanzas personales
 editor: markdown
 dateCreated: 2023-01-23T04:26:30.820Z
@@ -236,3 +236,74 @@ Pago vs Financiación
 
 > Optar por un crédito nos debe generar ingresos, ventajas y no restarnos,
 > es como una inversión.
+
+## Cómo escoger un crédito: Tipos de créditos
+- Hipotecario
+  - Plazos más largos, tazas más bajas acordes al periodo de la deuda.
+  - Es especializado para estos gastos.
+- Leasing habitacional
+  - El banco compra la casa por mi y me la arrienda y al final del arriendo ejerzo una opción de compra si quiero.
+- Vehículo
+  - Tiene tazas bajas.
+  - Tiene seguros accesibles.
+  - Lo importante es buscar la línea de crédito ideal para la necesidad puntual.
+- Libranza
+  - Crédito atado a la nómina.
+  - Alianza de la entidad financiera con mi empleador.
+  - Debitan la cuota directamente antes de darme mi sueldo.
+- Fondo de empleados/Cooperativa.
+  - Nos prestan siempre y cuando tengamos fondos en esa cooperativa.
+  - Se puede atar con la nómina y no bloquea el ahorro que se tenga allí
+- Libre Inversión.
+  - Créditos que no exigen un determinado uso.
+  - Tiene plazos más altos.
+- Tarjeta de crédito
+  - Herramienta de pagos y consumos en una linea de tiempo establecida.
+- Microcrédito
+  - Créditos de montos más bajos a menor plazo.
+- Educativos
+  - Créditos para estudio.
+
+> Buscar la solución correcta para lo que necesitamos.
+
+Checklist antes de tomar un crédito
+- Si no pudiera tomar crédito, Que otra opción tendría?
+- Existe una línea especial de crédito para lo que quiero financiar? Puedo acceder?
+- La taza no lo es todo: hay que cuidar la liquidez.
+- Cuánto espacio tengo dispuesto par la cuota.
+  - Acepta solo lo que puedas y necesites pagar.
+- Como esta mi perfil de crédito (Deudor)?
+
+## Cómo solicitar crédito
+1. Asegurarte que tienes capacidad de endeudamiento
+  - Liquidez.
+    - Demostrar que tengo dinero.
+    - Tus gastos deben ser menores que tus ingresos
+  - Solvencia
+    - Demostrar que tengo con que respaldar el crédito
+    1. Tener muchos dependientes afecta tu capacidad de endeudamiento
+    2. El total de tus cuotas debe de ser inferior al 50% de tus ingresos.
+      - Preferiblemente 30/15%
+    3. Asegurarte de no haber consumida más del 660% del cupo de tus créditos rotativos/
+2. Elegir el producto adecuado.
+3. Decide si quieres descuento automático.
+  - Muchos créditos se pueden auto descontarse del sueldo.
+  - A veces no es buena idea si el flujo de caja esta muy justo.
+4. Asegura espacio en tu flujo de caja
+  - Realiza una planeación de los siguientes 6 meses.
+  - Dale tiempo a tu flujo de caja de adaptarse a las nuevas condiciones.
+  - Incluye en tu paneación gastos no mensuales que vengan en los próximos meses.
+  - Si tus ingresos son bajos quizás sea mejor intentarlo a través de cooperativas de ahorro y crédito.
+5. Ten claro tu costo de oportunidad
+  - Qué dejarías de hacer por adquirir esta deuda.
+  - En qué otra cosa podrías utilizar el dinero que pagarías por la cuota de tu crédito.
+  - Qué obtendrás con la deuda que vas a adquirir.
+  - Lo que recibirás con ese crédito supera los costos del mismo?
+6. Documentación al día
+7. Buen puntaje crediticio
+8. Pocas huelas de consulta
+  - las huellas no disminuyen tu puntaje
+  - Son un indicador del nivel de ansiedad de tu búsqueda de crédito
+  - Entre menos huellas en los últimos meses tengas, mucho más probable es que pases el primer filtro al solicitar el crédito.
+9. Codeudores y referencias
+
