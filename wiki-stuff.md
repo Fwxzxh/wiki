@@ -2,7 +2,7 @@
 title: Wiki Stuff
 description: 
 published: false
-date: 2023-06-18T03:11:25.168Z
+date: 2023-06-18T03:14:27.055Z
 tags: wiki
 editor: markdown
 dateCreated: 2023-03-12T04:02:22.898Z
@@ -26,7 +26,7 @@ Reiniciar el contenedor
 
 
 ## Compus
-Mac: `192.168.0.24`
-Windows: `192.168.0.25`
-Linux: `192.168.0.26`
-Rasp1: `192.168.0.50`
+- Mac: `192.168.0.24`
+- Windows: `192.168.0.25`
+- Linux: `192.168.0.26`
+- Rasp1: `192.168.0.50`
