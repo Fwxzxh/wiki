@@ -2,7 +2,7 @@
 title: Curso profesional de SCRUM
 description: 
 published: true
-date: 2023-07-31T02:21:01.173Z
+date: 2023-07-31T04:21:39.228Z
 tags: cursos, scrum
 editor: markdown
 dateCreated: 2023-07-31T02:21:01.173Z
@@ -65,3 +65,62 @@ El desarrollo ágil plantea tres enfoques claves:
 - Autoevaluación
   - El equipo es capaz de ajustar y perfeccionar su comportamiento.
 
+## Qué es Scrum
+Es un **marco de trabajo** por el cual las personas pueden abordar problemas complejos adaptativos.
+A la vez que entregan productos del máximo valor posible productiva y creativamente.
+
+> Es un equipo pequeño de personas. El equipo individual es altamente flexible y adaptativo.
+
+- Teoría de Scrum
+  - Se basa en la teoría de control de procesos **empírica** o empirismo.
+  - Pilares Scrum:
+    - Transparencia
+      - A través de la comunicación, cualquier persona puede saber el estado actual del proyecto.
+    - Inspección
+      - Toda persona puede observar los artefactos (requerimientos) y validar si estén bien definidos o no en cualquier parte del proceso.
+    - Adaptación
+      - Cualquier involucrado en el proceso puede reconocer cambios e implementarlos rápidamente.
+  - Valores de Scrum:
+    - Compromiso
+    - Coraje
+    - Enfoque
+    - Apertura
+    - Respeto
+
+## Cuáles son los componentes de scrum
+- Equipo:
+  - Autoorganizado y multifuncional
+  - Roles:
+    - Product Owner
+      - Responsable de maximizar el valor del producto.
+      - La cara del cliente dentro del equipo.
+    - Scrum Master
+      - Responsable de promover y apoyar Scrum.
+    - El equipo de desarrollo
+      - Realizan el trabajo de entregar un incremento del producto
+
+----
+
+- Eventos
+  - Existen eventos predefinidos.
+  - Minimizar reuniones no definidas.
+  - Sprint
+    - Es donde se crea el incremento del producto
+  - Sprint Planning
+    - Ceremonia para definir qué se hará durante el sprint.
+  - Daily Stand-Up
+    - Reunión diaria de todo el equipo de desarrollo.
+  - Sprint Review
+    - Donde se muestra el incremento desarrollado durante el sprint
+  - Sprint Retrospective
+    - Oportunidad para aplicar mejora continua.
+
+----
+
+- Artefactos
+  - Representan el trabajo o valor en diversas formas.
+  - Son visibles para todo el mundo.
+  - Product Backlog
+    - Lista ordenada de todo lo que se conoce que es necesario en el producto.
+  - Sprint Backlog
+    - Elementos de la lista de producto seleccionados para el sprint.
