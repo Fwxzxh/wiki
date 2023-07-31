@@ -2,7 +2,7 @@
 title: Curso profesional de SCRUM
 description: 
 published: true
-date: 2023-07-31T07:22:28.284Z
+date: 2023-07-31T07:31:03.814Z
 tags: cursos, scrum
 editor: markdown
 dateCreated: 2023-07-31T02:21:01.173Z
@@ -168,4 +168,25 @@ Responsabilidades:
 - Asegurar que el equipo de desarrollo conoce los elementos de a Lista del producto.
 
 > El decide en que se trabaja (es la única persona autorizada para modificar la lista del producto)
+
+
+## Rol del Scrum Master
+
+> Es el responsable de promover y apoyar la ejecución de Scrum, ayudando a todos a entender la teoría prácticas, reglas y valores.
+
+Ayuda a las personas externas al equipo Scrum a entender qué interacciones con el equipo Scrum pueden ser útiles y cuáles no.
+
+Scrum Master con el Product Owner:
+- Asegurar que los objetivos, el alcance y el dominio del producto sean entendidos por todos en el equipo.
+- Entender y practicar la agilidad.
+- Facilitar los eventos de Scrum según se requiera o necesite.
+
+Scrum Master con El Equipo de desarrollo:
+- Guiar al equipo de desarrollo en ser auto-organizado y multifunctional.
+- Ayudar al equipo de desarrollo a crear productos de alto valor.
+- Eliminar impedimentos para el progreso del equipo de desarrollo.
+
+Scrum Master con la organización
+- Liderar y guiar a la organización en la adopción de Scrum
+- Trabajar con otros Scrum Masters para incrementar la efectividad de la aplicación de Scrum en la organización.
 
