@@ -2,7 +2,7 @@
 title: Curso profesional de SCRUM
 description: 
 published: true
-date: 2023-07-31T04:21:39.228Z
+date: 2023-07-31T04:31:26.727Z
 tags: cursos, scrum
 editor: markdown
 dateCreated: 2023-07-31T02:21:01.173Z
@@ -124,3 +124,8 @@ A la vez que entregan productos del máximo valor posible productiva y creativam
     - Lista ordenada de todo lo que se conoce que es necesario en el producto.
   - Sprint Backlog
     - Elementos de la lista de producto seleccionados para el sprint.
+
+# Comprender los roles de Scrum
+## El equipo de Scrum y sus roles
+
+Los equipos de scrum entregan **Productos de forma iterativa e incremental** maximizando las oportunidad de obtener retroalimentación
