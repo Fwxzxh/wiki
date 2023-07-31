@@ -2,7 +2,7 @@
 title: Curso profesional de SCRUM
 description: 
 published: true
-date: 2023-07-31T04:31:26.727Z
+date: 2023-07-31T07:22:28.284Z
 tags: cursos, scrum
 editor: markdown
 dateCreated: 2023-07-31T02:21:01.173Z
@@ -33,11 +33,11 @@ El desarrollo ágil plantea tres enfoques claves:
 
 ## 12 Principios ágiles
 
-- **Individuos e interacciones** sobre procesos y herramientas
-- **Software funcionando** sobre documentación extensiva
-- **Colaboración con el cliente** sobre negociación contractual
-- **Respuesta ante el cambio** sobre seguir un plan
-
+> - **Individuos e interacciones** sobre procesos y herramientas
+> - **Software funcionando** sobre documentación extensiva
+> - **Colaboración con el cliente** sobre negociación contractual
+> - **Respuesta ante el cambio** sobre seguir un plan
+> 
 > Manifiesto Por el desarrollo ágil.
 
 - Satisfacción al cliente
@@ -129,3 +129,43 @@ A la vez que entregan productos del máximo valor posible productiva y creativam
 ## El equipo de Scrum y sus roles
 
 Los equipos de scrum entregan **Productos de forma iterativa e incremental** maximizando las oportunidad de obtener retroalimentación
+
+Esta enfocado en:
+- Trabajar en iteraciones cortas.
+- Entregar producto de forma incremental.
+- Maximizar la interacción con el cliente.
+
+Roles:
+- Product Owner:
+  - Dueño del producto
+  - Gestor de requisitos
+  - Atiende peticiones del cliente
+  - Elabora el backlog del producto Priorizado
+  - Define Criterios de Aceptación
+- Scrum Master
+  - Responsable de promover y apoyar Scrum
+  - Implementación de metodología
+  - Elimina impedimentos
+- Dev team
+  - Realizan el trabajo a entregar
+  - Auto-Organización y auto-gestión
+  - Generan el incremento del producto
+
+## Qué hace el Product Owner
+
+> Es el responsable de maximizar el valor del producto
+
+Es la única persona responsable de gestionar la **lista del producto**.
+
+Responsabilidades:
+- Expresar claramente los elementos de la lista del producto
+  - Minimizar ambigüedad.
+- Dar prioridad a los elementos de la lista del producto
+  - El orden de las tareas (con la información que le da el cliente).
+- Optimizar el valor del trabajo del Equipo de desarrollo
+- Asegurarse que la Lista del producto sea visible, transparente y clara.
+  - Tiene que poder mostrar al cliente en que esta trabajando cada miembro del equipo.
+- Asegurar que el equipo de desarrollo conoce los elementos de a Lista del producto.
+
+> El decide en que se trabaja (es la única persona autorizada para modificar la lista del producto)
+
