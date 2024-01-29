@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2023-07-31T07:32:34.338Z
+date: 2024-01-29T05:13:20.119Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -57,6 +57,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * [Bash Scripting](/Cursos/BashScripting)
 * [MVVM WPF XAML](/Cursos/MvvmWpfXaml)
 * [Scrum](/Cursos/Scrum/Scrum)
+* [Radio Aficionado](/Cursos/Otros/RadioAficionado)
 
 ### Redes
 * Cisco Wireless Essentials (TODO)
