@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-06T06:27:40.094Z
+date: 2024-02-06T06:34:39.637Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -10,15 +10,24 @@ dateCreated: 2024-01-29T05:12:05.318Z
 
 # Curso para obtener la licencia de radio aficionado
 
+## Reglas
+### Servicio de radioaficionado
+
+> Propósito:
+> Tener las habilidades avanzadas en las fases técnicas y de comunicación del arte de la radio.
+
+En méxico, el organismo o entidad reguladora es el IFT/IFETEL (Instituto federal de telecomunicaciones).
+
+La autorización para operar/Instalar estaciones de radioaficonado se llama:
+- CONCESIÓN
+
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
     - Una Federación mundial, Integrada por Sociedades Nacionales de radioaficionados de más de 160 países.
     - Representa a los Radioaficionados ante la *Union Internacional de Telecomunicaciónes* (UIT) y las Organizaciones Regionales de Telecomunicaciónes (ORT).
 
 > Misión:
-Proteger, promover y difundir los Servicios de Aficionados y Aficionados por
-Satélite dentro de las normas establecidas por la UIT, Junto con las sociedades
-Nacionales que la integran.
+Proteger, promover y difundir los Servicios de Aficionados y Aficionados por Satélite dentro de las normas establecidas por la UIT, Junto con las sociedades Nacionales que la integran.
 
 ### Miembros
 - Integrada por más de 160 Sociedades Nacionales.
@@ -54,4 +63,6 @@ Esta conformada por:
 Ante una emergencia o catástrofe, la IARU coopera co las organizaciones
 internacionales que intervienen, coordinado la preparación y asistencia de
 comunicaciones que proveen los radioaficionados.
+
+> El espectro de radiofrecuencia es la sangre vital de la radioafición.
 
