@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-13T06:28:08.086Z
+date: 2024-02-13T06:28:56.612Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -76,6 +76,7 @@ En nuestro país, esto se da por el **cuadro nacional de atribución de frecuenc
   - [Plan de Bandas de la región 2](https://www.iaru-r2.org/en-el-aire/planes-de-bandas/)
  
 ![plandebandas.png](/cursoradio/plandebandas.png){.align-center}
+> Plan de bandas Región 2.
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
