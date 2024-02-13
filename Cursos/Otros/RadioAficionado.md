@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-13T06:25:34.351Z
+date: 2024-02-13T06:27:04.266Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -74,7 +74,8 @@ En nuestro país, esto se da por el **cuadro nacional de atribución de frecuenc
 - Operar fuera de estas frecuencias en tu concesión es ILEGAL.
   - [CNAF](https://cnaf.ift.org.mx/)
   - [Plan de Bandas de la región 2](https://www.iaru-r2.org/en-el-aire/planes-de-bandas/)
-  - 
+ 
+ ![iscreen_shoter_-_arc_-_240213122436_a.m..png](/cursoradio/iscreen_shoter_-_arc_-_240213122436_a.m..png){.align-center}
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
