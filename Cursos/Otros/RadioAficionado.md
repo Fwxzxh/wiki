@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-06T06:40:49.199Z
+date: 2024-02-13T06:09:40.274Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -31,6 +31,37 @@ Lo cual nos convierte en: **concesionarios de uso privado**.
 
 La concesión te da derechos y obligaciones:
 - Tener N estaciones fijas (incluyendo repetidores, enlazadores y pasarelas).
+- Tener M Estaciones Móviles
+- Tener P estaciones portátiles.
+- Comunicarte al espacio.
+- Apoyar a la autoridad en situaciones de emergencia.
+- Informar cualquier cambio en tu estación.
+- Solicitar indicativos especiales.
+
+Hay dos cargos a considerar ante IFETEL:
+- Otorgamiento de la concesión por primera vez:
+  - Derechos de revisión de documentos.
+  - Contraprestación, al otorgar la concesión.
+- Otorgamiento de concesión, segunda vez o posterior:
+  - Contraprestación, al otorgar la concesión.
+  
+> Ambos se ajustan cada año.
+
+---
+
+Se considera una estación espacial aquélla que esta arriba de 50kms de la superficie de la tierra.
+- Las frecuencias están normadas por la NOM, IFT e IARU.
+  - Se tiene en las localidades un coordinador voluntario de frecuencias.
+    - Esto para evitar interferencias.
+      - Las cuales están prohibidas.
+- Se alienta el uso del Código Fonético Internacional para los comunicados por parte de IARU.
+  - FMRE (Federación mexicana de radio experimentadores)
+
+### Frecuencias Autorizadas.
+
+- La Unión internacional de telecomunicaciones (ITU).
+  - Coordina a nivel mundial todo lo relacionado en el mundo de las telecomunicaciones.
+    - **Dentro de ella esta la IARU**.
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
