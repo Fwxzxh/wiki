@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-13T06:09:40.274Z
+date: 2024-02-13T06:17:24.724Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
