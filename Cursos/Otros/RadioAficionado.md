@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-13T06:17:24.724Z
+date: 2024-02-13T06:25:34.351Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -62,6 +62,19 @@ Se considera una estación espacial aquélla que esta arriba de 50kms de la supe
 - La Unión internacional de telecomunicaciones (ITU).
   - Coordina a nivel mundial todo lo relacionado en el mundo de las telecomunicaciones.
     - **Dentro de ella esta la IARU**.
+      - La cual representa ante ITU a las sociedades miembro nacionales.
+
+- Las frecuencias autorizadas están parametrizadas por la IARU.
+    - La cual divide al mundo en 3 zonas.
+      - CadaRegión tiene un **Plan de bandas** o rango de frecuencias.
+        - En ellas también se sugiere su respectivo uso para los diversos modos de comunicación.
+        - Asi como las frecuencias para el manejo de emergencias. 
+
+En nuestro país, esto se da por el **cuadro nacional de atribución de frecuencias** CNAF de IFT.
+- Operar fuera de estas frecuencias en tu concesión es ILEGAL.
+  - [CNAF](https://cnaf.ift.org.mx/)
+  - [Plan de Bandas de la región 2](https://www.iaru-r2.org/en-el-aire/planes-de-bandas/)
+  - 
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
