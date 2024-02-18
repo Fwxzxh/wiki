@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-18T05:11:06.582Z
+date: 2024-02-18T05:22:09.263Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -104,8 +104,24 @@ Con nuestra concesión se tiene que tomar en cuenta lo siguiente:
 - Esconder mensajes.
 - Poner música, a menos que provenga de la ISS.
 - Comunicación con otros operadores que **NO** tengan concesión.
-- En eventos especiales, es la única ocasión en donde bajo supervisión de un concesionario, pueden tr
+- En eventos especiales, es la única ocasión en donde bajo supervisión de un concesionario, pueden transmitir personas SIN concesión.
 
+Se tiene que tomar en cuenta lo siguiente.
+- Tú eres el responsable directo de la estación, sea fija, móvil o portátil que están registradas en tu concesión.
+  - Cualquier modificación hay que informarla al IFT.
+  - **NUNCA** se deja sin tu presencia cuando este operando.
+  - Si hay más de un concesionario en tu estación, son **TODOS** igual de responsables de la estación.
+  - Todos los equipos de control automático (repetidores) son tu responsabilidad.
+  - Recuerda **identificarte cada 10 minutos y cada que termines** una transmisión con un corresponsal.
+- Puedes hacer retransmisión automática de mensajes con tus repetidoras registradas, estaciones auxiliares y espaciales.
+- La única ocasión donde no te debes de identificar con tu indicativo es cuando uses la frecuencia para controlar juguetes y proyectos.
+- Al comunicarte con el extranjero, recuerda que debed e usar el código fonético para identificarte.
+
+> Siempre puedes estar sujeto a una **inspección** por parte de la IFT y debes atenderla, si no se cancela tu concesión.
+
+> Tú eres el **responsable** de lo que dices en radio y, si cometes alguna falta, se te penalizará o cancelará tu concesión.
+
+> 
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
