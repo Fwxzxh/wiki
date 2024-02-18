@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-13T06:28:56.612Z
+date: 2024-02-18T04:40:49.840Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -77,6 +77,21 @@ En nuestro país, esto se da por el **cuadro nacional de atribución de frecuenc
  
 ![plandebandas.png](/cursoradio/plandebandas.png){.align-center}
 > Plan de bandas Región 2.
+
+Tu concesión te da derecho a que puedas transmitir siempre y cuando este:
+- Vigente.
+- Dentro del territorio mexicano y/o en barcos y aviones con bandera mexicana.
+- Consulta información correspondiente si estas en el extranjero.
+
+> La concesión no especifica niveles o clases de radioaficionado porque es clase única, con todos los privilegios de uso del plan de bandas de la IARU y CENAF.
+
+> De acuerdo a las recomendaciones de la IARU, La potencia máxima es de 1500 watts.
+
+Tu indicativo corresponde a:
+- El prefijo **XE** para territorio mexicano y **XF** Para islas mexicanas.
+- Seguido de la zona:
+  - Actualmente son 3 para XE y 4 para XF.
+- Las ultimas letras, son sugeridas por el nuevo concesionario que esta haciendo la solicitud.
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
