@@ -2,7 +2,7 @@
 title: Curso de Radio Aficionado
 description: Curso para obtener la licencia de Radio Aficionado
 published: true
-date: 2024-02-18T04:40:49.840Z
+date: 2024-02-18T04:44:23.774Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
@@ -92,6 +92,9 @@ Tu indicativo corresponde a:
 - Seguido de la zona:
   - Actualmente son 3 para XE y 4 para XF.
 - Las ultimas letras, son sugeridas por el nuevo concesionario que esta haciendo la solicitud.
+
+
+![zonasmexico.png](/cursoradio/zonasmexico.png){.align-center}
 
 ## IARU
 - Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
