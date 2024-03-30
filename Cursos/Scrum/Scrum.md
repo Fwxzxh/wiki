@@ -1,6 +1,6 @@
 ---
 title: Curso profesional de SCRUM
-description: 
+description:
 published: true
 date: 2023-07-31T07:31:03.814Z
 tags: cursos, scrum
@@ -21,7 +21,7 @@ dateCreated: 2023-07-31T02:21:01.173Z
     - En como estas trabajan y colaboran.
 
 El desarrollo ágil plantea tres enfoques claves:
-  - Grupos de trabajo 
+  - Grupos de trabajo
     - Equipos pequeños.
     - Tiempos de iteración cortos.
   - Requerimientos
@@ -37,7 +37,7 @@ El desarrollo ágil plantea tres enfoques claves:
 > - **Software funcionando** sobre documentación extensiva
 > - **Colaboración con el cliente** sobre negociación contractual
 > - **Respuesta ante el cambio** sobre seguir un plan
-> 
+>
 > Manifiesto Por el desarrollo ágil.
 
 - Satisfacción al cliente
@@ -190,3 +190,35 @@ Scrum Master con la organización
 - Liderar y guiar a la organización en la adopción de Scrum
 - Trabajar con otros Scrum Masters para incrementar la efectividad de la aplicación de Scrum en la organización.
 
+## El equipo de desarrollo en Scrum
+
+Equipo de desarrollo:
+- Consiste en los profesionales que realizan el trabajo de entregar un incremento de producto.
+- La organización es la encargada de empoderar a estos para que organicen y gestionen su propio trabajo.
+
+Características:
+- Autoorganizados.
+- Multifuncionales.
+  - No solo son programadores, puede ser un equipo multidisciplinario
+- No tienen títulos.
+  - todos los elementos del equipo son iguales y todos son responsables de entregar el resultado.
+- No hay subequipos.
+- Solo se puede modificar al terminar el sprint.
+
+Tamaño del equipo:
+- Lo suficientemente pequeño para permanecer ágil.
+- Lo suficientemente grande como para completar una cantidad de trabajo significativa.
+- Entre 3 y 9 personas en el equipo de desarrollo.
+
+
+# Preparar los artefactos a utilizar en Scrum
+## Backlog, Épicas e Historias de usuario
+
+Lista del producto:
+- Es una lista ordenada de todo lo que se conoce que es necesario en el producto.
+- Es la única fuente de requisitos para cualquier cambio a realizarse en el producto.
+- Si hay cambios del cliente, estos deben ser agregados a la lista del producto.
+- Nunca esta completa, Se va desarrollando conforme el proyecto va avanzando.
+- Los elementos en la lista más prioritarios, deben tener descripciones más completas.
+
+> La prioridad es definir de manera más especifica los items que están próximos a trabajarse.
