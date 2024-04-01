@@ -214,11 +214,103 @@ Tamaño del equipo:
 # Preparar los artefactos a utilizar en Scrum
 ## Backlog, Épicas e Historias de usuario
 
-Lista del producto:
+Lista del producto (Product Backlog):
 - Es una lista ordenada de todo lo que se conoce que es necesario en el producto.
 - Es la única fuente de requisitos para cualquier cambio a realizarse en el producto.
 - Si hay cambios del cliente, estos deben ser agregados a la lista del producto.
 - Nunca esta completa, Se va desarrollando conforme el proyecto va avanzando.
 - Los elementos en la lista más prioritarios, deben tener descripciones más completas.
+- Dinámica, para identificar lo que el producto necesita para ser adecuado, competitivo y útil
+- Los elementos de la lista del producto se denominan **Historias de usuario**.
+  - Estas se pueden agrupar en elementos más grandes denominados **Épicas**.
 
 > La prioridad es definir de manera más especifica los items que están próximos a trabajarse.
+
+> Lo que si tiene que estar super bien definido es lo que se va a trabajar en los siguientes dos sprints.
+
+Épicas:
+- Se pueden crear en base a funcionalidades o módulos del producto que se esta desarrollando.
+- Estas requieren más de un sprint para ser completadas.
+
+## Cómo crear Historias de usuario?
+
+Historias de usuario:
+- Son los elementos más específicos de la lista de Producto.
+- Contienen la visión del usuario sobre la funcionalidad del producto.
+- Historias de usuario != Requerimientos.
+  - No son requerimientos, son las cosas que el usuario quiere realizar.
+- Componentes:
+  - Título.
+  - Descripción.
+  - Puntos.
+    - El esfuerzo que le va a tomar al equipo de desarrolló.
+  - Criterio de aceptación.
+    - Que necesita la historia tener para decir que la historia esta completa.
+  - Definition of done:
+    - Funcionalidad (Criterios de aceptación).
+    - Código subido en git.
+    - Pruebas creadas.
+    - Documentación.
+- Invirtiendo tiempo en Historias:
+  - Cards.
+    - Escribimos la historia de usuario.
+  - Conversación.
+    - Entender todo sobre la historia (junto con los POs)
+  - Confirmation.
+    - Todos entendimos la historia de usuario.
+- Nuestra historia de usuario debe de ser:
+  - Independiente:
+    - No debe depender de otra historia de usuario.
+  - Negociable:
+    - Debe poder negociarse con el PO.
+  - Valiosa:
+    - Debe aportar valor al Cliente.
+  - Estimable. 
+    - Debemos de tener un estimado.
+  - Pequeña.
+    - debe de estar acotada.
+  - Testable.
+    - Debemos de poder comprobar que fue completada.
+
+```
+Plantilla para hacer historias de usuario
+
+Titulo: 
+Puntos:
+
+Como (Rol del usuario)
+Quiero (que funcionalidad está buscando el usuario)
+Para (Para qué quiero realizar esta acción)
+
+Criterios De aceptación:
+
+
+Información adicional:
+
+
+```
+
+## Cómo estimar historias de usuario?
+
+Los puntos de la historia representan:
+- Complejidad de la historia.
+- Cantidad de trabajo requerido.
+- Conocimientos necesarios.
+- Incertidumbre.
+
+Puntos:
+- Los valores de los puntos no tienen conexión con ninguna unidad de medida específica.
+  - Ni Dias, ni commits, ni lineas de código.
+  - Son un estimado empírico en base a la experiencia del equipo, del esfuerzo para completarla.
+  - Generalmente se ocupa una herramienta llamada **Planning Poker**.
+    - El equipo va a tener cartas en las cuales van a tener números.
+    - Cada miembro del equipo dará su opinión sobre los puntos de esta historia de usuario.
+      - Si hay discrepancias se vuelve a votar, después de hablar sobre el porqué de estas.
+    - Puede tener distintas escalas:
+      - Fibonacci.
+      - 2^n.
+- Al final, haremos una suma de todas los puntos del sprint y tendremos lo siguiente:
+  - Velocidad:
+    - Es el total de puntos de las historias de usuario completadas por el equipo durante un sprint.
+  - Capacidad:
+    - Total de historias de usuario que se pueden completar en un sprint futuro.
