@@ -314,3 +314,29 @@ Puntos:
     - Es el total de puntos de las historias de usuario completadas por el equipo durante un sprint.
   - Capacidad:
     - Total de historias de usuario que se pueden completar en un sprint futuro.
+
+## Cómo empezar? Prioridades y backlog
+
+Backlog:
+- Es un subconjunto de la lista de producto y contiene los elementos que serán desarrollados en el sprint.
+- De estos dependerá el incremento y los objetivos del sprint.
+- Etapas intermedias:
+  - Historias de usuario.
+  - Historias que hemos decidido trabajar.
+  - Historias que están en progreso.
+  - Historias que se van a empezar a probar.
+  - Historias terminadas.
+- Solo el equipo de desarrollo puede aceptar que se agreguen elementos al Backlog.
+- Si un elemento se vuele innecesario a mitad de un sprint, se puede sacar de la lista de pendientes.
+
+> Lista de pendientes:
+> Esta debe de estar lo suficientemente detallado par que el equipo sea capaz de comprendedlo en el daily.
+
+Definiendo prioridades:
+- Valor para el cliente.
+- Urgencia.
+  - Hay elementos pequeños que pueden ser importantes par el cliente.
+- Riego/Oportunidad.
+- Esfuerzo.
+
+## Cómo medir el avance de un proyecto de Scrum
