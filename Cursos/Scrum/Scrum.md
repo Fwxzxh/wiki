@@ -212,9 +212,10 @@ Tamaño del equipo:
 
 
 # Preparar los artefactos a utilizar en Scrum
-## Backlog, Épicas e Historias de usuario
+## Backlog de producto, Épicas e Historias de usuario
 
 Lista del producto (Product Backlog):
+- El dueño del backlog del producto es el PO.
 - Es una lista ordenada de todo lo que se conoce que es necesario en el producto.
 - Es la única fuente de requisitos para cualquier cambio a realizarse en el producto.
 - Si hay cambios del cliente, estos deben ser agregados a la lista del producto.
@@ -315,9 +316,10 @@ Puntos:
   - Capacidad:
     - Total de historias de usuario que se pueden completar en un sprint futuro.
 
-## Cómo empezar? Prioridades y backlog
+## Cómo empezar? Prioridades y backlog del sprint
 
-Backlog:
+Backlog (Lista de pendientes del sprint):
+- El equipo de desarrollo es el dueño.
 - Es un subconjunto de la lista de producto y contiene los elementos que serán desarrollados en el sprint.
 - De estos dependerá el incremento y los objetivos del sprint.
 - Etapas intermedias:
@@ -485,4 +487,3 @@ Scrums of scrums:
 - Es una reunión donde frecuentemente se encuentran miembros de todos los equipos.
 - Permite coordinar esfuerzos entre los distintos equipos de la organización.
 - Debe de ir 1 o 2 representantes de cada equipo (scrum y PO o el lead por ejemplo).
--
