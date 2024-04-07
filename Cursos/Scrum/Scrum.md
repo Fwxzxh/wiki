@@ -265,7 +265,7 @@ Historias de usuario:
     - Debe poder negociarse con el PO.
   - Valiosa:
     - Debe aportar valor al Cliente.
-  - Estimable. 
+  - Estimable.
     - Debemos de tener un estimado.
   - Pequeña.
     - debe de estar acotada.
@@ -275,7 +275,7 @@ Historias de usuario:
 ```
 Plantilla para hacer historias de usuario
 
-Titulo: 
+Titulo:
 Puntos:
 
 Como (Rol del usuario)
@@ -340,3 +340,149 @@ Definiendo prioridades:
 - Esfuerzo.
 
 ## Cómo medir el avance de un proyecto de Scrum
+
+> Esto nos sirve para revisar y analizar si aún se puede cumplir el objetivo planeado al inicio del sprint
+Tomar en cuenta:
+- Los puntos de la historia.
+- Están enfocadas en el sprint.
+- Se proyecta una gráfica de cómo se deben ir concretando los puntos a lo largo de los días.
+
+Tipos de Gráficos:
+- Burn-Up chart:
+  - Muestra el trabajo pendiente a lo largo del tiempo.
+- Burn-Down chart:
+  - Muestra el trabajo aportado por el equipo.
+- Diagrama de flujo acumulado:
+  - Proporciona una visualización concisa de las métricas del equipo.
+
+# Entender y realizar las ceremonias
+
+## Qué es el sprint en un proyecto Scrum
+
+> Es el corazón de scrum, es un periodo de tiempo determinado en lo que se crea un incremento.
+
+Sprint:
+1. Planeación del sprint.
+2. Scrum Diario.
+3. Trabajo de desarrollo.
+4. Revisión del sprint.
+5. Retrospectiva del sprint.
+
+Sprint:
+- Cada sprint debe de tener un objetivo claro.
+- Cualquier cambio dentro del sprint debe de ser negociado con el PO.
+- Si los objetivos del sprint quedan obsoletos, este puede ser cancelado.
+  - Solo el PO tiene la autoridad para cancelar un sprint.
+  - Es muy poco común cancelar un sprint.
+
+## Qué es el sprint planning
+
+Sprint Planning:
+- Aquí se planifica todo el trabajo del sprint.
+- Debe de estar presente todo el equipo de scrum.
+- No debe durar más de 8 horas para sprint de 4 semanas.
+- El scrum master se encarga de organizar la ceremonia.
+- Scrum master debe de asegurarse de conseguir un lugar adecuado para el planning y asegurarse de que todo lo que se necesite este listo para que el planning sea un éxito.
+- También debe de asegurarse de que todo el equipo de desarrollo este cómodo.
+- Nadie del equipo de desarrollo debe de Distraerse (no contestar mensajes ni correos durante el planning).
+- Se deben de responder:
+  - Qué puede entregarse al final del sprint?
+    - Se trabajan los elementos más prioritarios de la lista del producto.
+    - Se discute también el objetivo a lograr en el sprint.
+    - Se necesita saber la capacidad del equipo y la velocidad de la última iteración.
+  - Cómo se logrará hacer este trabajo?
+    - los elementos de la lista de producto seleccionados se analizan y se mueven a la lista de pendientes del sprint
+    - Durante este proceso se hacen las estimaciones de esfuerzos.
+    - El PO se encarga de aclara cualquier duda con algún elemento del backlog.
+    - Pueden haber invitados que aporten valor a la discusión de las funcionalidades.
+
+Plantación:
+1. Seleccionar los elementos.
+2. Hacer la estimación con los puntos.
+3. Analizar los puntos con la capacidad que tenemos.
+4. Trazar el objetivo del sprint.
+
+
+## Daily Stand-Up
+
+Daily Stand-Up:
+- Reunión diaria de no más de 15 min.
+- Se utiliza para planear las próximas 24 horas de trabajo.
+- Participa únicamente el equipo de desarrollo.
+- Debe de ser en pie.
+  - Esto para no extendernos más de 15 min.
+- La reunion debe de ser el mismo lugar a la misma hora todos los días.
+- Pueden participar otras personas (PO) pero solo escuchar.
+- Nos ayuda:
+  - Optimiza la colaboración entre los miembros del equipo.
+  - También ayuda para medir el progreso para cumplir el objetivo del sprint.
+- Responde tres preguntas:
+  - Qué hice ayer?
+  - Qué haré hoy?
+  - Tengo algún impedimento?
+    - Si existen impedimentos el scrum master será el encarado de ayudar a resolverlos.
+    - Si se necesitan más detalles sobre lo discutido, el equipo puede reunirse después.
+
+## Cómo refinar historias de usuario
+
+Backlog Refinement:
+- Al menos una vez en cada sprint.
+- Esta reunión es organizada por el scrum master y pueden participar los miembros del equipo de desarrollo.
+  - El PO siempre esta presente.
+- El objetivo es:
+  - identificar cualquier duda o impedimento antes de comenzar el sprint.
+  - Completar la descripción.
+  - Crear el DoD.
+  - Identificar las dependencias.
+
+
+## Sprint Review y Retrospective
+
+Sprint Review:
+- Sucede al final del sprint
+- Demostramos al cliente lo que hemos hecho.
+- Pueden ser 1 o más reuniones dependiendo del caso y las funcionalidades.
+- Es una ceremonia donde interactuamos con el cliente.
+  - Permite una iteración rápida con el cliente.
+  - Fomenta la comunicación con el cliente.
+- Es una reunión un tanto informal.
+- Es facilitada por el scrum.
+- No debe durar más de 4 horas para sprints de 1 mes.
+  - 1 hora para sprints de 2 semanas.
+- Al fina se tendrá una lista de producto actualizada.
+- La idea es mostrar el software funcionando al cliente.
+
+Retrospective:
+- Reunión interna del equipo.
+- Debe de ser en un ambiente más cómodo donde el equipo se sienta cómodo para hablar.
+- Se deben de analizar las oportunidades de mejora.
+- Positiva y productiva.
+  - No es una reunión para buscar culpas.
+- No debe de durar más de 3 horas para un sprint de 1 mes.
+- Es facilitada por el Scrum master.
+- Participa todo el equipo de Scrum.
+
+Se pueden discutir estos 4 elementos:
+- Herramientas:
+  - Herramientas: Tenemos las herramientas adecuadas para trabajar.
+  - Relaciones: Relaciones dentro y fuera del equipo.
+  - Personas: Si hay un tipo de inconveniente con las personas dentro y fuera del equipo.
+  - Procesos: si estos se ajustan al desarrollo optimo.
+- Preguntas:
+  - Qué hicimos bien?
+  - Qué no hicimos tan bien?
+  - Qué podemos mejorar?
+  - En base a las respuestas se identifican los elementos más importantes, se buscan soluciones y se crea un plan de acción para aplicar mejoras.
+
+# Crecer usando scrum
+## Escalabilidad de equipos en scrum
+
+Scrum es capaz de funcionar con proyectos de 10 personas como proyectos de 100 y más.
+
+La forma en como está diseñado scrum permite enfrentar proyectos de distintos niveles de complejidad.
+
+Scrums of scrums:
+- Es una reunión donde frecuentemente se encuentran miembros de todos los equipos.
+- Permite coordinar esfuerzos entre los distintos equipos de la organización.
+- Debe de ir 1 o 2 representantes de cada equipo (scrum y PO o el lead por ejemplo).
+-
