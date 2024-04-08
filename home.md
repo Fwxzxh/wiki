@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2024-04-08T02:52:30.799Z
+date: 2024-04-08T02:53:18.660Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -37,7 +37,6 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 > Happy Hacking!
 
-![img_0746.jpeg](/img_0746.jpeg){.align-center}
 
 ![banner.png](/banner.png)
 
@@ -135,3 +134,5 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 > Saber cosas es interesante
 
 * Linux
+
+![img_0746.jpeg](/img_0746.jpeg){.align-center}
