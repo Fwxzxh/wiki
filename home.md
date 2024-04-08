@@ -2,7 +2,7 @@
 title: Home
 description: wiki home
 published: true
-date: 2024-01-29T05:13:20.119Z
+date: 2024-04-08T02:51:58.503Z
 tags: index, about-me, inicio
 editor: markdown
 dateCreated: 2022-12-14T06:01:09.312Z
@@ -36,6 +36,8 @@ eres libre de usarla libremente, si encuentras algún problema en lo que esta es
 el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 
 > Happy Hacking!
+
+![img_0746.jpeg](/img_0746.jpeg){.align-abstopright}
 
 ![banner.png](/banner.png)
 
