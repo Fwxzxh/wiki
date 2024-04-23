@@ -147,7 +147,7 @@ int main()
 - Los comentarios que empiezan con dos diagonales son comentarios de una
   sola línea.
 
-## Statements 
+## Statements
 Un `statement` o declaración, es un tipo de instrucción que hace que el programa haga *algo*.
 
 Estos son los más comunes en un programa de c++ ya que son la unidad más pequeña de computación.

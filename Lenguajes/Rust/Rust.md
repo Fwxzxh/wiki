@@ -1,6 +1,6 @@
 ---
 title: The Rust Programming Languaje
-description: 
+description:
 published: true
 date: 2023-02-11T19:44:06.354Z
 tags: libros, lenguajes, rust
@@ -74,12 +74,12 @@ let third: Option<&i32> = v.get(2);
 match third {
     Some(third) => println!("The third element is {third}"),
     None => println!("There is no third element"),
-} 
+}
 ```
 Al intentar acceder a un elemento que no existe con el método 1 nuestro programa tirará un `panic`,
 haciendo que nuestro programa crashee.
 
-Con el segundo método, podremos manejar el debido caso que el valor no exista, usando estos dos 
+Con el segundo método, podremos manejar el debido caso que el valor no exista, usando estos dos
 métodos podemos controlar el comportamiento de nuestro programa en ciertas situaciones.
 
 También tenemos que tener en cuenta las reglas de `ownership` al trabajar con vectores.
@@ -89,7 +89,7 @@ let mut v = vec![1, 2, 3, 4, 5]; // Los vectores son espacios *contiguos* de mem
 
 let first = &v[0]; // Obtenemos una referencia al primer elemento.
 
-v.push(6); // Error!!! 
+v.push(6); // Error!!!
 // Si al agregar un elemento extra el espacio designado par v no alcanza,
 // rust tiene que moverlo a otro lugar, invalidando la referencia en first.
 
@@ -118,7 +118,7 @@ for i in &mut v {
 > La referencias que usa el for loop y el `borrow checker` mantienen nuestra memoria segura.
 
 ### Usando Enums para guardar multiples tipos
-Los vectores solo pueden contener valores de un solo tipo, 
+Los vectores solo pueden contener valores de un solo tipo,
 si necesitamos guardar elementos de diferente tipo podemos usar un Enum
 
 ```rust
@@ -161,7 +161,7 @@ En rust los `strings` son diferentes por tres cosas:
 > En rust los strings son tratados como colecciones.
 
 ### Qué es un string?
-En rust los strings son definidos por el `slice` `str` dado por el `core`de rust el cual vemos en la forma de `&str` 
+En rust los strings son definidos por el `slice` `str` dado por el `core`de rust el cual vemos en la forma de `&str`
 las cuales son referencias a datos encodeados en UTF-8.
 
 El tipo `String` es un tipo (de la librería estándar) que puede crecer, mutar y tiene ownership,
@@ -220,7 +220,7 @@ Una manera de concatenar strings es con la macro `format!`
 ```rust
 let s1 = String::from("hello, ");
 let s2 = String::from("world!");
-let s3 = s1 + &s2; // s1 ya no es usable ya que se ha movido aquí 
+let s3 = s1 + &s2; // s1 ya no es usable ya que se ha movido aquí
 ```
 
 Tomamos ownership de s1 ya que la función + tiene como firma:
@@ -372,4 +372,85 @@ Esto para obtener un `Option<i32>` en lugar de un `Option<&i32>`,
 con `unwrap_or()` retornamos un 0 si nuestro `Option` es None.
 
 
+### Hash Maps y ownership
 
+> Para tipos con el trait `Copy` estos serán copiados al hash map, para los que no se moverá el ownership al hash map.
+
+```rust
+use std::collections::HashMap;
+
+let field_name = String::from("Favorite color");
+let field_value = String::from("Blue");
+
+let mut map = HashMap::new();
+map.insert(field_name, field_value);
+
+// field_name & field_value son inválidos a partir de este punto, ahora map tiene el ownership.
+```
+
+### Actualizando un Hash Map
+
+- Cada key, puede tener solo un valor asociado con esta.
+- Podemos manejar el caso en el que queramos elegir si remplazar esta key o no.
+
+> Si insertamos un valor y una key y luego otro con la misma key, el valor será reemplazado.
+
+
+```rust
+let mut scores = HashMap::new();
+scores.insert(String::from("Blue"), 10);
+
+// Como,  checa si existe esta entrada, y si no inserta *tal*
+scores.entry(String::from("Yellow")).or_insert(50);
+scores.entry(String::from("Blue")).or_insert(50);
+```
+
+El método `or_insert` en `entry` retorna una referencia mutable al valor de la entry, si esta existe y si no, inserta el parámetro como el nuevo valor para esta key.
+
+### Actualiza un valor de un Hash Map basado en otro valor
+
+Un uso común de los hash map es buscar un valor, y actualizarlo.
+
+```rust
+let text = "hello world";
+
+let mut map = HashMap::new();
+
+for world in text.split_whitespace() {
+    let count = map.entry(word).or_insert(0);
+    *count += 1;
+}
+```
+
+> Por defecto HashMap usa el algoritmo llamado SipHash para hash tables, pero este puede ser cambiado.
+
+## Error Handling
+
+Rust agrupa los errores en dos categorías:
+- Errores recuperables.
+    - Rust no tiene excepciones.
+    - Para estos, rust tiene el tipo `Result<T, E>`
+- Errores no recuperables.
+    - Para estos rust tiene la macro `panic!` que detiene la ejecución del programa
+
+### Errores no recuperables con panic!
+
+Por defecto panic:
+- Imprime un mensaje de error.
+- unwind y limpia el stack.
+- Termina la ejecución.
+
+podemos modificar si queremos hacer unwinding del stack o no cuando llamamos a panic modificando el `Cargo.toml`.
+
+```toml
+[profile.release]
+panic = 'abort'
+```
+
+
+```rust
+fn main() {
+    // panic example, duh!
+    panic!("crash and burn");
+}
+```
