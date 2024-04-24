@@ -454,3 +454,131 @@ fn main() {
     panic!("crash and burn");
 }
 ```
+
+### Errores recuperables con Result
+
+Algunos errores no son tan serios como para que nuestro programa se detenga.
+
+En rust existe el enum Result:
+
+```rust
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
+
+> No tenemos que definir este tipo ya que se importa automáticamente en el preludio del lenguaje
+
+Donde:
+- T representa el tipo del dato que retornaremos si la operación fue exitosa.
+- E el tipo del error que será retornado en caso de que la operación no sea exitosa.
+
+```rust
+fn main() {
+    let greeting = File::open("Hello.txt");
+
+    let greeting_file = match greeting {
+        OK(file) => file,
+        Err(error) => panic!("Problem opening the file: {:?})", error),
+    };
+}
+```
+
+### Matcheando diferentes errores
+
+Algunas veces queremos tomar diferentes acciones por diferentes tipos de fallos.
+
+```rust
+fn main() {
+    let greeting = File::open("Hello.txt");
+
+    let greeting_file = match greeting {
+        Ok(file) => file,
+        Err(error) => match error.kind() {
+            ErrorKind::NotFound => match File::create("hello.txt") {
+                Ok(fc) => fc,
+                Err(e) => panic!("Problem creating the file {:?}", e),
+            },
+            other_error => {
+                panic!("Problem opening the file: {:?}", other_error);
+            }
+        },
+    };
+}
+```
+
+En el ejemplo anterior:
+- `File::open` retorna en la variante `Err` un `io::Error`.
+    - Este es un struct que nos da la librería estándar.
+        - Este struct tiene un método `kind` que podemos llamar para obtener un enum `io::ErrorKind`.
+            - En este ejemplo nos encargamos de la variante del enum `ErrorKind::NotFound`.
+
+### Atajos para el manejo de errores.
+
+Usar un match puede ser un poco verbose, el tipo `Result<T, E>` tiene algunos métodos que pueden ser útiles.
+
+
+```rust
+fn main() {
+    let greeting = File::open("Hello.txt").unwrap();
+}
+```
+
+> unwrap() llamara a panic! si hay un error.
+
+```rust
+fn main() {
+    let greeting = File::open("Hello.txt")
+        .expect("hello.txt should be included in this project");
+}
+```
+
+> expect() le dará el mensaje que le pases como argumento a panic!. (generalmente es mejor que unwrap())
+
+### Propagando errores
+
+A veces es mejor propagar el error al siguiente nivel en lugar de manejarlo en la misma función.
+
+```rust
+fn read_username_from_file() -> Result<String, io::Error> {
+    let username_file_result = Fille::open("hello.txt");
+
+    let mut username_file = match username_file_result {
+        Ok(file) => file,
+        Err(e) => return Err(e),
+    }
+
+    let mut username = String::new();
+
+    match username_file.read_to_string(&mut username) {
+        Ok(_) => Ok(username),
+        Err(e) => Err(e),
+    }
+}
+```
+
+El patron de propagar errores es tan común en rust que existe el operador `?`.
+
+```rust
+fn read_username_from_file() -> Result<String, io::Error> {
+    let mut username_file = File::open("hello.txt")?;
+    let mut username = String::new();
+    username_file.read_to_string(&mut username)?;
+    Ok(username)
+}
+```
+
+El `?` Esta hecho para funcionar de la misma manera que el match del primer ejemplo.
+
+Incluso podemos chainear las llamadas anteriores.
+
+```rust
+fn read_username_from_file() -> Result<String, io::Error> {
+    let mut username = String::new();
+    File::open("hello.txt")?.read_to_string(&mut username)?;
+    Ok(username)
+}
+```
+
+> El operador `?` Solo puede ser usado en operaciones cuyo tipo de retorno coincida con el de la función padre.
