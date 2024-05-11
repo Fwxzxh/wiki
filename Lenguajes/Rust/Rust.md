@@ -534,7 +534,7 @@ fn main() {
 }
 ```
 
-> expect() le dará el mensaje que le pases como argumento a panic!. (generalmente es mejor que unwrap())
+> expect() le dará el mensaje que le pases como argumento a panic!. (generalmente es mejor practica que unwrap())
 
 ### Propagando errores
 
