@@ -582,3 +582,24 @@ fn read_username_from_file() -> Result<String, io::Error> {
 ```
 
 > El operador `?` Solo puede ser usado en operaciones cuyo tipo de retorno coincida con el de la función padre.
+
+## Tipos genéricos, Traits y lifetimes
+
+Los tipos genéricos nos permiten remplazar tipos específicos con un placeholder que podría representar
+cualquier tipo, para evitar duplicación.
+
+
+```rust
+fn largest<T>(list: &[T]) -> &T {}
+```
+
+en la sintaxis de una función genérica, decimos que la función es genérica con el tipo `T`, y recibe un slice de este tipo `T` y retorna una referencia a este tipo `T`, `T` Solo es el nombre que le damos al tipo que vamos a recibir como parámetro en la función.
+
+También podemos definir structs genéricos
+
+```rust
+struct Point<T> {
+    x: T,
+    y: T
+}
+```
