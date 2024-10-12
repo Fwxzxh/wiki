@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
+                "file": "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
+                "file": "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md"
+                "file": "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md"
               }
             }
           },
@@ -191,10 +191,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6ee74eac63c5ccc",
+  "active": "0fd668f163fe05a1",
   "lastOpenFiles": [
-    "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
     "IOS/SwiftUI/Swift UI.md",
+    "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
     "Cursos/BuenasPracticas.md",
     "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.svg",
     "IOS/SwiftUI/Files/Files/image.png",
