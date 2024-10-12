@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Herramientas/NixOs/NixOs.md",
+                "file": "IOS/SwiftUI/Swift UI.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "340866e83be764ac",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Herramientas/NixOs/NixOs.md",
+                "file": "IOS/SwiftUI/Swift UI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Herramientas/NixOs/NixOs.md",
+                "file": "IOS/SwiftUI/Swift UI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Herramientas/NixOs/NixOs.md"
+                "file": "IOS/SwiftUI/Swift UI.md"
               }
             }
           },
@@ -185,8 +184,12 @@
   },
   "active": "d6ee74eac63c5ccc",
   "lastOpenFiles": [
-    "Cursos/BuenasPracticas.md",
     "Herramientas/NixOs/NixOs.md",
+    "IOS/SwiftUI/Swift UI.md",
+    "IOS/Swift",
+    "IOS/SwiftUI",
+    "IOS",
+    "Cursos/BuenasPracticas.md",
     "Herramientas/NixOs",
     "Herramientas",
     "index.md",
@@ -221,7 +224,6 @@
     "home.md",
     "img_0746.jpeg",
     "login.png",
-    "logo.png",
-    "README.md"
+    "logo.png"
   ]
 }
