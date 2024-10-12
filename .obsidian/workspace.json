@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "0fd668f163fe05a1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "412c1aa2f26d6468",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "340866e83be764ac",
@@ -110,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
+                "file": "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
+                "file": "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md"
+                "file": "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md"
               }
             }
           },
@@ -182,10 +193,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6ee74eac63c5ccc",
+  "active": "0fd668f163fe05a1",
   "lastOpenFiles": [
-    "Herramientas/NixOs/NixOs.md",
+    "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.svg",
+    "IOS/SwiftUI/Files/Files/image.png",
+    "IOS/SwiftUI/Files/Files",
     "IOS/SwiftUI/Swift UI.md",
+    "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md",
+    "IOS/SwiftUI/Files",
+    "Herramientas/NixOs/NixOs.md",
     "IOS/Swift",
     "IOS/SwiftUI",
     "IOS",
@@ -220,8 +236,6 @@
     "cursoradio/zonasmexico.png",
     "cursoradio/plandebandas.png",
     "Backend/IntroBackend.md",
-    "Libros/AtomicHabits.md",
-    "home.md",
     "img_0746.jpeg",
     "login.png",
     "logo.png"
