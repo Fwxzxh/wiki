@@ -1,3 +1,7 @@
+> [!info] Definition
+>  SwiftUI es un framework de apple para crear UI de manera fácil y con código.
 
+# Estructura básica de una View.
 
-![[Swift UI 2024-10-11 19.37.45.excalidraw]]
+![[SwiftUI_Basic_Structure.svg]]
+> Partes de la view básica de SwiftUI.
