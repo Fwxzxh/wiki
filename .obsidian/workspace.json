@@ -4,45 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "04862da8a3e1ff12",
+        "id": "da55ffff6fa97551",
         "type": "tabs",
         "children": [
           {
-            "id": "0a2b2555b496954d",
+            "id": "5674618570e1a30e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOS/Swift/Swift Lang.md",
+                "file": "Cursos/Otros/RadioAficionado.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "54460f20d1b06d45",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md"
-              }
-            }
-          },
-          {
-            "id": "412c1aa2f26d6468",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "RadioAficionado"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -71,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "simultaneamente",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -85,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -117,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Swift UI"
             }
           },
           {
@@ -129,7 +116,9 @@
                 "file": "IOS/SwiftUI/Swift UI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Swift UI"
             }
           },
           {
@@ -140,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -150,7 +141,9 @@
               "type": "outline",
               "state": {
                 "file": "IOS/SwiftUI/Swift UI.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Swift UI"
             }
           },
           {
@@ -158,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -173,16 +168,23 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "412c1aa2f26d6468",
+  "active": "5674618570e1a30e",
   "lastOpenFiles": [
+    "Cursos/Otros/Files/FrecuenciasRadio.png",
+    "Cursos/Otros/Files/ComunicacionProcc.png",
+    "Cursos/Otros/Files",
+    "Cursos/Otros/CursoLinkedin.md",
+    "Cursos/Otros/RadioAficionado.md",
+    "cursoradio/zonasmexico.png",
+    "cursoradio/plandebandas.png",
     "index.md",
     "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
     "IOS/Swift/Swift Lang.md",
@@ -218,15 +220,9 @@
     "Cursos/Finanzas/CurFinanzasPersonales.md",
     "Cursos/Diseno/IntroduccionDiseno.md",
     "Cursos/Flutter/Flutter.md",
-    "Cursos/Otros/RadioAficionado.md",
     "Cursos/TechnicalWriting.md",
     "DataScience/MlForBeginers.md",
     "DataScience/FundamentosMathDs.md",
-    "Cursos/FundIngSoftware.md",
-    "Cursos/BashScripting.md",
-    "cursoradio/zonasmexico.png",
-    "cursoradio/plandebandas.png",
-    "img_0746.jpeg",
-    "login.png"
+    "img_0746.jpeg"
   ]
 }

@@ -1,4 +1,6 @@
 {
   "cssTheme": "Tokyo Night",
-  "translucency": true
+  "translucency": true,
+  "textFontFamily": "Iosevka Fixed SS09",
+  "monospaceFontFamily": "Iosevka SS09"
 }

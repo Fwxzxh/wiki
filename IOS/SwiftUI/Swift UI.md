@@ -1,5 +1,5 @@
 > [!info] Definition
->  SwiftUI es un framework de apple para crear UI de manera fácil y con código.
+>  SwiftUI es un framework de apple para crear UI de manera fácil y sin makup.
 
 # Estructura básica de una View.
 
@@ -31,6 +31,6 @@ struct CardView: View {
 > Esto internamente crea un puntero a la variable que marcamos como `@State`
 > para poder mutarla.
 
-La mayoría del estado mutable de la aplicación debe de estar en la lógica de la aplicación, no en la view.
+La mayoría del estado mutable de la aplicación debe de estar en la lógica de la aplicación, no en la `view`.
 
-Pero esto es útil para estado que solo ocurre en la view.
+Pero esto es útil para estado que solo ocurre en la `view`.
