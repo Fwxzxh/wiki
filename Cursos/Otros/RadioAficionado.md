@@ -228,3 +228,28 @@ Los radioaficionados utilizan diferentes *modos de transmisión*:
 - **CW** (morse code): Uno de los modos más antiguos y eficaces, ideal para condiciones difíciles de propagación.
 - **FM** (Frecuencia modulada): Común en las bandas VHF y UHF, utilizado especialmente par comunicaciones locales y en repetidores.
 - **Digitales**: Modos como FT8, PSK31 y RTTY son populares para comunicaciones digitales, especialmente cuando las condiciones de propagación no son óptimas.
+
+## Radioafición
+
+> Nació de la necesidad de comunicar a las naves marítimas con tierra firme.
+
+> [!info] Servicio de aficionados 
+> Tiene por objeto la instrucción individual, la intercomunicación y los estudios técnicos, efectuado por aficionados, por personas debidamente autorizadas que se interesan por la radiotecnia con carácter exclusivamente personal y sin fines de lucro.
+
+> [!info] Servicio de aficionados por satélite
+> Servicio de aficionados que utliza estaciones espaciales situadas en satélites de la tierra.
+
+La práctica de la radioafición aporta los siguientes elementos:
+- Apoyo a la sociedad en situaciones de emergencia o desastre natural.
+- Contribuye al desarrollo personal y de las naciones en temas técnico-científicos sobre radiocomunicaciones.
+- Oportunidades de aprendizaje.
+- Exploración de la propagación de las ondas radioeléctricas.
+- Proyección de la imagen nacional.
+
+Ambitos de acción:
+- **CW** (Telegrafía): *continous wave*, es el modo de transmición que dio origien a las radiocomunicaciones, requiere del dominio del código morse internacional e implica que el radioaficionado poseaa un oido educado para reconocer los mensajes telegráficos.
+- **Fonía**: Es el modo en el cual se transmite voz mediante VHF, UHF y SHF.
+- **Satélites**: Es la comunicación con satélites fuera de orbita.
+- **Comunicaciones espaciales**: Las naves y estaciones espaciales llevan instalados equipos de radioaficionado. Por tal motivo la mayoría de los tripulantes son radioaficionados y suelen establecer comunicados con otros colegas en la tierra.
+- **Modos digitales**: Para utilizarlos se requiere una computadora que remplaza el radio.
+- **Voz digital**:
