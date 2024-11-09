@@ -10,18 +10,42 @@ dateCreated: 2024-01-29T05:12:05.318Z
 
 # Curso para obtener la licencia de radio aficionado
 
-## Reglas
+## Union internacional de Telecomunicaciones (ITU)
+
+> [!info]
+> Nace el 17 de mayo de 1865 como la Unión Telegráfica Internacional, a partir de la fusión con otras asambleas americanas y europeas. Se transforma en la Unión internacional de Telecomunicaciones en 1932, En 1847 se convierte en una agencia especializada de la Organización de las Naciones Unidas.
+
+Sus funciones son:
+- Acordar regulaciones internacionales y tratados para gobernar todos los usos terrestre y espaciales de las frecuencias del espectro radioeléctrico.
+- Desarrollar estándares de interconexión de sistemas de telecomunicaciones a escala mundial.
+	- Independientemente del tipo de tecnología usada,
+- Fomentar el desarrollo de las telecomunicaciones en paises emergentes.
+
+Se compone de cuatro oficinas (Burós):
+1. Buró del Secretario General.
+2. Buró de Radiocomunicaciones (ITU-R).
+3. Buró de Telecomunicaciones (ITU-T).
+4. Buró de Desarrollo de las telecomunicaciones (ITU-D).
+
+Cada 3 años se lleva acabo la WRC en la cual participan con voz y voto delegaciones de los países miembros.
+
+Los acuerdos de la WRC pasan a formar parte de la reglamentación vigente.
+
+## Organización regional
+
+![[ITU_Regions.png]]
+
+
 ### Servicio de radioaficionado
 
 > Propósito:
 > Tener las habilidades avanzadas en las fases técnicas y de comunicación del arte de la radio.
 
-En méxico, el organismo o entidad reguladora es el IFT/IFETEL (Instituto federal de telecomunicaciones).
+En México, el organismo o entidad reguladora es el IFT/IFETEL (Instituto federal de telecomunicaciones).
 
 
 > [!info] 
-> La autorización para operar/Instalar estaciones de radio-aficionado se llama:
-> CONCESIÓN
+> La autorización para operar/Instalar estaciones de radio-aficionado se llama: CONCESIÓN
 
 Lo cual nos convierte en: **concesionarios de uso privado**.
 
@@ -231,7 +255,7 @@ Los radioaficionados utilizan diferentes *modos de transmisión*:
 
 ## Radioafición
 
-> Nació de la necesidad de comunicar a las naves marítimas con tierra firme.
+Nació de la necesidad de comunicar a las naves marítimas con tierra firme.
 
 > [!info] Servicio de aficionados 
 > Tiene por objeto la instrucción individual, la intercomunicación y los estudios técnicos, efectuado por aficionados, por personas debidamente autorizadas que se interesan por la radiotecnia con carácter exclusivamente personal y sin fines de lucro.
