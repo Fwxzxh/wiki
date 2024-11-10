@@ -35,7 +35,6 @@ Los acuerdos de la WRC pasan a formar parte de la reglamentación vigente.
 
 ![[ITU_Regions.png]]
 
-
 ### Servicio de radioaficionado
 
 > Propósito:
