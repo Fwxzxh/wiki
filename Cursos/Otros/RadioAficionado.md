@@ -253,6 +253,12 @@ El plan de bandas es una asignación que hace la IARU, en cada una de sus tres r
 ![[Cursos/Otros/Files/PlanDeBandas.png]]
 > Se recomienda usar este plan de bandas durante operación para evitar conflictos con otros colegas a nivel internacional.
 
+## Usos y principales características de cada una de las bandas atribuidas al SAAS en méxico
+
+| longitud de onda | Usos Principales                                                                                |
+| ---------------- | ----------------------------------------------------------------------------------------------- |
+| 200 m            | Permite comunicaciones de corto alcance durante horas diurnas y comunicaciones de mayor alcance |
+
 
 
 # El proceso de la comunicación
