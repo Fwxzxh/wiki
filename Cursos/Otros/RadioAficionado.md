@@ -31,9 +31,18 @@ Cada 3 años se lleva acabo la WRC en la cual participan con voz y voto delegaci
 
 Los acuerdos de la WRC pasan a formar parte de la reglamentación vigente.
 
-## Organización regional
+### Organización regional
 
 ![[ITU_Regions.png]]
+
+En cada región existen organizaciones que permiten una discusión más detallada de cada propuesta; Estas son llevadas a la asamblea mundial
+
+### Reglamento de radiocomunicaciónes 
+
+Es el documento que rige a todos los servicios de radiocomunicaciones; en 2016 define 60 servicios diferentes entre los que se encuentran:
+
+- **57**: Servicio de aficionados: servicio  que tiene por objeto la instrucción individual, la intercomunicación y los estudios técnicos efectuados por aficionados.
+- **58**: Servicio de aficionados por satélite: Servicio de radiocomunicaciones que utiliza estaciones espaciales situadas en satélites de la Tierra para los mismos fines que el servicio de aficionados.
 
 ### Servicio de radioaficionado
 
@@ -41,7 +50,6 @@ Los acuerdos de la WRC pasan a formar parte de la reglamentación vigente.
 > Tener las habilidades avanzadas en las fases técnicas y de comunicación del arte de la radio.
 
 En México, el organismo o entidad reguladora es el IFT/IFETEL (Instituto federal de telecomunicaciones).
-
 
 > [!info] 
 > La autorización para operar/Instalar estaciones de radio-aficionado se llama: CONCESIÓN
@@ -81,28 +89,53 @@ Se considera una estación espacial aquélla que esta arriba de 50kms de la supe
       - Las cuales están prohibidas.
 - Se alienta el uso del Código Fonético Internacional para los comunicados por parte de IARU.
   - FMRE (Federación mexicana de radio experimentadores)
+## IARU
 
-### Frecuencias Autorizadas.
+> Nació con el fin de representar en todos los ámbitos a los radioaficionados, principalmente en la vigilancia de las bandas del espectro asignadas al servicio.
 
-- La Unión internacional de telecomunicaciones (ITU).
-  - Coordina a nivel mundial todo lo relacionado en el mundo de las telecomunicaciones.
-    - **Dentro de ella esta la IARU**.
-      - La cual representa ante ITU a las sociedades miembro nacionales.
+- Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
+    - Una Federación mundial, Integrada por Sociedades Nacionales de radioaficionados de más de 160 países.
+    - Representa a los Radioaficionados ante la *Union Internacional de Telecomunicaciónes* (UIT) y las Organizaciones Regionales de Telecomunicaciónes (ORT).
 
-- Las frecuencias autorizadas están parametrizadas por la IARU.
-    - La cual divide al mundo en 3 zonas.
-      - CadaRegión tiene un **Plan de bandas** o rango de frecuencias.
-        - En ellas también se sugiere su respectivo uso para los diversos modos de comunicación.
-        - Asi como las frecuencias para el manejo de emergencias. 
+> [!Info] Misión:
+Proteger, promover y difundir los Servicios de Aficionados y Aficionados por Satélite dentro de las normas establecidas por la UIT, Junto con las sociedades Nacionales que la integran.
 
-En nuestro país, esto se da por el **cuadro nacional de atribución de frecuencias** CNAF de IFT.
-- Operar fuera de estas frecuencias en tu concesión es ILEGAL.
-  - [CNAF](https://cnaf.ift.org.mx/)
-  - [Plan de Bandas de la región 2](https://www.iaru-r2.org/en-el-aire/planes-de-bandas/)
- 
-![plandebandas.png](/cursoradio/plandebandas.png)
+### Miembros
+- Integrada por más de 160 Sociedades Nacionales.
+- Cada una tiene la responsabilidad de representar la radiodifusión en su país.
+- A la vez, representan a los radioaficionados de su país en la IARU
+- Solo puede haber una Sociedad Nacional miembro de la IARU por país.
 
-> Plan de bandas Región 2.
+### Objetivos
+- Representar y defender nuestros intereses ante los organismos internacionales.
+- Difundir la radiodifusión como medio de aprendizaje técnico para todas las personas.
+- Promover la investigación científica y técnica de las radiocomunicaciones.
+- Promover la radioafición como medio para brindar asistencia en situaciones de desastres naturales.
+
+### Regiones
+- Región 1.
+    - Europa, Africa, Oriente Medio y norte de Asia.
+- Región 2.
+    - America.
+- Región 3.
+    - Asia y Oceania.
+
+### Directiva.
+Esta conformada por:
+- Un Consejo Administrativo.
+    - Integrado por:
+        - Presidente
+        - Vicepresidente
+        - Secretario
+        - Dos Representantes de cada región.
+    - Cada región de la IARU es conducida pro un Comité Ejecutivo.
+
+### Emergencias y catástrofes
+Ante una emergencia o catástrofe, la IARU coopera co las organizaciones
+internacionales que intervienen, coordinado la preparación y asistencia de
+comunicaciones que proveen los radioaficionados.
+
+> El espectro de radiofrecuencia es la sangre vital de la radioafición.
 
 Tu concesión te da derecho a que puedas transmitir siempre y cuando este:
 - Vigente.
@@ -147,50 +180,80 @@ Se tiene que tomar en cuenta lo siguiente.
 
 > Tú eres el **responsable** de lo que dices en radio y, si cometes alguna falta, se te penalizará o cancelará tu concesión.
 
-## IARU
-- Comisión Internacional de Radioaficionados [link](https://www.iaru-r2.org/referencias/recursos-para-sociedades-miembros/que-es-la-iaru/)
-    - Una Federación mundial, Integrada por Sociedades Nacionales de radioaficionados de más de 160 países.
-    - Representa a los Radioaficionados ante la *Union Internacional de Telecomunicaciónes* (UIT) y las Organizaciones Regionales de Telecomunicaciónes (ORT).
+## Federación mexicana de Radioexperimentadores
 
-> [!Info] Misión:
-Proteger, promover y difundir los Servicios de Aficionados y Aficionados por Satélite dentro de las normas establecidas por la UIT, Junto con las sociedades Nacionales que la integran.
+> [!info]
+> La FMRE Nace en 1932 como la Liga Mexicana de Radioexperimentadores, Es la sociedad miembro de IARU en México.
 
-### Miembros
-- Integrada por más de 160 Sociedades Nacionales.
-- Cada una tiene la responsabilidad de representar la radiodifusión en su país.
-- A la vez, representan a los radioaficionados de su país en la IARU
-- Solo puede haber una Sociedad Nacional miembro de la IARU por país.
+Es la máxima autoridad técnica de la radioafición y tiene como objetivo fundamental representar a sus asociados ante las autoridades nacionales e internacionales en materia.
 
-### Objetivos
-- Representar y defender nuestros intereses ante los organismos internacionales.
-- Difundir la radiodifusión como medio de aprendizaje técnico para todas las personas.
-- Promover la investigación científica y técnica de las radiocomunicaciones.
-- Promover la radioafición como medio para brindar asistencia en situaciones de desastres naturales.
+Esta conformada por 32 asociaciones, una por cada estado de la república que a su vez integran los radioclubes y radioaficonados del respectivo estado.
 
-### Regiones
-- Región 1.
-    - Europa, Africa, Oriente Medio y norte de Asia.
-- Región 2.
-    - America.
-- Región 3.
-    - Asia y Oceania.
+Por ser sociedad miembro de la IARU, la FMRE participa en los procesos para aprobación de iniciativas regionales e internacionales.
 
-### Directiva.
-Esta conformada por:
-- Un Consejo Administrativo.
-    - Integrado por:
-        - Presidente
-        - Vicepresidente
-        - Secretario
-        - Dos Representantes de cada región.
-    - Cada región de la IARU es conducida pro un Comité Ejecutivo.
+## Ley federal de Telecomunicaiónes y Radiodifución
 
-### Emergencias y catástrofes
-Ante una emergencia o catástrofe, la IARU coopera co las organizaciones
-internacionales que intervienen, coordinado la preparación y asistencia de
-comunicaciones que proveen los radioaficionados.
+![[LeyTelecomunicaciones.png]]
 
-> El espectro de radiofrecuencia es la sangre vital de la radioafición.
+Nueva ley de telecomunicaciónes y radiodifución:
+- Esta ley rige todo el sector de las telecomunicaciones en méxico.
+	- Promulgada en 2014.
+- Creación del **Instituto Federal de Telecomunicaciones (IFT)*
+	- Se establece como un organismo regulador autónomo en Mexico, utilizando al infraestructura de la anterior COFETEL.
+	- Con el objetivo de Regular el uso del espectro radioeléctrico.
+- Clasificación del espectro radioeléctrico (Articulo 55):
+	- **Espectro Determinado**
+		- Para servicios definidos en el Cuadro Nacional de Atribución de frecuencias.
+	- **Espectro Libre**
+		- Uso sin concesión para fines específicos autorizados.
+	- **Espectro Protegido**
+		- Para servicios con implicaciones de seguridad y vida humana
+		- Se protege de interferencias.
+	- **Espectro Reservado**
+		- Uso exclusivo en casos especiales, con un fin determinado.
+- Tipos de Concesiones (Articulo 76): Clasificación de concesiones de acuerdo a su finalidad:
+	- **Uso comercial**
+		- Para exploración de bandas con fines de lucro.
+	- **Uso público**
+		- Para entidades gubernamentales y servicios públicos.
+	- **Uso privado**
+		- Para comunicación privada, experimentación y casos específicos.
+		- Sin fines de lucro.
+	- **Uso social**
+		- Para propósitos culturales, científicos y educativos, incluyendo a comunidades indígenas.
+
+
+> [!info] Especificación para radioaficionados
+> El servicio de radioaficionados en méxico es una **concesión privada de espectro determinado con fines de radiioaficionados**
+
+## Bandas de frecuencia atribuidas al servicio de aficionados y de aficionados por satélite en México
+
+> [!info]
+> La asignación de los servicios es responsabilidad del IFT y se detallan en el **Cuadro Nacional de Atribución de Frecuencias** (CNAF)
+
+El CNAF es un documento que se modifica periódicamente (por lo que su consulta tiene que ser permanente)
+En el se detallan las bandas de frecuencia y los servicios de comunicación.
+
+El espectro radioeléctrico es un recurso limitado, por lo que es muy común que dos o más servicios compartan una banda; para evitar interferencias, a cada servicio se le asigna una categoría.
+
+- Servicios primarios:
+	- Tienen prioridad de transmisión, están protegidos contra la interferencia producida por los servicios secundarios y de otros primarios atribuidos en la respectiva banda.
+- Servicios Secundarios:
+	- No deben causar interferencias a los servicios primarios atribuidos en la banda respectiva, en consecuencia, no pueden reclamar protección sobre interferencias causadas por los servicios primarios.
+
+![[BandasRadioAficionado.png]]
+
+> Las bandas de frecuencia son el activo más preciado que poseen los radioaficionados.
+
+## Plan de bandas IARU R2
+La UIT asigna de manera regional las bandas de frecuencia a los servicios de aficionados y de aficionados por satélite; sin embargo no hay una definición del tipo de transmisión (modo) que debiera hacerse por banda con el fin de establecer un orden que ayude al trabajo de los radioaficionados.
+
+El plan de bandas es una asignación que hace la IARU, en cada una de sus tres regiones, del uso específico de frecuencias para cada uno de los modos de transmisión.
+
+![[Cursos/Otros/Files/PlanDeBandas.png]]
+> Se recomienda usar este plan de bandas durante operación para evitar conflictos con otros colegas a nivel internacional.
+
+
 
 # El proceso de la comunicación
 
