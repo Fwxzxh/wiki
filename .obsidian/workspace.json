@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
+                "file": "Cursos/Otros/RadioAficionado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Swift UI"
+              "title": "Backlinks for RadioAficionado"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md",
+                "file": "Cursos/Otros/RadioAficionado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Swift UI"
+              "title": "Outgoing links from RadioAficionado"
             }
           },
           {
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS/SwiftUI/Swift UI.md"
+                "file": "Cursos/Otros/RadioAficionado.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Swift UI"
+              "title": "Outline of RadioAficionado"
             }
           },
           {
@@ -182,12 +182,13 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "bfbbd9dce84c4a38",
   "lastOpenFiles": [
+    "Cursos/Otros/Files/DistintivoLlamada.png",
+    "Cursos/Otros/Files/DistintivosLLamadaRegion.png",
     "Cursos/Otros/Files/PlanDeBandas.png",
     "Cursos/Otros/Files/LeyTelecomunicaciones.png",
     "Cursos/Otros/Files/BandasRadioAficionado.png",
@@ -200,14 +201,12 @@
     "Cursos/Otros/Files",
     "Cursos/Otros/CursoLinkedin.md",
     "cursoradio/zonasmexico.png",
-    "cursoradio/plandebandas.png",
     "index.md",
     "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
     "IOS/Swift/Swift Lang.md",
     "IOS/SwiftUI/Swift UI.md",
     "Cursos/BuenasPracticas.md",
     "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md",
-    "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.svg",
     "IOS/SwiftUI/Files/Files",
     "IOS/SwiftUI/Files",
     "Herramientas/NixOs/NixOs.md",

@@ -255,11 +255,54 @@ El plan de bandas es una asignación que hace la IARU, en cada una de sus tres r
 
 ## Usos y principales características de cada una de las bandas atribuidas al SAAS en méxico
 
-| longitud de onda | Usos Principales                                                                                |
-| ---------------- | ----------------------------------------------------------------------------------------------- |
-| 200 m            | Permite comunicaciones de corto alcance durante horas diurnas y comunicaciones de mayor alcance |
+| longitud de onda | Usos Principales                                                                                                                                                                                                                                                             |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 200 m            | Permite comunicaciones de corto alcance durante horas diurnas y comunicaciones de mayor alcance durante horas diurnas y de mayor alcance en la noche.                                                                                                                        |
+| 630 m            | Permite comunicaciones de corto alcance durante las horas diurnas y comunicaciones de mayor alcance a travéz de la refacción ionosférica durante la noche.                                                                                                                   |
+| 160 m            | Corto alcance durante horas Diurnas y comunicaciones de medio y gran alcance en horas nocturnas.                                                                                                                                                                             |
+| 80 m             | Se utiliza para establecer contactos a distancias de hasta 500 km durante el día y a distancias de 2000 km o más durante la noche, es muy usada para comunicaciones de emergencia.                                                                                           |
+| 40 m             | La banda de 7 MHz es muy utilizada las 24 horas del día, todos los días. Distancias menores a 1300 km.                                                                                                                                                                       |
+| 30 m             | Esta banda se usa las 24 horas del día y actúa como puente entre las bandas de 7 MHz y 14 MHz.                                                                                                                                                                               |
+| 20 m             | La banda más popular para comunicaciones internacionales, 14 MHz.                                                                                                                                                                                                            |
+| 17 m             | La banda se utiliza como alternativa a la banda de 14 MHZ que a menudo esta congestionada.                                                                                                                                                                                   |
+| 15 m             | Estas bandas se emplean especialmente durante horas diurnas.                                                                                                                                                                                                                 |
+| 6 m              | Se utiliza para comunicaciones locales en todo instante, llega hasta 2000 km.                                                                                                                                                                                                |
+| 2 m              | Es intensamente utilizada para comunicaciones de corto alcance Tierra-Luna-Tierra (EME), llega a distancias de 2000 o 3000 km.                                                                                                                                               |
+| 1.25 m           | Sirve como alternativa a la banda de 144 MHz para comunicaciones de corto alcance.                                                                                                                                                                                           |
+| 70 cm            | Se utiliza para comunicaciones de corto alcance, repetidores de televisión de aficionados. Para comunicaciones Tierra-Luna-Tierra (EME), cubre distancias de hasta 1000 km, también se usa para establecer contacto con los repetidores a bordo de satélites de aficionados. |
+| 33 cm            | Esta atribuida al servicio de aficionados sólo en la región 2.                                                                                                                                                                                                               |
+| 23 cm            | Puede establecer comunicaciones a distancias de 1000 km, es la más popular para comunicaciones Tierra-Luna-Tierra, se usa para contactos a bordo de satélites de aficionados.                                                                                                |
+| 9 cm             | Comunicaciones de banda estrecha, enlaces de datos y comunicaciones Tierra-Luna-Tierra.                                                                                                                                                                                      |
+| 5 cm             | Igual que 9 cm.                                                                                                                                                                                                                                                              |
+| 3 cm             | Comunicaciones de banda estrecha, banda amplia de corto alcance, televisión y comunicaciones Tierra-Luna-Tierra.                                                                                                                                                             |
+| 1                | Banda de 122 GHz y frecuencias superiores son muy utilizadas para banda estrecha y experimentación.                                                                                                                                                                          |
 
+## Distintivo de llamada
 
+Toda estación de radio en el mundo debe de tener una identificación única de acuerdo a la clasificación establecida por la Union Internacional de Telecomunicaciones.
+
+En caso de aeronaves se denomina **matrícula**, en el de las estaciones de radiodifusión y televisión terrestres es la **identificación** y para los radioaficionados es el **distintivo de llamada**.
+
+Se conforman prefijos que corresponden a cada país y de identificador único.
+
+Los prefijos asignados a México por la UIT son:
+- **XA-XI**: Mexico
+- **4A-4C**: Federación mexicana de radio experimentadores
+- **6D-6J**: Box 907, 0600 Mexico DF.
+
+Antes de la vigencia de la ley federal de telecomunicaciones y radiodifución, los distintivos de llamada se otorgaban de manera organizada y en función de la ubicación.
+
+Desafortunadamente no se ha logrado determinar el anterior criterio por lo que actualmente se asignan distintivos sin ningún orden.
+
+![[DistintivosLLamadaRegion.png]]
+
+En México el distintivo de llamada se forma de la siguiente forma.
+
+![[DistintivoLlamada.png]]
+
+En todo el mundo, los distintivos de llamada se asignan a persona y a grupos o equipos de radioaficionados llamados radioclubes.
+
+> En México solo se asignan a personas físicas.
 
 # El proceso de la comunicación
 
