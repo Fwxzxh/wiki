@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursos/Otros/RadioAficionado.md",
+                "file": "Cursos/Otros/CursoRadio/Unidad 2/LeyTelecomunicaciones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RadioAficionado"
+              "title": "LeyTelecomunicaciones"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "340866e83be764ac",
@@ -140,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cursos/Otros/RadioAficionado.md"
+                "file": "Cursos/Otros/CursoRadio/Unidad 2/LeyTelecomunicaciones.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of RadioAficionado"
+              "title": "Outline of LeyTelecomunicaciones"
             }
           },
           {
@@ -165,6 +164,26 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "657086cb987fa2a0",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections"
+            }
+          },
+          {
+            "id": "70a32541d4be18e7",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Smart Chat Conversation View"
+            }
           }
         ],
         "currentTab": 4
@@ -182,25 +201,42 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "workspaces:Manage workspace layouts": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "bfbbd9dce84c4a38",
+  "active": "5674618570e1a30e",
   "lastOpenFiles": [
-    "Cursos/Otros/Files/DistintivoLlamada.png",
-    "Cursos/Otros/Files/DistintivosLLamadaRegion.png",
-    "Cursos/Otros/Files/PlanDeBandas.png",
-    "Cursos/Otros/Files/LeyTelecomunicaciones.png",
-    "Cursos/Otros/Files/BandasRadioAficionado.png",
-    "Cursos/Otros/Files/ITU_Regions.png",
-    "Cursos/Otros/RadioAficionado.md",
-    "Cursos/Otros/Files/CodigoFoneticoInt.png",
-    "Cursos/Otros/Files/CodeQ.png",
-    "Cursos/Otros/Files/FrecuenciasRadio.png",
-    "Cursos/Otros/Files/ComunicacionProcc.png",
-    "Cursos/Otros/Files",
-    "Cursos/Otros/CursoLinkedin.md",
-    "cursoradio/zonasmexico.png",
+    "Cursos/Otros/CursoRadio/RadioAficionado.md",
+    "Cursos/Otros/CursoRadio/Unidad 2/LeyTelecomunicaciones.md",
+    "Cursos/Otros/CursoRadio/Unidad 2/ITU.md",
+    "Cursos/Otros/CursoRadio/Unidad 2/IARU.md",
+    "Cursos/Otros/CursoRadio/Unidad 2/FMRE.md",
+    "Cursos/Otros/CursoRadio/Unidad 2/DistintivoLlamada.md",
+    "Cursos/Otros/CursoLinkedin",
+    "Cursos/Otros/CursoRadio/Unidad 1/Radioafición.md",
+    "Cursos/Otros/CursoRadio/Unidad 1/RadioComunicaciones.md",
+    "Cursos/Otros/CursoLinkedin/CursoLinkedin.md",
+    "Cursos/Otros/CursoRadio/Unidad 1/Comunicacion.md",
+    "Cursos/Otros/CursoRadio/Unidad 1",
+    "Cursos/Otros/CursoRadio/Unidad 2/BandasDeFrecuencia.md",
+    "Cursos/Otros/CursoRadio/Unidad 2",
+    "smart-chats/UNTITLED CHAT 2024-11-29 09 09 49.md",
+    "smart-chats",
+    "Cursos/Otros/CursoRadio",
+    "Cursos/Otros/CursoRadio/Files/DistintivoLlamada.png",
+    "Cursos/Otros/CursoRadio/Files/DistintivosLLamadaRegion.png",
+    "Cursos/Otros/CursoRadio/Files/PlanDeBandas.png",
+    "Cursos/Otros/CursoRadio/Files/LeyTelecomunicaciones.png",
+    "Cursos/Otros/CursoRadio/Files/BandasRadioAficionado.png",
+    "Cursos/Otros/CursoRadio/Files/ITU_Regions.png",
+    "Cursos/Otros/CursoRadio/Files/CodigoFoneticoInt.png",
+    "Cursos/Otros/CursoRadio/Files/CodeQ.png",
+    "Cursos/Otros/CursoRadio/Files/FrecuenciasRadio.png",
+    "Cursos/Otros/CursoRadio/Files/ComunicacionProcc.png",
+    "Cursos/Otros/CursoRadio/Files",
     "index.md",
     "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
     "IOS/Swift/Swift Lang.md",
@@ -212,26 +248,11 @@
     "Herramientas/NixOs/NixOs.md",
     "IOS/Swift",
     "IOS/SwiftUI",
-    "IOS",
-    "Herramientas/NixOs",
-    "Herramientas",
     "Files/Test.md",
-    "Files",
     "Excalidraw/Diagram Test.md",
     "Excalidraw/Test2.md",
     "Excalidraw/Test3.md",
     "Files/index 2024-10-06 03.22.49.excalidraw.md",
-    "Drawing 2024-10-06 03.22.00.excalidraw.md",
-    "Drawing 2024-10-06 03.21.23.excalidraw.md",
-    "Drawing 2024-10-06 03.20.21.excalidraw.md",
-    "Drawing 2024-10-06 03.19.46.excalidraw.md",
-    "wiki-stuff.md",
-    "Excalidraw",
-    "Cursos/Finanzas/CurFinanzasPersonales.md",
-    "Cursos/Diseno/IntroduccionDiseno.md",
-    "Cursos/Flutter/Flutter.md",
-    "Cursos/TechnicalWriting.md",
-    "DataScience/MlForBeginers.md",
-    "DataScience/FundamentosMathDs.md"
+    "Drawing 2024-10-06 03.22.00.excalidraw.md"
   ]
 }
