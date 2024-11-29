@@ -7,7 +7,6 @@ tags:
 editor: markdown
 dateCreated: 2024-01-29T05:12:05.318Z
 ---
-
 # Curso para obtener la licencia de radio aficionado
 
 

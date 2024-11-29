@@ -62,7 +62,7 @@ el [Repo](https://github.com/Fwxzxh/wiki) de esta wiki.
 * [Bash Scripting](/Cursos/BashScripting)
 * [MVVM WPF XAML](/Cursos/MvvmWpfXaml)
 * [Scrum](/Cursos/Scrum/Scrum)
-* [Radio Aficionado](RadioAficionado.md)
+* [Radio Aficionado](CursoRadioAficionado.md)
 
 ### Redes
 * Cisco Wireless Essentials (TODO)
