@@ -31,7 +31,6 @@
   "previewMatchObsidianTheme": false,
   "width": "800",
   "height": "",
-  "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
   "iframeMatchExcalidrawTheme": true,
@@ -99,7 +98,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.1",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.6.2",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -784,5 +783,6 @@
       "key": "G"
     }
   ],
-  "showSplashscreen": true
+  "showSplashscreen": true,
+  "overrideObsidianFontSize": false
 }

@@ -4,20 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "13c24422ce70e1b4",
+        "id": "04862da8a3e1ff12",
         "type": "tabs",
         "children": [
           {
-            "id": "48e14f378873e291",
+            "id": "412c1aa2f26d6468",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".smart-env/multi/Backend_IntroBackend_md.ajson",
-                "staged": false
+                "file": "Cursos/Otros/CursoRadio/Unidad 3/Señales.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (Backend_IntroBackend_md.ajson)"
+              "icon": "lucide-file",
+              "title": "Señales"
+            }
+          },
+          {
+            "id": "069126a16c246e84",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Cursos/Otros/CursoRadio/Unidad 3/Files/FrecuenciaYTiempo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "FrecuenciaYTiempo.excalidraw"
             }
           }
         ]
@@ -51,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "simultaneamente",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "340866e83be764ac",
@@ -111,11 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cursos/Otros/RadioAficionado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from RadioAficionado"
             }
           },
           {
@@ -136,9 +151,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Cursos/Otros/RadioAficionado.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of RadioAficionado"
             }
           },
           {
@@ -149,36 +166,6 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "5508e26f8b060de6",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "657086cb987fa2a0",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
-            }
-          },
-          {
-            "id": "70a32541d4be18e7",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Smart Chat Conversation View"
             }
           }
         ],
@@ -197,57 +184,55 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48e14f378873e291",
+  "active": "412c1aa2f26d6468",
   "lastOpenFiles": [
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/FrecuenciaYTiempo.excalidraw.md",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/Files/Pasted Image 20241129221730_744.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/FrecuenciaYTiempo.excalidraw.svg",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/Files/Pasted Image 20241129221657_602.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/Files",
+    "Cursos/Otros/CursoRadio/Unidad 3/Señales.md",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/OndasElectromagneticas.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/SenalDigital.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/SenalAnalogica.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files",
     "Cursos/Otros/CursoRadio/CursoRadioAficionado.md",
+    "Cursos/Otros/CursoRadio/Unidad 3/Modulacion.md",
+    "Cursos/Otros/CursoRadio/Unidad 3",
     "Cursos/Otros/CursoRadio/Unidad 1/Comunicacion.md",
-    "Cursos/Otros/CursoRadio/Files/LeyTelecomunicaciones.png",
+    "Cursos/Otros/RadioAficionado.md",
+    "smart-chats/UNTITLED CHAT 2024-11-29 09 09 49.md",
+    "smart-chats",
     "Cursos/Otros/CursoRadio/Unidad 2/LeyTelecomunicaciones.md",
     "Cursos/Otros/CursoRadio/Unidad 2/ITU.md",
     "Cursos/Otros/CursoRadio/Unidad 2/IARU.md",
     "Cursos/Otros/CursoRadio/Unidad 2/FMRE.md",
     "Cursos/Otros/CursoRadio/Unidad 2/DistintivoLlamada.md",
-    "Cursos/Otros/CursoLinkedin",
+    "Cursos/Otros/CursoRadio/Unidad 2/BandasDeFrecuencia.md",
     "Cursos/Otros/CursoRadio/Unidad 1/Radioafición.md",
     "Cursos/Otros/CursoRadio/Unidad 1/RadioComunicaciones.md",
-    "Cursos/Otros/CursoLinkedin/CursoLinkedin.md",
-    "Cursos/Otros/CursoRadio/Unidad 1",
-    "Cursos/Otros/CursoRadio/Unidad 2/BandasDeFrecuencia.md",
-    "Cursos/Otros/CursoRadio/Unidad 2",
-    "smart-chats/UNTITLED CHAT 2024-11-29 09 09 49.md",
-    "smart-chats",
-    "Cursos/Otros/CursoRadio",
-    "Cursos/Otros/CursoRadio/Files/DistintivoLlamada.png",
-    "Cursos/Otros/CursoRadio/Files/DistintivosLLamadaRegion.png",
     "Cursos/Otros/CursoRadio/Files/PlanDeBandas.png",
-    "Cursos/Otros/CursoRadio/Files/BandasRadioAficionado.png",
+    "Cursos/Otros/CursoRadio/Files/LeyTelecomunicaciones.png",
     "Cursos/Otros/CursoRadio/Files/ITU_Regions.png",
-    "Cursos/Otros/CursoRadio/Files/CodigoFoneticoInt.png",
-    "Cursos/Otros/CursoRadio/Files/CodeQ.png",
     "Cursos/Otros/CursoRadio/Files/FrecuenciasRadio.png",
-    "Cursos/Otros/CursoRadio/Files/ComunicacionProcc.png",
+    "Cursos/Otros/CursoRadio/Unidad 2",
+    "Cursos/Otros/CursoRadio/Unidad 1",
     "Cursos/Otros/CursoRadio/Files",
-    "index.md",
+    "Cursos/Otros/CursoRadio",
+    "Cursos/Otros/CursoLinkedin/CursoLinkedin.md",
+    "Cursos/Otros/CursoLinkedin",
     "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
-    "IOS/Swift/Swift Lang.md",
     "IOS/SwiftUI/Swift UI.md",
+    "Cursos/Otros/Files",
+    "index.md",
+    "IOS/Swift/Swift Lang.md",
     "Cursos/BuenasPracticas.md",
     "IOS/SwiftUI/Files/Swift UI 2024-10-11 19.37.45.excalidraw.md",
-    "IOS/SwiftUI/Files/Files",
-    "IOS/SwiftUI/Files",
     "Herramientas/NixOs/NixOs.md",
-    "IOS/Swift",
-    "IOS/SwiftUI",
     "Files/Test.md",
-    "Excalidraw/Diagram Test.md",
-    "Excalidraw/Test2.md",
-    "Excalidraw/Test3.md",
-    "Files/index 2024-10-06 03.22.49.excalidraw.md",
-    "Drawing 2024-10-06 03.22.00.excalidraw.md"
+    "Excalidraw/Diagram Test.md"
   ]
 }
