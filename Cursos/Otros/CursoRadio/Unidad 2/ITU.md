@@ -11,7 +11,7 @@ Sus funciones son:
 
 Se compone de cuatro oficinas (Burós):
 1. Buró del Secretario General.
-2. Buró de Radiocomunicaciones (ITU-R).
+2. Buró de [[Radiocomunicaciones]] (ITU-R).
 3. Buró de Telecomunicaciones (ITU-T).
 4. Buró de Desarrollo de las telecomunicaciones (ITU-D).
 
@@ -27,10 +27,10 @@ En cada región existen organizaciones que permiten una discusión más detallad
 
 ## Reglamento de radiocomunicaciónes 
 
-Es el documento que rige a todos los servicios de radiocomunicaciones; en 2016 define 60 servicios diferentes entre los que se encuentran:
+Es el documento que rige a todos los servicios de [[radiocomunicaciones]]; en 2016 define 60 servicios diferentes entre los que se encuentran:
 
 - **57**: Servicio de aficionados: servicio  que tiene por objeto la instrucción individual, la intercomunicación y los estudios técnicos efectuados por aficionados.
-- **58**: Servicio de aficionados por satélite: Servicio de radiocomunicaciones que utiliza estaciones espaciales situadas en satélites de la Tierra para los mismos fines que el servicio de aficionados.
+- **58**: Servicio de aficionados por satélite: Servicio de [[radiocomunicaciones]] que utiliza estaciones espaciales situadas en satélites de la Tierra para los mismos fines que el servicio de aficionados.
 
 ## Servicio de radioaficionado
 
@@ -71,9 +71,9 @@ Hay dos cargos a considerar ante IFETEL:
 ---
 
 Se considera una estación espacial aquélla que esta arriba de 50kms de la superficie de la tierra.
-- Las frecuencias están normadas por la NOM, IFT e IARU.
+- Las frecuencias están normadas por la NOM, IFT e [[IARU]].
   - Se tiene en las localidades un coordinador voluntario de frecuencias.
     - Esto para evitar interferencias.
       - Las cuales están prohibidas.
-- Se alienta el uso del Código Fonético Internacional para los comunicados por parte de IARU.
-  - FMRE (Federación mexicana de radio experimentadores)
+- Se alienta el uso del Código Fonético Internacional para los comunicados por parte de [[IARU]].
+  - [[FMRE]] (Federación mexicana de radio experimentadores)

@@ -17,10 +17,10 @@ El espectro radioeléctrico es un recurso limitado, por lo que es muy común que
 
 > Las bandas de frecuencia son el activo más preciado que poseen los radioaficionados.
 
-# Plan de bandas IARU R2
+# Plan de bandas [[IARU]] R2
 La UIT asigna de manera regional las bandas de frecuencia a los servicios de aficionados y de aficionados por satélite; sin embargo no hay una definición del tipo de transmisión (modo) que debiera hacerse por banda con el fin de establecer un orden que ayude al trabajo de los radioaficionados.
 
-El plan de bandas es una asignación que hace la IARU, en cada una de sus tres regiones, del uso específico de frecuencias para cada uno de los modos de transmisión.
+El plan de bandas es una asignación que hace la [[IARU]], en cada una de sus tres regiones, del uso específico de frecuencias para cada uno de los modos de transmisión.
 
 ![[Cursos/Otros/CursoRadio/Files/PlanDeBandas.png]]
 > Se recomienda usar este plan de bandas durante operación para evitar conflictos con otros colegas a nivel internacional.

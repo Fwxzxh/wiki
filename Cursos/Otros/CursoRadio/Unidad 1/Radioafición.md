@@ -10,13 +10,13 @@ Nació de la necesidad de comunicar a las naves marítimas con tierra firme.
 
 La práctica de la radioafición aporta los siguientes elementos:
 - Apoyo a la sociedad en situaciones de emergencia o desastre natural.
-- Contribuye al desarrollo personal y de las naciones en temas técnico-científicos sobre radiocomunicaciones.
+- Contribuye al desarrollo personal y de las naciones en temas técnico-científicos sobre [[radiocomunicaciones]].
 - Oportunidades de aprendizaje.
 - Exploración de la propagación de las ondas radioeléctricas.
 - Proyección de la imagen nacional.
 
 Ambitos de acción:
-- **CW** (Telegrafía): *continous wave*, es el modo de transmición que dio origien a las radiocomunicaciones, requiere del dominio del código morse internacional e implica que el radioaficionado poseaa un oido educado para reconocer los mensajes telegráficos.
+- **CW** (Telegrafía): *continous wave*, es el modo de transmición que dio origien a las [[radiocomunicaciones]], requiere del dominio del código morse internacional e implica que el radioaficionado poseaa un oido educado para reconocer los mensajes telegráficos.
 - **Fonía**: Es el modo en el cual se transmite voz mediante VHF, UHF y SHF.
 - **Satélites**: Es la comunicación con satélites fuera de orbita.
 - **Comunicaciones espaciales**: Las naves y estaciones espaciales llevan instalados equipos de radioaficionado. Por tal motivo la mayoría de los tripulantes son radioaficionados y suelen establecer comunicados con otros colegas en la tierra.

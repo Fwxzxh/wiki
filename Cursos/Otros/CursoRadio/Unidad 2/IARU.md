@@ -19,8 +19,8 @@ Proteger, promover y difundir los Servicios de Aficionados y Aficionados por Sat
 ## Objetivos
 - Representar y defender nuestros intereses ante los organismos internacionales.
 - Difundir la radiodifusión como medio de aprendizaje técnico para todas las personas.
-- Promover la investigación científica y técnica de las radiocomunicaciones.
-- Promover la radioafición como medio para brindar asistencia en situaciones de desastres naturales.
+- Promover la investigación científica y técnica de las [[radiocomunicaciones]].
+- Promover la [[radioafición]] como medio para brindar asistencia en situaciones de desastres naturales.
 
 ## Regiones
 - Región 1.
@@ -45,7 +45,7 @@ Ante una emergencia o catástrofe, la IARU coopera co las organizaciones
 internacionales que intervienen, coordinado la preparación y asistencia de
 comunicaciones que proveen los radioaficionados.
 
-> El espectro de radiofrecuencia es la sangre vital de la radioafición.
+> El espectro de radiofrecuencia es la sangre vital de la [[radioafición]].
 
 Tu concesión te da derecho a que puedas transmitir siempre y cuando este:
 - Vigente.
