@@ -72,3 +72,12 @@ El modo más antiguo de transmisión de voz y el standard usado en radio.
 	- Esta señal puede ser transmitida a largas distancias por radiofrecuencia.
 
 ![[señal_modulada_am.svg]]
+
+> Ejemplo de una señal AM modulada.
+
+:TODO: Agregar el espectro en frecuencias AM
+
+Una modulación pura en AM representa varios inconvenientes:
+- Uno de ellos es la repetición de la información
+	- Teniendo como centro la portadora, la información se repite a la izquierda y a la derecha de esta;
+		- Se requ
