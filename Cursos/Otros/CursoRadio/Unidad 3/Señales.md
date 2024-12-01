@@ -47,3 +47,16 @@ Otra representación consiste en transformar las señales del dominio del tiempo
 > A partir de una transformación matemática (transformada de Fourier) toda señal definida en el tiempo puede definirse en función de la frecuencia.
 
 ![[FrecuenciaYTiempo.excalidraw]]
+
+
+> [!info] Armónicas
+> Provienen del *teorema de Fourier*, que establece que toda señal compleja puede descomponerse en una suma de señales basadas en una señal *fundamental* y en una serie de señales armónicas ubicadas en periodos de esta.
+
+![[SenalesFourier.png]]
+
+> En esta imagen, a la onda simple 1 se le suele llamar *la componente fundamental* y los demás picos más pequeños son las armonicas.
+
+De esta manera podemos convertir una señal analógica (con crestas, valles, etc) en espigas ubicadas en la frecuencia de la señal original.
+
+![[SenalToCrestas.png]]
+
