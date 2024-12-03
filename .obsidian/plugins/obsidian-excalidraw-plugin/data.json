@@ -31,6 +31,7 @@
   "previewMatchObsidianTheme": false,
   "width": "800",
   "height": "",
+  "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
   "iframeMatchExcalidrawTheme": true,
@@ -783,6 +784,5 @@
       "key": "G"
     }
   ],
-  "showSplashscreen": true,
-  "overrideObsidianFontSize": false
+  "showSplashscreen": true
 }

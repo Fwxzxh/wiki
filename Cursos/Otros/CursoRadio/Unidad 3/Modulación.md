@@ -233,4 +233,22 @@ Desventajas:
 - Perdida de calidad en la señal.
 - Desperdicio de potencia si no se eliminan las bandas laterales.
 
---
+## Modulación en Fase
+
+> [!info] 
+> En esta técnica la fase de la portadora varía directamente proporcional a la amplitud de la moduladora.
+
+No es una técnica muy usada debido a la complejidad de los dispositivos electrónicos.
+
+## Técnicas de modulación de moduladoras digitales con portadoras analógicas
+
+En estas técnicas las información o moduladora es de naturaleza digital, Generalmente binaria con estados eléctricos equivalentes al 0 y 1.
+
+Hay 3 técnicas de este tipo:
+1. Modulación por desplazamiento de amplitud (*Amplitude shift keying* o ASK).
+2. Modulación por cambio de frecuencia (*Frecuency shift keying* o FSK).
+3. Modulación por cambio de fase (*Phase shift keying* o PSF).
+
+### Modulación por desplazamiento de amplitud ASK
+.
+![[ASKModulation.png]]
