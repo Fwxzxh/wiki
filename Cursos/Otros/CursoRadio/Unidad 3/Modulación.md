@@ -227,8 +227,10 @@ Ventajas:
 - Los circuitos transmisores y receptores son sencillos y baratos.
 - Las distancias de transmisión son muy grandes.
 - En varios lugares solo es posible la recepción de AM.
+
 Desventajas:
 - Es sensiblemente afectada por fenómenos atmosféricos y a las interferencias.
 - Perdida de calidad en la señal.
 - Desperdicio de potencia si no se eliminan las bandas laterales.
 
+--
