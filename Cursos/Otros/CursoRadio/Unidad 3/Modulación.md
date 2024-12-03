@@ -250,5 +250,31 @@ Hay 3 técnicas de este tipo:
 3. Modulación por cambio de fase (*Phase shift keying* o PSF).
 
 ### Modulación por desplazamiento de amplitud ASK
-.
+
+> [!info]
+> La modulación ASK usa los cambios en la amplitud de una señal portadora para transmitir información digital (1's y 0's).
+
+Se basa en los siguientes principios:
+1. Bit 1: La portadora tiene una amplitud determinada.
+2. Bit 0: La portadora no tiene amplitud (es cero).
+
 ![[ASKModulation.png]]
+
+1. Señal portadora:
+	- Es una onda sinusoidal con frecuencia especifica que sirve como base para transmitir datos.
+2. Señal digital de banda base:
+	- Representa la información que se desea transmitir, en forma de una serie de bits (1 y 0's).
+3. Modulador ASK.
+	- Es el dispositivo que combina la señal digital y la portadora.
+		- Genera la señal modulada en amplitud.
+		- Cuando el bit es 1, la señal portadora aparece con amplitud alta.
+		- Cuando el bit es 0 la portadora desaparece.
+
+ASK puede ser vulnerable, ya que el ruido puede alterar fácilmente la amplitud y afectar la interpretación de los bits.
+
+### Modulación por cambio de frecuencia FSK
+
+> [!info]
+> En la modulación FSK existe una frecuencia para el estado 1 y una segunda para el estado 0, analógicamente, es como si se tuviera un interruptor que selecciona una de las dos frecuencias.
+
+![[Pasted image 20241203014648.png]]
