@@ -196,5 +196,39 @@ plt.show()
 
 Una modulación pura en AM representa varios inconvenientes:
 - Uno de ellos es la repetición de la información
-	- Teniendo como centro la portadora, la información se repite a la izquierda y a la derecha de esta;
-		- Se requ
+	- Teniendo como centro la portadora, la información se repite a la izquierda y a la derecha de esta.
+		- Se requiere el doble de la banda base para su transmisión.
+
+### Banda lateral única
+
+Conocida como SSD (Single Side Band), es una forma más avanzada de modulación AM.
+
+A travez de filtros, se reducen los elementos no deseados y repetidos.
+1. Se utiliza un filtro paso-banda del doble de ancho de banda centrado en la espiga positiva de la portadora.
+2. Se conserva la portadora y dos componentes a cada lado, cada uno del ancho de la banda base.
+
+![[SSB.png]]
+
+Bajo este esquema sólo es necesario tomar una de las bandas laterales ya que ambas contienen la misma información y así reducir el ancho de banda necesario para la transmisión.
+
+### Banda lateral única con portadora suprimida
+
+Para transmitir una señal modulada bajo cualquier técnica se debe agregar potencia a la señal, por lo que es deseable que la mayoría de la potencia disponible en el transmisor se invierta de la mejor manera.
+
+Una vez modulada la portadora (transladando el mensaje a una frecuencia superior) podría no ser necesario transmitir a la portadora.
+
+La portadora es necesaria para demodular el mensaje. Si el equipo transmisor y el receptor están sintonizados a la misma frecuencia, entonces se puede eliminar la portadora al transmitir y el receptor puede agregarla cuando demodule la señal.
+
+> A este proceso se le conoce como: `banda lateral única con portadora suprimida`.
+
+### Ventajas y desventajas del AM
+
+Ventajas:
+- Los circuitos transmisores y receptores son sencillos y baratos.
+- Las distancias de transmisión son muy grandes.
+- En varios lugares solo es posible la recepción de AM.
+Desventajas:
+- Es sensiblemente afectada por fenómenos atmosféricos y a las interferencias.
+- Perdida de calidad en la señal.
+- Desperdicio de potencia si no se eliminan las bandas laterales.
+
