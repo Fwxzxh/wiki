@@ -277,4 +277,19 @@ ASK puede ser vulnerable, ya que el ruido puede alterar fácilmente la amplitud 
 > [!info]
 > En la modulación FSK existe una frecuencia para el estado 1 y una segunda para el estado 0, analógicamente, es como si se tuviera un interruptor que selecciona una de las dos frecuencias.
 
-![[Pasted image 20241203014648.png]]
+![[FSKModulation.png]]
+
+### Modulación por cambio de fase PSK
+
+> [!info]
+> Utiliza los cambios de estado lógico de la moduladora para producir un cambio de fase en la portadora, Si la señal binaria no cambia de estado la portadora se mantiene sin cambio
+
+![[PSKModulation.png]]
+
+En función de la diferencia de fase existen cuatro tipos de modulación PKS:
+1. Bifásica
+2. Tetrafásica
+3. Cuadratura (QAM8).
+
+### Técnicas de modulación de moduladoras analógicas con portadoras digitales
+
