@@ -293,3 +293,60 @@ En función de la diferencia de fase existen cuatro tipos de modulación PKS:
 
 ### Técnicas de modulación de moduladoras analógicas con portadoras digitales
 
+En estas técnicas, el mensaje es discreteado a travéz del muestreo para crear un tren de pulsos con las tres características propias de una señal:
+
+1. Amplitud
+2. Frecuencia
+3. Fase
+
+Las técnicas de modulación son:
+1. Modulación por amplitud de pulso (Pulse amplitude modulation PAM)
+2. Modulación por ancho de pulso (Pulse wide modulation PWM)
+3. Modulación por posición de pulso (Pulse position modulation PPM)
+4. Modulación por codificación de pulsos (Pulse code modulation PCM)
+
+#### Modulación por amplitud de pulso PAM
+
+Las variaciones en la amplitud de la portadora analógica se reflejan en la amplitud de los pulsos.
+
+![[PAMModulation.png]]
+
+Como la información esta en la amplitud, cualquier ruido en el canal puede afectar la calidad de la señal.
+
+#### Modulación por ancho de pulso PWM
+
+La información en la moduladora se refleja en las variaciones de la amplitud del ancho de los pulsos obtenidos en el muestreo.
+
+![[PWMModulation.png]]
+
+#### Modulación por posición del pulso PPM
+
+La información es transmitida mapeando las variaciones de amplitud de la moduladora en variaciones de posición de los pulsos dentro de un rango de posiciones obtenidos de muestreo.
+
+![[PPMModulation.png]]
+
+#### Modulación por codificación de pulsos PCM
+
+La información es transmitida mapeando las variaciones de amplitud de la moduladora analógica en variaciones en la amplitud de los pulsos obtenidos del muestreo (PAM);
+
+La señal muestreada es procesada por un retenedor/cuantificador que asigna el nivel eléctrico correspondiente a la altura de cada pulso, un codificador asigna una trama de bits de acuerdo con el nivel eléctrico del pulso, codificando su amplitud.
+
+![[PCMModulation.png]]
+
+### Técnicas de modulación de moduladoras digitales con portadoras digitales
+
+Hay sistemas de telefonía celular (TDMA, GSM, etc) y de voz con TCP/IP (VoIP) o el radio móvil digital (DMR).
+
+No son directamente utilizadas en el servicio de aficionados.
+
+## Modos digitales en la radioafición
+
+### Telegrafía (Continous wave o CW)
+
+Fue el primer modo de radiocomunicación y al mismo tiempo, el primer modo digital.
+
+Para transmitir un mensaje se utliza el código Morse.
+
+Este es la traducción del alfabeto a una secuencia de puntos y rayas.
+
+![[MorseCode.png]]
