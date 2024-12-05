@@ -98,3 +98,6 @@ En un circuito, un mayor voltaje impulsa una mayor corriente, pero esta también
 		- $\frac{dI}{dt}$ - Taza de cambio de la corriente.
 - Se utilizan en aplicaciones como filtros, transformadores y sistemas de energía.
 - Es como un volante de inercia que almacena energía cinética y la libera cuando se necesita.
+
+![[Inductancia.png]]
+
