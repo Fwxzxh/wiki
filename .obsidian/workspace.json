@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "c79c8aa2915bc7e5",
+        "id": "00e423e85314baf1",
         "type": "tabs",
         "children": [
           {
-            "id": "b190952ffe34d2de",
+            "id": "82d9068224672a18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cursos/Otros/CursoRadio/Unidad 3/Modulación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modulación"
+            }
+          },
+          {
+            "id": "db34339ecde86b35",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,31 +36,16 @@
             }
           },
           {
-            "id": "ba869ce538d39b0c",
+            "id": "825a0105ba6811bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Cursos/Otros/CursoRadio/Unidad 4/Campos eléctricos y magnéticos.md",
-                "mode": "source",
-                "source": false
+                "file": "Cursos/Otros/CursoRadio/CursoRadioAficionado.md",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "Campos eléctricos y magnéticos"
-            }
-          },
-          {
-            "id": "c728d2b94d81c690",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursos/Otros/CursoRadio/Unidad 4/Fundamentos de Electricidad y circuitos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fundamentos de Electricidad y circuitos"
+              "icon": "git-pull-request",
+              "title": "Diff View (CursoRadioAficionado)"
             }
           }
         ],
@@ -81,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "simultaneamente",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 329.5,
     "collapsed": true
   },
   "right": {
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cursos/Otros/CursoRadio/Unidad 4/Fundamentos de Electricidad y circuitos.md",
+                "file": "Cursos/Otros/RadioAficionado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fundamentos de Electricidad y circuitos"
+              "title": "Backlinks for RadioAficionado"
             }
           },
           {
@@ -142,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cursos/Otros/CursoRadio/Unidad 4/Fundamentos de Electricidad y circuitos.md",
+                "file": "Cursos/Otros/CursoRadio/Unidad 3/Modulación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Fundamentos de Electricidad y circuitos"
+              "title": "Outgoing links from Modulación"
             }
           },
           {
@@ -168,11 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cursos/Otros/CursoRadio/Unidad 4/Fundamentos de Electricidad y circuitos.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Fundamentos de Electricidad y circuitos"
+              "title": "Outline"
             }
           },
           {
@@ -184,13 +181,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5508e26f8b060de6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 396.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,56 +208,58 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c728d2b94d81c690",
+  "active": "825a0105ba6811bb",
   "lastOpenFiles": [
-    "Cursos/Otros/CursoRadio/Unidad 4/Files/Inductancia.png",
-    "Cursos/Otros/CursoRadio/Unidad 4/Files/Capacitancia.png",
-    "Cursos/Otros/CursoRadio/Unidad 4/Files/Capacitor.png",
-    "Cursos/Otros/CursoRadio/Unidad 4/Files/LeyOhm2.png",
+    "Cursos/Otros/CursoRadio/Unidad 4/Fundamentos de Electricidad y circuitos.md",
     "Cursos/Otros/CursoRadio/CursoRadioAficionado.md",
     "Cursos/Otros/CursoRadio/Unidad 3/Modulación.md",
-    "Cursos/Otros/CursoRadio/Unidad 4/Campos eléctricos y magnéticos.md",
-    "Cursos/Otros/CursoRadio/Unidad 4/Fundamentos de Electricidad y circuitos.md",
+    "Cursos/Otros/CursoRadio/Unidad 4/Files/LeyOhm2.png",
     "Cursos/Otros/CursoRadio/Unidad 4/Files/LeyOhm.png",
+    "Cursos/Otros/CursoRadio/Unidad 4/Files/Inductancia.png",
+    "Cursos/Otros/CursoRadio/Unidad 4/Files/Capacitor.png",
+    "Cursos/Otros/CursoRadio/Unidad 4/Files/Capacitancia.png",
     "Cursos/Otros/CursoRadio/Unidad 4/Files",
+    "Cursos/Otros/CursoRadio/Unidad 4/Campos eléctricos y magnéticos.md",
     "Cursos/Otros/CursoRadio/Unidad 4",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files/MorseCode.png",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files/PCMModulation.png",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files/PPMModulation.png",
     "Cursos/Otros/CursoRadio/Unidad 3/Files/PWMModulation.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/PPMModulation.png",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/PCMModulation.png",
     "Cursos/Otros/CursoRadio/Unidad 3/Files/PAMModulation.png",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files/PSKModulation.png",
-    "Cursos/Otros/CursoRadio/Unidad 3/Modulacion.md",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/MorseCode.png",
     "Cursos/Otros/CursoRadio/Unidad 3/Señales.md",
-    "Cursos/Otros/CursoRadio/Unidad 1/Comunicación.md",
-    "comunicación.md",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files/FrecuenciaYTiempo.excalidraw.md",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files/Files",
-    "Cursos/Otros/CursoRadio/Unidad 3/Files",
-    "Cursos/Otros/CursoRadio/Unidad 3",
-    "Cursos/Otros/RadioAficionado.md",
-    "smart-chats/UNTITLED CHAT 2024-11-29 09 09 49.md",
-    "smart-chats",
-    "Cursos/Otros/CursoRadio/Unidad 2/LeyTelecomunicaciones.md",
-    "Cursos/Otros/CursoRadio/Unidad 2/ITU.md",
-    "Cursos/Otros/CursoRadio/Unidad 2/IARU.md",
-    "Cursos/Otros/CursoRadio/Unidad 2/FMRE.md",
-    "Cursos/Otros/CursoRadio/Unidad 2/DistintivoLlamada.md",
-    "Cursos/Otros/CursoRadio/Unidad 2/BandasDeFrecuencia.md",
-    "Cursos/Otros/CursoRadio/Unidad 1/Radioafición.md",
-    "Cursos/Otros/CursoRadio/Unidad 1/RadioComunicaciones.md",
-    "Cursos/Otros/CursoRadio/Unidad 2",
-    "Cursos/Otros/CursoRadio/Unidad 1",
-    "Cursos/Otros/CursoRadio/Files",
-    "Cursos/Otros/CursoRadio",
-    "Cursos/Otros/CursoLinkedin/CursoLinkedin.md",
-    "IOS/SwiftUI/Files/SwiftUI_Basic_Structure.md",
-    "IOS/SwiftUI/Swift UI.md",
+    "wiki-stuff.md",
+    "DataScience/FundamentosMathDs.md",
+    "DataScience/AnaNegociosDS.md",
+    "DataScience/BussInteligenceUA.md",
     "index.md",
-    "IOS/Swift/Swift Lang.md",
-    "Cursos/BuenasPracticas.md"
+    "README.md",
+    "test.adoc",
+    "DataScience/VisualizacionParaBS.md",
+    "DataScience/MlForBeginers.md",
+    "DataScience/IntroDataSci.md",
+    "DataScience",
+    "cursoradio",
+    "Lenguajes/HTML.md",
+    "Lenguajes/SQL.adoc",
+    "Lenguajes/go.md",
+    "Lenguajes/Kotlin.md",
+    "Files/Test.md",
+    "Files",
+    "Teoria/SOConcepts.md",
+    "Backend/IntroBackend.md",
+    "Backend",
+    "Libros/HeadFirstC.md",
+    "Libros/AtomicHabits.md",
+    "Libros",
+    "Cursos/Android/BasesTecnicasAndroid.md",
+    "Cursos/Android/AndroidJetpackCompose.md",
+    "Cursos/Android/DisenoInterfacesAndroid.md",
+    "Cursos/Android/ArquitecturaAndroid.md",
+    "Cursos/Otros/CursoRadio/Unidad 3/Files/Files"
   ]
 }
