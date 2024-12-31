@@ -101,3 +101,32 @@ En un circuito, un mayor voltaje impulsa una mayor corriente, pero esta también
 
 ![[Inductancia.png]]
 
+
+## Elementos pasivos y activos
+
+Los elementos que realizan alguna transformación eléctrica se clasifican en pasivos y activos
+
+Pasivos:
+- No requieren ninguna energia para funcionar.
+	- Resistencias, capacitores e inductancias.
+- con sólo aplicarles una diferencia de potencial y hacerles pasar una corriente se producen los efectos respectivos.
+
+Activos:
+- Requieren de energía para funcionar.
+	- Deben polarizarse para que produzcan los efectos correspondientes.
+	- Diodos, transistores y sus derivados.
+
+## Conexiones en serie y paralelo
+
+En la conexión en serie, los dispositivos se conectan sucesivamente.
+La salida de un dispositivo se conecta a la entrada del siguiente, de tal forma que por ellos circula la misma corriente y la diferencia de potencial total es igual a la suma de la caída en cada uno de los elementos conectados.
+
+En la conexión en paralelo, los dispositivos se conectan al mismo potencial por lo que la corriente que pasa por ellos se divide proporcionalmente de acuerdo con las características de cada uno de ellos.
+
+## Radiación electromagnética
+
+También conocida como EMR (Electro Magnetic Radiation).
+
+Se produce por la oscilación o aceleración de cargas eléctricas o por campos mangnéticos.
+
+![[RadiacionEletromagnetica.png]]
